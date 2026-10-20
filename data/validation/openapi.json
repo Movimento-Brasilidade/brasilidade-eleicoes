@@ -1,0 +1,3682 @@
+{
+  "info": {
+    "title": "Eleições.dev",
+    "description": "API de dados públicos eleitorais brasileiros (TSE): eleições, partidos, candidaturas e bens declarados. Autentique com `Authorization: Bearer <api-key>`. Limite: 60 req/min e 5.000 req/dia por chave (ou usuário MCP). HTTP 429 + Retry-After. Crie ou gerencie chaves no [dashboard](https://eleicoes.dev/dashboard).",
+    "version": "0.1.0"
+  },
+  "servers": [
+    {
+      "url": "https://eleicoes.dev"
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "description": "API key from the Eleições dashboard (Authorization: Bearer <key>)."
+      }
+    },
+    "schemas": {}
+  },
+  "security": [
+    {
+      "bearerAuth": []
+    }
+  ],
+  "tags": [
+    {
+      "name": "Health",
+      "description": "Disponibilidade do serviço."
+    },
+    {
+      "name": "Elections",
+      "description": "Ciclos eleitorais."
+    },
+    {
+      "name": "Parties",
+      "description": "Partidos políticos."
+    },
+    {
+      "name": "Candidates",
+      "description": "Candidaturas e bens declarados."
+    },
+    {
+      "name": "Results",
+      "description": "Totais por local e a leitura de quem lidera."
+    }
+  ],
+  "openapi": "3.1.2",
+  "paths": {
+    "/health": {
+      "get": {
+        "tags": [
+          "Health"
+        ],
+        "summary": "Health check",
+        "description": "Verifica se a API está respondendo. Retorna 503 se o serviço estiver indisponível. Não exige autenticação.",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Response for status 200",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "const": "ok"
+                    }
+                  },
+                  "required": [
+                    "status"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Response for status 503",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "const": "unavailable"
+                    }
+                  },
+                  "required": [
+                    "status"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          }
+        },
+        "operationId": "getHealth"
+      }
+    },
+    "/elections": {
+      "get": {
+        "tags": [
+          "Elections"
+        ],
+        "summary": "List elections",
+        "description": "Ciclos eleitorais ingeridos (paginado).",
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "default": 1,
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "default": 20,
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Response for status 200",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "tseElectionId": {
+                            "type": "integer"
+                          },
+                          "year": {
+                            "type": "integer"
+                          },
+                          "name": {
+                            "type": "string"
+                          },
+                          "electionDate": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "scope": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "createdAt": {},
+                          "updatedAt": {}
+                        },
+                        "required": [
+                          "id",
+                          "tseElectionId",
+                          "year",
+                          "name",
+                          "electionDate",
+                          "scope",
+                          "createdAt",
+                          "updatedAt"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "pagination": {
+                      "type": "object",
+                      "properties": {
+                        "page": {
+                          "type": "number"
+                        },
+                        "limit": {
+                          "type": "number"
+                        },
+                        "total": {
+                          "type": "number"
+                        },
+                        "totalPages": {
+                          "type": "number"
+                        }
+                      },
+                      "required": [
+                        "page",
+                        "limit",
+                        "total",
+                        "totalPages"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "pagination"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Response for status 422",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "const": "validation"
+                    },
+                    "on": {
+                      "type": "string"
+                    },
+                    "summary": {
+                      "type": "string"
+                    },
+                    "errors": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "path": {
+                            "type": "array",
+                            "items": {
+                              "type": [
+                                "string",
+                                "number"
+                              ]
+                            }
+                          },
+                          "message": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "path",
+                          "message"
+                        ],
+                        "additionalProperties": {}
+                      }
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "on",
+                    "errors"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          }
+        },
+        "operationId": "getElections"
+      }
+    },
+    "/elections/{id}": {
+      "get": {
+        "tags": [
+          "Elections"
+        ],
+        "summary": "Get an election",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "description": "Unique identifier of the election."
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Response for status 200",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "tseElectionId": {
+                      "type": "integer"
+                    },
+                    "year": {
+                      "type": "integer"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "electionDate": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "scope": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "createdAt": {},
+                    "updatedAt": {}
+                  },
+                  "required": [
+                    "id",
+                    "tseElectionId",
+                    "year",
+                    "name",
+                    "electionDate",
+                    "scope",
+                    "createdAt",
+                    "updatedAt"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Response for status 404",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "error"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Response for status 422",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "const": "validation"
+                    },
+                    "on": {
+                      "type": "string"
+                    },
+                    "summary": {
+                      "type": "string"
+                    },
+                    "errors": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "path": {
+                            "type": "array",
+                            "items": {
+                              "type": [
+                                "string",
+                                "number"
+                              ]
+                            }
+                          },
+                          "message": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "path",
+                          "message"
+                        ],
+                        "additionalProperties": {}
+                      }
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "on",
+                    "errors"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          }
+        },
+        "operationId": "getElectionsById"
+      }
+    },
+    "/parties": {
+      "get": {
+        "tags": [
+          "Parties"
+        ],
+        "summary": "List parties",
+        "description": "Partidos políticos (paginado). Filtro opcional `q` por sigla ou nome.",
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "default": 1,
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "default": 20,
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            }
+          },
+          {
+            "name": "q",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "description": "Case-insensitive filter on acronym or name.",
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Response for status 200",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "number": {
+                            "type": "integer"
+                          },
+                          "acronym": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": "string"
+                          },
+                          "createdAt": {},
+                          "updatedAt": {}
+                        },
+                        "required": [
+                          "id",
+                          "number",
+                          "acronym",
+                          "name",
+                          "createdAt",
+                          "updatedAt"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "pagination": {
+                      "type": "object",
+                      "properties": {
+                        "page": {
+                          "type": "number"
+                        },
+                        "limit": {
+                          "type": "number"
+                        },
+                        "total": {
+                          "type": "number"
+                        },
+                        "totalPages": {
+                          "type": "number"
+                        }
+                      },
+                      "required": [
+                        "page",
+                        "limit",
+                        "total",
+                        "totalPages"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "pagination"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Response for status 422",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "const": "validation"
+                    },
+                    "on": {
+                      "type": "string"
+                    },
+                    "summary": {
+                      "type": "string"
+                    },
+                    "errors": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "path": {
+                            "type": "array",
+                            "items": {
+                              "type": [
+                                "string",
+                                "number"
+                              ]
+                            }
+                          },
+                          "message": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "path",
+                          "message"
+                        ],
+                        "additionalProperties": {}
+                      }
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "on",
+                    "errors"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          }
+        },
+        "operationId": "getParties"
+      }
+    },
+    "/parties/{id}": {
+      "get": {
+        "tags": [
+          "Parties"
+        ],
+        "summary": "Get a party",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "description": "Unique identifier of the party."
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Response for status 200",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "number": {
+                      "type": "integer"
+                    },
+                    "acronym": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "createdAt": {},
+                    "updatedAt": {}
+                  },
+                  "required": [
+                    "id",
+                    "number",
+                    "acronym",
+                    "name",
+                    "createdAt",
+                    "updatedAt"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Response for status 404",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "error"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Response for status 422",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "const": "validation"
+                    },
+                    "on": {
+                      "type": "string"
+                    },
+                    "summary": {
+                      "type": "string"
+                    },
+                    "errors": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "path": {
+                            "type": "array",
+                            "items": {
+                              "type": [
+                                "string",
+                                "number"
+                              ]
+                            }
+                          },
+                          "message": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "path",
+                          "message"
+                        ],
+                        "additionalProperties": {}
+                      }
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "on",
+                    "errors"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          }
+        },
+        "operationId": "getPartiesById"
+      }
+    },
+    "/candidates": {
+      "get": {
+        "tags": [
+          "Candidates"
+        ],
+        "summary": "List candidates",
+        "description": "Candidaturas paginadas, ordenadas por patrimônio declarado (desc). Sem `electionId`, restringe ao ciclo 2026. Filtros multi via repeated keys (`?state=RJ&state=MG`): `office`, `state`, `partyId`, `gender` (`MASCULINO`|`FEMININO`). Também: `electionId`, `q`, `outcome` (`elected`|`runoff`|`notElected`|`alternate`) e `round` (1 ou 2; omissão usa o turno mais recente). Cada item traz `result` com a totalização do TSE, ou null.",
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "default": 1,
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "default": 20,
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            }
+          },
+          {
+            "name": "office",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "description": "Office filter (array). Repeat the query key: ?office=senator&office=federalDeputy.",
+              "minItems": 1,
+              "maxItems": 13,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "president",
+                  "vicePresident",
+                  "governor",
+                  "viceGovernor",
+                  "senator",
+                  "senatorFirstAlternate",
+                  "senatorSecondAlternate",
+                  "federalDeputy",
+                  "stateDeputy",
+                  "districtDeputy",
+                  "mayor",
+                  "viceMayor",
+                  "councillor"
+                ]
+              }
+            }
+          },
+          {
+            "name": "state",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "description": "Electoral unit filter (array): UF, BR, or ZZ. Repeat the query key: ?state=RJ&state=MG.",
+              "minItems": 1,
+              "maxItems": 29,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 2
+              }
+            }
+          },
+          {
+            "name": "partyId",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "description": "Party UUID filter (array). Repeat the query key: ?partyId=<uuid>&partyId=<uuid>.",
+              "minItems": 1,
+              "maxItems": 50,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uuid"
+              }
+            }
+          },
+          {
+            "name": "gender",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "description": "Gender filter (array): MASCULINO, FEMININO. Repeat the query key: ?gender=FEMININO.",
+              "minItems": 1,
+              "maxItems": 2,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "MASCULINO",
+                  "FEMININO"
+                ]
+              }
+            }
+          },
+          {
+            "name": "electionId",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "q",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "description": "Accent-insensitive filter on ballot or full name.",
+              "type": "string",
+              "minLength": 2
+            }
+          },
+          {
+            "name": "outcome",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "description": "Totalization outcome for the selected round. elected covers Eleito, Eleito por QP and Eleito por média.",
+              "type": "string",
+              "enum": [
+                "elected",
+                "runoff",
+                "notElected",
+                "alternate"
+              ]
+            }
+          },
+          {
+            "name": "round",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "description": "Totalization round. Omit to use the latest round stored for each candidacy.",
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 2
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Response for status 200",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "tseCandidateId": {
+                            "type": "integer"
+                          },
+                          "electionId": {
+                            "type": "string"
+                          },
+                          "partyId": {
+                            "type": "string"
+                          },
+                          "tseParentCandidateId": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "parentCandidateId": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "ballotName": {
+                            "type": "string"
+                          },
+                          "fullName": {
+                            "type": "string"
+                          },
+                          "number": {
+                            "type": "integer"
+                          },
+                          "officeCode": {
+                            "type": "integer"
+                          },
+                          "office": {
+                            "type": "string"
+                          },
+                          "officeLabel": {
+                            "type": "string"
+                          },
+                          "state": {
+                            "type": "string"
+                          },
+                          "electoralUnit": {
+                            "type": "string"
+                          },
+                          "birthDate": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "birthState": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "birthCity": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "gender": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "genderIdentity": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "isGenderIdentityPublic": {
+                            "type": [
+                              "boolean",
+                              "null"
+                            ]
+                          },
+                          "sexualOrientation": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "isSexualOrientationPublic": {
+                            "type": [
+                              "boolean",
+                              "null"
+                            ]
+                          },
+                          "race": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "indigenousEthnicity": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "isQuilombola": {
+                            "type": [
+                              "boolean",
+                              "null"
+                            ]
+                          },
+                          "education": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "occupation": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "nationality": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "maritalStatus": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "email": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "sites": {
+                            "anyOf": [
+                              {
+                                "anyOf": [
+                                  {
+                                    "type": [
+                                      "string",
+                                      "number",
+                                      "boolean",
+                                      "null"
+                                    ]
+                                  },
+                                  {
+                                    "type": "object",
+                                    "propertyNames": {
+                                      "type": "string"
+                                    },
+                                    "additionalProperties": {}
+                                  },
+                                  {
+                                    "type": "array",
+                                    "items": {}
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "coalitionName": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "federationName": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "candidacyStatus": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "partyStatus": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "isEligible": {
+                            "type": [
+                              "boolean",
+                              "null"
+                            ]
+                          },
+                          "isIneligible": {
+                            "type": [
+                              "boolean",
+                              "null"
+                            ]
+                          },
+                          "isReelection": {
+                            "type": [
+                              "boolean",
+                              "null"
+                            ]
+                          },
+                          "totalAssets": {
+                            "type": "number",
+                            "minimum": -140737488355328,
+                            "maximum": 140737488355327
+                          },
+                          "assetsDisclosed": {
+                            "type": "boolean"
+                          },
+                          "photoUrl": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "campaignCnpj": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "sourceUpdatedAt": {
+                            "anyOf": [
+                              {},
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "createdAt": {},
+                          "updatedAt": {},
+                          "result": {
+                            "type": [
+                              "object",
+                              "null"
+                            ],
+                            "properties": {
+                              "round": {
+                                "type": "integer"
+                              },
+                              "status": {
+                                "type": "string"
+                              },
+                              "outcome": {
+                                "type": "string",
+                                "enum": [
+                                  "elected",
+                                  "runoff",
+                                  "notElected",
+                                  "alternate"
+                                ]
+                              },
+                              "votes": {
+                                "type": [
+                                  "integer",
+                                  "null"
+                                ]
+                              },
+                              "voteShare": {
+                                "type": [
+                                  "number",
+                                  "null"
+                                ]
+                              },
+                              "final": {
+                                "type": "boolean"
+                              }
+                            },
+                            "required": [
+                              "round",
+                              "status",
+                              "outcome",
+                              "votes",
+                              "voteShare",
+                              "final"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "tseCandidateId",
+                          "electionId",
+                          "partyId",
+                          "tseParentCandidateId",
+                          "parentCandidateId",
+                          "ballotName",
+                          "fullName",
+                          "number",
+                          "officeCode",
+                          "office",
+                          "officeLabel",
+                          "state",
+                          "electoralUnit",
+                          "birthDate",
+                          "birthState",
+                          "birthCity",
+                          "gender",
+                          "genderIdentity",
+                          "isGenderIdentityPublic",
+                          "sexualOrientation",
+                          "isSexualOrientationPublic",
+                          "race",
+                          "indigenousEthnicity",
+                          "isQuilombola",
+                          "education",
+                          "occupation",
+                          "nationality",
+                          "maritalStatus",
+                          "email",
+                          "sites",
+                          "coalitionName",
+                          "federationName",
+                          "candidacyStatus",
+                          "partyStatus",
+                          "isEligible",
+                          "isIneligible",
+                          "isReelection",
+                          "totalAssets",
+                          "assetsDisclosed",
+                          "photoUrl",
+                          "campaignCnpj",
+                          "sourceUpdatedAt",
+                          "createdAt",
+                          "updatedAt",
+                          "result"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "pagination": {
+                      "type": "object",
+                      "properties": {
+                        "page": {
+                          "type": "number"
+                        },
+                        "limit": {
+                          "type": "number"
+                        },
+                        "total": {
+                          "type": "number"
+                        },
+                        "totalPages": {
+                          "type": "number"
+                        }
+                      },
+                      "required": [
+                        "page",
+                        "limit",
+                        "total",
+                        "totalPages"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "pagination"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Response for status 422",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "const": "validation"
+                    },
+                    "on": {
+                      "type": "string"
+                    },
+                    "summary": {
+                      "type": "string"
+                    },
+                    "errors": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "path": {
+                            "type": "array",
+                            "items": {
+                              "type": [
+                                "string",
+                                "number"
+                              ]
+                            }
+                          },
+                          "message": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "path",
+                          "message"
+                        ],
+                        "additionalProperties": {}
+                      }
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "on",
+                    "errors"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          }
+        },
+        "operationId": "getCandidates"
+      }
+    },
+    "/candidates/wealth-changes": {
+      "get": {
+        "tags": [
+          "Candidates"
+        ],
+        "summary": "Wealth changes vs prior filing",
+        "description": "Candidatos de 2026 que já declararam bens em eleição anterior, ordenados por |Δ| (`sort=abs`), ganho (`gain`) ou queda (`drop`). Aceita `outcome` e `round`. Sem CPF no payload.",
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "default": 1,
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "default": 20,
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            }
+          },
+          {
+            "name": "office",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "description": "Office filter on the 2026 candidacy.",
+              "minItems": 1,
+              "maxItems": 13,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "president",
+                  "vicePresident",
+                  "governor",
+                  "viceGovernor",
+                  "senator",
+                  "senatorFirstAlternate",
+                  "senatorSecondAlternate",
+                  "federalDeputy",
+                  "stateDeputy",
+                  "districtDeputy",
+                  "mayor",
+                  "viceMayor",
+                  "councillor"
+                ]
+              }
+            }
+          },
+          {
+            "name": "state",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "minItems": 1,
+              "maxItems": 29,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 2
+              }
+            }
+          },
+          {
+            "name": "partyId",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "minItems": 1,
+              "maxItems": 50,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uuid"
+              }
+            }
+          },
+          {
+            "name": "gender",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "minItems": 1,
+              "maxItems": 2,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "MASCULINO",
+                  "FEMININO"
+                ]
+              }
+            }
+          },
+          {
+            "name": "q",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "minLength": 2
+            }
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "default": "abs",
+              "type": "string",
+              "enum": [
+                "abs",
+                "gain",
+                "drop"
+              ]
+            }
+          },
+          {
+            "name": "outcome",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "elected",
+                "runoff",
+                "notElected",
+                "alternate"
+              ]
+            }
+          },
+          {
+            "name": "round",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 2
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Response for status 200",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "ballotName": {
+                            "type": "string"
+                          },
+                          "office": {
+                            "type": "string"
+                          },
+                          "officeLabel": {
+                            "type": "string"
+                          },
+                          "state": {
+                            "type": "string"
+                          },
+                          "partyId": {
+                            "type": "string"
+                          },
+                          "gender": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "photoUrl": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "tseCandidateId": {
+                            "type": "number"
+                          },
+                          "isEligible": {
+                            "type": [
+                              "boolean",
+                              "null"
+                            ]
+                          },
+                          "isIneligible": {
+                            "type": [
+                              "boolean",
+                              "null"
+                            ]
+                          },
+                          "currentAssets": {
+                            "type": "number"
+                          },
+                          "priorAssets": {
+                            "type": "number"
+                          },
+                          "delta": {
+                            "type": "number"
+                          },
+                          "ratio": {
+                            "type": [
+                              "number",
+                              "null"
+                            ]
+                          },
+                          "priorYear": {
+                            "type": "number"
+                          },
+                          "priorOfficeLabel": {
+                            "type": "string"
+                          },
+                          "priorState": {
+                            "type": "string"
+                          },
+                          "result": {
+                            "type": [
+                              "object",
+                              "null"
+                            ],
+                            "properties": {
+                              "round": {
+                                "type": "integer"
+                              },
+                              "status": {
+                                "type": "string"
+                              },
+                              "outcome": {
+                                "type": "string",
+                                "enum": [
+                                  "elected",
+                                  "runoff",
+                                  "notElected",
+                                  "alternate"
+                                ]
+                              },
+                              "votes": {
+                                "type": [
+                                  "integer",
+                                  "null"
+                                ]
+                              },
+                              "voteShare": {
+                                "type": [
+                                  "number",
+                                  "null"
+                                ]
+                              },
+                              "final": {
+                                "type": "boolean"
+                              }
+                            },
+                            "required": [
+                              "round",
+                              "status",
+                              "outcome",
+                              "votes",
+                              "voteShare",
+                              "final"
+                            ],
+                            "additionalProperties": false
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "ballotName",
+                          "office",
+                          "officeLabel",
+                          "state",
+                          "partyId",
+                          "gender",
+                          "photoUrl",
+                          "tseCandidateId",
+                          "isEligible",
+                          "isIneligible",
+                          "currentAssets",
+                          "priorAssets",
+                          "delta",
+                          "ratio",
+                          "priorYear",
+                          "priorOfficeLabel",
+                          "priorState",
+                          "result"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "pagination": {
+                      "type": "object",
+                      "properties": {
+                        "page": {
+                          "type": "number"
+                        },
+                        "limit": {
+                          "type": "number"
+                        },
+                        "total": {
+                          "type": "number"
+                        },
+                        "totalPages": {
+                          "type": "number"
+                        }
+                      },
+                      "required": [
+                        "page",
+                        "limit",
+                        "total",
+                        "totalPages"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "pagination"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Response for status 422",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "const": "validation"
+                    },
+                    "on": {
+                      "type": "string"
+                    },
+                    "summary": {
+                      "type": "string"
+                    },
+                    "errors": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "path": {
+                            "type": "array",
+                            "items": {
+                              "type": [
+                                "string",
+                                "number"
+                              ]
+                            }
+                          },
+                          "message": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "path",
+                          "message"
+                        ],
+                        "additionalProperties": {}
+                      }
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "on",
+                    "errors"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          }
+        },
+        "operationId": "getCandidatesWealth-changes"
+      }
+    },
+    "/candidates/{id}/filings": {
+      "get": {
+        "tags": [
+          "Candidates"
+        ],
+        "summary": "Filings for the same person",
+        "description": "Candidaturas ligadas pelo CPF da pessoa, sem expor o CPF. Só 2026 entra no ranking público; isto é a linha do tempo.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "description": "Unique identifier of the candidate."
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Response for status 200",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "tseCandidateId": {
+                            "type": "integer"
+                          },
+                          "electionId": {
+                            "type": "string"
+                          },
+                          "partyId": {
+                            "type": "string"
+                          },
+                          "tseParentCandidateId": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "parentCandidateId": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "ballotName": {
+                            "type": "string"
+                          },
+                          "fullName": {
+                            "type": "string"
+                          },
+                          "number": {
+                            "type": "integer"
+                          },
+                          "officeCode": {
+                            "type": "integer"
+                          },
+                          "office": {
+                            "type": "string"
+                          },
+                          "officeLabel": {
+                            "type": "string"
+                          },
+                          "state": {
+                            "type": "string"
+                          },
+                          "electoralUnit": {
+                            "type": "string"
+                          },
+                          "birthDate": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "birthState": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "birthCity": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "gender": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "genderIdentity": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "isGenderIdentityPublic": {
+                            "type": [
+                              "boolean",
+                              "null"
+                            ]
+                          },
+                          "sexualOrientation": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "isSexualOrientationPublic": {
+                            "type": [
+                              "boolean",
+                              "null"
+                            ]
+                          },
+                          "race": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "indigenousEthnicity": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "isQuilombola": {
+                            "type": [
+                              "boolean",
+                              "null"
+                            ]
+                          },
+                          "education": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "occupation": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "nationality": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "maritalStatus": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "email": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "sites": {
+                            "anyOf": [
+                              {
+                                "anyOf": [
+                                  {
+                                    "type": [
+                                      "string",
+                                      "number",
+                                      "boolean",
+                                      "null"
+                                    ]
+                                  },
+                                  {
+                                    "type": "object",
+                                    "propertyNames": {
+                                      "type": "string"
+                                    },
+                                    "additionalProperties": {}
+                                  },
+                                  {
+                                    "type": "array",
+                                    "items": {}
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "coalitionName": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "federationName": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "candidacyStatus": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "partyStatus": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "isEligible": {
+                            "type": [
+                              "boolean",
+                              "null"
+                            ]
+                          },
+                          "isIneligible": {
+                            "type": [
+                              "boolean",
+                              "null"
+                            ]
+                          },
+                          "isReelection": {
+                            "type": [
+                              "boolean",
+                              "null"
+                            ]
+                          },
+                          "totalAssets": {
+                            "type": "number",
+                            "minimum": -140737488355328,
+                            "maximum": 140737488355327
+                          },
+                          "assetsDisclosed": {
+                            "type": "boolean"
+                          },
+                          "photoUrl": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "campaignCnpj": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "sourceUpdatedAt": {
+                            "anyOf": [
+                              {},
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "createdAt": {},
+                          "updatedAt": {},
+                          "result": {
+                            "type": [
+                              "object",
+                              "null"
+                            ],
+                            "properties": {
+                              "round": {
+                                "type": "integer"
+                              },
+                              "status": {
+                                "type": "string"
+                              },
+                              "outcome": {
+                                "type": "string",
+                                "enum": [
+                                  "elected",
+                                  "runoff",
+                                  "notElected",
+                                  "alternate"
+                                ]
+                              },
+                              "votes": {
+                                "type": [
+                                  "integer",
+                                  "null"
+                                ]
+                              },
+                              "voteShare": {
+                                "type": [
+                                  "number",
+                                  "null"
+                                ]
+                              },
+                              "final": {
+                                "type": "boolean"
+                              }
+                            },
+                            "required": [
+                              "round",
+                              "status",
+                              "outcome",
+                              "votes",
+                              "voteShare",
+                              "final"
+                            ],
+                            "additionalProperties": false
+                          },
+                          "year": {
+                            "type": "number"
+                          },
+                          "electionName": {
+                            "type": "string"
+                          },
+                          "electionDate": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "scope": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "tseCandidateId",
+                          "electionId",
+                          "partyId",
+                          "tseParentCandidateId",
+                          "parentCandidateId",
+                          "ballotName",
+                          "fullName",
+                          "number",
+                          "officeCode",
+                          "office",
+                          "officeLabel",
+                          "state",
+                          "electoralUnit",
+                          "birthDate",
+                          "birthState",
+                          "birthCity",
+                          "gender",
+                          "genderIdentity",
+                          "isGenderIdentityPublic",
+                          "sexualOrientation",
+                          "isSexualOrientationPublic",
+                          "race",
+                          "indigenousEthnicity",
+                          "isQuilombola",
+                          "education",
+                          "occupation",
+                          "nationality",
+                          "maritalStatus",
+                          "email",
+                          "sites",
+                          "coalitionName",
+                          "federationName",
+                          "candidacyStatus",
+                          "partyStatus",
+                          "isEligible",
+                          "isIneligible",
+                          "isReelection",
+                          "totalAssets",
+                          "assetsDisclosed",
+                          "photoUrl",
+                          "campaignCnpj",
+                          "sourceUpdatedAt",
+                          "createdAt",
+                          "updatedAt",
+                          "result",
+                          "year",
+                          "electionName",
+                          "electionDate",
+                          "scope"
+                        ],
+                        "additionalProperties": false
+                      }
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Response for status 404",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "error"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Response for status 422",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "const": "validation"
+                    },
+                    "on": {
+                      "type": "string"
+                    },
+                    "summary": {
+                      "type": "string"
+                    },
+                    "errors": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "path": {
+                            "type": "array",
+                            "items": {
+                              "type": [
+                                "string",
+                                "number"
+                              ]
+                            }
+                          },
+                          "message": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "path",
+                          "message"
+                        ],
+                        "additionalProperties": {}
+                      }
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "on",
+                    "errors"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          }
+        },
+        "operationId": "getCandidatesByIdFilings"
+      }
+    },
+    "/candidates/{id}": {
+      "get": {
+        "tags": [
+          "Candidates"
+        ],
+        "summary": "Get a candidate",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "description": "Unique identifier of the candidate."
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Response for status 200",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "tseCandidateId": {
+                      "type": "integer"
+                    },
+                    "electionId": {
+                      "type": "string"
+                    },
+                    "partyId": {
+                      "type": "string"
+                    },
+                    "tseParentCandidateId": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "parentCandidateId": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "ballotName": {
+                      "type": "string"
+                    },
+                    "fullName": {
+                      "type": "string"
+                    },
+                    "number": {
+                      "type": "integer"
+                    },
+                    "officeCode": {
+                      "type": "integer"
+                    },
+                    "office": {
+                      "type": "string"
+                    },
+                    "officeLabel": {
+                      "type": "string"
+                    },
+                    "state": {
+                      "type": "string"
+                    },
+                    "electoralUnit": {
+                      "type": "string"
+                    },
+                    "birthDate": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "birthState": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "birthCity": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "gender": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "genderIdentity": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "isGenderIdentityPublic": {
+                      "type": [
+                        "boolean",
+                        "null"
+                      ]
+                    },
+                    "sexualOrientation": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "isSexualOrientationPublic": {
+                      "type": [
+                        "boolean",
+                        "null"
+                      ]
+                    },
+                    "race": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "indigenousEthnicity": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "isQuilombola": {
+                      "type": [
+                        "boolean",
+                        "null"
+                      ]
+                    },
+                    "education": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "occupation": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "nationality": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "maritalStatus": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "email": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "sites": {
+                      "anyOf": [
+                        {
+                          "anyOf": [
+                            {
+                              "type": [
+                                "string",
+                                "number",
+                                "boolean",
+                                "null"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "propertyNames": {
+                                "type": "string"
+                              },
+                              "additionalProperties": {}
+                            },
+                            {
+                              "type": "array",
+                              "items": {}
+                            }
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "coalitionName": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "federationName": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "candidacyStatus": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "partyStatus": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "isEligible": {
+                      "type": [
+                        "boolean",
+                        "null"
+                      ]
+                    },
+                    "isIneligible": {
+                      "type": [
+                        "boolean",
+                        "null"
+                      ]
+                    },
+                    "isReelection": {
+                      "type": [
+                        "boolean",
+                        "null"
+                      ]
+                    },
+                    "totalAssets": {
+                      "type": "number",
+                      "minimum": -140737488355328,
+                      "maximum": 140737488355327
+                    },
+                    "assetsDisclosed": {
+                      "type": "boolean"
+                    },
+                    "photoUrl": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "campaignCnpj": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "sourceUpdatedAt": {
+                      "anyOf": [
+                        {},
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "createdAt": {},
+                    "updatedAt": {},
+                    "result": {
+                      "type": [
+                        "object",
+                        "null"
+                      ],
+                      "properties": {
+                        "round": {
+                          "type": "integer"
+                        },
+                        "status": {
+                          "type": "string"
+                        },
+                        "outcome": {
+                          "type": "string",
+                          "enum": [
+                            "elected",
+                            "runoff",
+                            "notElected",
+                            "alternate"
+                          ]
+                        },
+                        "votes": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ]
+                        },
+                        "voteShare": {
+                          "type": [
+                            "number",
+                            "null"
+                          ]
+                        },
+                        "final": {
+                          "type": "boolean"
+                        }
+                      },
+                      "required": [
+                        "round",
+                        "status",
+                        "outcome",
+                        "votes",
+                        "voteShare",
+                        "final"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "tseCandidateId",
+                    "electionId",
+                    "partyId",
+                    "tseParentCandidateId",
+                    "parentCandidateId",
+                    "ballotName",
+                    "fullName",
+                    "number",
+                    "officeCode",
+                    "office",
+                    "officeLabel",
+                    "state",
+                    "electoralUnit",
+                    "birthDate",
+                    "birthState",
+                    "birthCity",
+                    "gender",
+                    "genderIdentity",
+                    "isGenderIdentityPublic",
+                    "sexualOrientation",
+                    "isSexualOrientationPublic",
+                    "race",
+                    "indigenousEthnicity",
+                    "isQuilombola",
+                    "education",
+                    "occupation",
+                    "nationality",
+                    "maritalStatus",
+                    "email",
+                    "sites",
+                    "coalitionName",
+                    "federationName",
+                    "candidacyStatus",
+                    "partyStatus",
+                    "isEligible",
+                    "isIneligible",
+                    "isReelection",
+                    "totalAssets",
+                    "assetsDisclosed",
+                    "photoUrl",
+                    "campaignCnpj",
+                    "sourceUpdatedAt",
+                    "createdAt",
+                    "updatedAt",
+                    "result"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Response for status 404",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "error"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Response for status 422",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "const": "validation"
+                    },
+                    "on": {
+                      "type": "string"
+                    },
+                    "summary": {
+                      "type": "string"
+                    },
+                    "errors": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "path": {
+                            "type": "array",
+                            "items": {
+                              "type": [
+                                "string",
+                                "number"
+                              ]
+                            }
+                          },
+                          "message": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "path",
+                          "message"
+                        ],
+                        "additionalProperties": {}
+                      }
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "on",
+                    "errors"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          }
+        },
+        "operationId": "getCandidatesById"
+      }
+    },
+    "/candidates/{id}/assets": {
+      "get": {
+        "tags": [
+          "Candidates"
+        ],
+        "summary": "List candidate assets",
+        "description": "Bens declarados da candidatura (paginado).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "description": "Unique identifier of the candidate."
+            }
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "default": 1,
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "default": 20,
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Response for status 200",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "candidateId": {
+                            "type": "string"
+                          },
+                          "order": {
+                            "type": "integer"
+                          },
+                          "typeCode": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "typeLabel": {
+                            "type": "string"
+                          },
+                          "description": {
+                            "type": "string"
+                          },
+                          "value": {
+                            "type": "number",
+                            "minimum": -140737488355328,
+                            "maximum": 140737488355327
+                          },
+                          "sourceUpdatedAt": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "createdAt": {},
+                          "updatedAt": {}
+                        },
+                        "required": [
+                          "id",
+                          "candidateId",
+                          "order",
+                          "typeCode",
+                          "typeLabel",
+                          "description",
+                          "value",
+                          "sourceUpdatedAt",
+                          "createdAt",
+                          "updatedAt"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "pagination": {
+                      "type": "object",
+                      "properties": {
+                        "page": {
+                          "type": "number"
+                        },
+                        "limit": {
+                          "type": "number"
+                        },
+                        "total": {
+                          "type": "number"
+                        },
+                        "totalPages": {
+                          "type": "number"
+                        }
+                      },
+                      "required": [
+                        "page",
+                        "limit",
+                        "total",
+                        "totalPages"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "data",
+                    "pagination"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Response for status 404",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "error"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Response for status 422",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "const": "validation"
+                    },
+                    "on": {
+                      "type": "string"
+                    },
+                    "summary": {
+                      "type": "string"
+                    },
+                    "errors": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "path": {
+                            "type": "array",
+                            "items": {
+                              "type": [
+                                "string",
+                                "number"
+                              ]
+                            }
+                          },
+                          "message": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "path",
+                          "message"
+                        ],
+                        "additionalProperties": {}
+                      }
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "on",
+                    "errors"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          }
+        },
+        "operationId": "getCandidatesByIdAssets"
+      }
+    },
+    "/results": {
+      "get": {
+        "tags": [
+          "Results"
+        ],
+        "summary": "List place totals",
+        "description": "Totais de um cargo por local (Brasil, UF ou município): seções, eleitorado, comparecimento, brancos, nulos, quem lidera e a margem. `scope=mu` exige `state`. A leitura do local é calculada pelos votos, não pelo `st` do TSE. Deputado no município não traz o vetor de candidatos; use o detalhe para os totais de partido.",
+        "parameters": [
+          {
+            "name": "office",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "president",
+                "governor",
+                "senator",
+                "federalDeputy",
+                "stateDeputy",
+                "districtDeputy"
+              ],
+              "description": "president, governor, senator, federalDeputy, stateDeputy, or districtDeputy."
+            }
+          },
+          {
+            "name": "scope",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "br",
+                "uf",
+                "mu"
+              ],
+              "description": "br is the country, uf is a state or ZZ, mu is a municipality."
+            }
+          },
+          {
+            "name": "state",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "description": "Parent UF. Required when scope is mu.",
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 2
+            }
+          },
+          {
+            "name": "round",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "description": "Totalization round. Omit to use the latest round stored for that office.",
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 2
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Response for status 200",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "office": {
+                            "type": "string",
+                            "enum": [
+                              "president",
+                              "governor",
+                              "senator",
+                              "federalDeputy",
+                              "stateDeputy",
+                              "districtDeputy"
+                            ]
+                          },
+                          "scope": {
+                            "type": "string",
+                            "enum": [
+                              "br",
+                              "uf",
+                              "mu"
+                            ]
+                          },
+                          "state": {
+                            "type": "string"
+                          },
+                          "code": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "round": {
+                            "type": "integer"
+                          },
+                          "final": {
+                            "type": "boolean"
+                          },
+                          "sectionsTotal": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "sectionsCounted": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "countedShare": {
+                            "type": [
+                              "number",
+                              "null"
+                            ]
+                          },
+                          "electorate": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "turnout": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "abstention": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "validVotes": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "blankVotes": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "nullVotes": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "leader": {
+                            "type": [
+                              "object",
+                              "null"
+                            ],
+                            "properties": {
+                              "tseCandidateId": {
+                                "type": "integer"
+                              },
+                              "votes": {
+                                "type": "integer"
+                              },
+                              "voteShare": {
+                                "type": [
+                                  "number",
+                                  "null"
+                                ]
+                              },
+                              "ballotName": {
+                                "type": [
+                                  "string",
+                                  "null"
+                                ]
+                              },
+                              "partyAcronym": {
+                                "type": [
+                                  "string",
+                                  "null"
+                                ]
+                              }
+                            },
+                            "required": [
+                              "tseCandidateId",
+                              "votes",
+                              "voteShare",
+                              "ballotName",
+                              "partyAcronym"
+                            ],
+                            "additionalProperties": false
+                          },
+                          "runnerUp": {
+                            "type": [
+                              "object",
+                              "null"
+                            ],
+                            "properties": {
+                              "tseCandidateId": {
+                                "type": "integer"
+                              },
+                              "votes": {
+                                "type": "integer"
+                              },
+                              "voteShare": {
+                                "type": [
+                                  "number",
+                                  "null"
+                                ]
+                              },
+                              "ballotName": {
+                                "type": [
+                                  "string",
+                                  "null"
+                                ]
+                              },
+                              "partyAcronym": {
+                                "type": [
+                                  "string",
+                                  "null"
+                                ]
+                              }
+                            },
+                            "required": [
+                              "tseCandidateId",
+                              "votes",
+                              "voteShare",
+                              "ballotName",
+                              "partyAcronym"
+                            ],
+                            "additionalProperties": false
+                          },
+                          "marginVotes": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "marginShare": {
+                            "type": [
+                              "number",
+                              "null"
+                            ]
+                          },
+                          "sourceAt": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "office",
+                          "scope",
+                          "state",
+                          "code",
+                          "name",
+                          "round",
+                          "final",
+                          "sectionsTotal",
+                          "sectionsCounted",
+                          "countedShare",
+                          "electorate",
+                          "turnout",
+                          "abstention",
+                          "validVotes",
+                          "blankVotes",
+                          "nullVotes",
+                          "leader",
+                          "runnerUp",
+                          "marginVotes",
+                          "marginShare",
+                          "sourceAt"
+                        ],
+                        "additionalProperties": false
+                      }
+                    }
+                  },
+                  "required": [
+                    "data"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Response for status 422",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "const": "validation"
+                    },
+                    "on": {
+                      "type": "string"
+                    },
+                    "summary": {
+                      "type": "string"
+                    },
+                    "errors": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "path": {
+                            "type": "array",
+                            "items": {
+                              "type": [
+                                "string",
+                                "number"
+                              ]
+                            }
+                          },
+                          "message": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "path",
+                          "message"
+                        ],
+                        "additionalProperties": {}
+                      }
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "on",
+                    "errors"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          }
+        },
+        "operationId": "getResults"
+      }
+    },
+    "/results/{code}": {
+      "get": {
+        "tags": [
+          "Results"
+        ],
+        "summary": "Read one place",
+        "description": "Um local, com o vetor de votos dos candidatos quando foi gravado (presidente, governador, senador, e deputado na UF) e os totais de partido nas eleições proporcionais.",
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 7,
+              "description": "BR, a UF (including ZZ), or a TSE municipality code."
+            }
+          },
+          {
+            "name": "office",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "president",
+                "governor",
+                "senator",
+                "federalDeputy",
+                "stateDeputy",
+                "districtDeputy"
+              ]
+            }
+          },
+          {
+            "name": "scope",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "br",
+                "uf",
+                "mu"
+              ]
+            }
+          },
+          {
+            "name": "round",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "description": "Totalization round. Omit to use the latest round stored for that office.",
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 2
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Response for status 200",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "office": {
+                      "type": "string",
+                      "enum": [
+                        "president",
+                        "governor",
+                        "senator",
+                        "federalDeputy",
+                        "stateDeputy",
+                        "districtDeputy"
+                      ]
+                    },
+                    "scope": {
+                      "type": "string",
+                      "enum": [
+                        "br",
+                        "uf",
+                        "mu"
+                      ]
+                    },
+                    "state": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "round": {
+                      "type": "integer"
+                    },
+                    "final": {
+                      "type": "boolean"
+                    },
+                    "sectionsTotal": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "sectionsCounted": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "countedShare": {
+                      "type": [
+                        "number",
+                        "null"
+                      ]
+                    },
+                    "electorate": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "turnout": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "abstention": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "validVotes": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "blankVotes": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "nullVotes": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "leader": {
+                      "type": [
+                        "object",
+                        "null"
+                      ],
+                      "properties": {
+                        "tseCandidateId": {
+                          "type": "integer"
+                        },
+                        "votes": {
+                          "type": "integer"
+                        },
+                        "voteShare": {
+                          "type": [
+                            "number",
+                            "null"
+                          ]
+                        },
+                        "ballotName": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "partyAcronym": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "tseCandidateId",
+                        "votes",
+                        "voteShare",
+                        "ballotName",
+                        "partyAcronym"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "runnerUp": {
+                      "type": [
+                        "object",
+                        "null"
+                      ],
+                      "properties": {
+                        "tseCandidateId": {
+                          "type": "integer"
+                        },
+                        "votes": {
+                          "type": "integer"
+                        },
+                        "voteShare": {
+                          "type": [
+                            "number",
+                            "null"
+                          ]
+                        },
+                        "ballotName": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "partyAcronym": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "tseCandidateId",
+                        "votes",
+                        "voteShare",
+                        "ballotName",
+                        "partyAcronym"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "marginVotes": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "marginShare": {
+                      "type": [
+                        "number",
+                        "null"
+                      ]
+                    },
+                    "sourceAt": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "votes": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "tseCandidateId": {
+                            "type": "integer"
+                          },
+                          "votes": {
+                            "type": "integer"
+                          },
+                          "voteShare": {
+                            "type": [
+                              "number",
+                              "null"
+                            ]
+                          },
+                          "ballotName": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "partyAcronym": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "tseCandidateId",
+                          "votes",
+                          "voteShare",
+                          "ballotName",
+                          "partyAcronym"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "parties": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "number": {
+                            "type": "integer"
+                          },
+                          "acronym": {
+                            "type": "string"
+                          },
+                          "votes": {
+                            "type": "integer"
+                          }
+                        },
+                        "required": [
+                          "number",
+                          "acronym",
+                          "votes"
+                        ],
+                        "additionalProperties": false
+                      }
+                    }
+                  },
+                  "required": [
+                    "office",
+                    "scope",
+                    "state",
+                    "code",
+                    "name",
+                    "round",
+                    "final",
+                    "sectionsTotal",
+                    "sectionsCounted",
+                    "countedShare",
+                    "electorate",
+                    "turnout",
+                    "abstention",
+                    "validVotes",
+                    "blankVotes",
+                    "nullVotes",
+                    "leader",
+                    "runnerUp",
+                    "marginVotes",
+                    "marginShare",
+                    "sourceAt",
+                    "votes",
+                    "parties"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Response for status 404",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "error"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Response for status 422",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$schema": "https://json-schema.org/draft/2020-12/schema",
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "const": "validation"
+                    },
+                    "on": {
+                      "type": "string"
+                    },
+                    "summary": {
+                      "type": "string"
+                    },
+                    "errors": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "path": {
+                            "type": "array",
+                            "items": {
+                              "type": [
+                                "string",
+                                "number"
+                              ]
+                            }
+                          },
+                          "message": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "path",
+                          "message"
+                        ],
+                        "additionalProperties": {}
+                      }
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "on",
+                    "errors"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          }
+        },
+        "operationId": "getResultsByCode"
+      }
+    }
+  }
+}

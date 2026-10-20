@@ -1,0 +1,61 @@
+{
+  "scope": "RJ, 2026, round 1",
+  "ibge_municipalities": 92,
+  "tse_municipalities": 92,
+  "matched": 92,
+  "mapping_issues": [],
+  "unmatched_ibge": [],
+  "duplicate_ibge": [],
+  "groups_checked": 460,
+  "groups_passed": 460,
+  "failures": [],
+  "sources": [
+    {
+      "source": "detail",
+      "zip": "detalhe_votacao_munzona_2026.zip",
+      "member": "detalhe_votacao_munzona_2026_RJ.csv",
+      "crc32": "ff86ac72",
+      "size": 225963
+    },
+    {
+      "source": "detail",
+      "zip": "detalhe_votacao_munzona_2026.zip",
+      "member": "detalhe_votacao_munzona_2026_BR.csv",
+      "crc32": "3353fc93",
+      "size": 1737042
+    },
+    {
+      "source": "candidates",
+      "zip": "votacao_candidato_munzona_2026.zip",
+      "member": "votacao_candidato_munzona_2026_RJ.csv",
+      "crc32": "48c5a5b1",
+      "size": 168119737
+    },
+    {
+      "source": "candidates",
+      "zip": "votacao_candidato_munzona_2026.zip",
+      "member": "votacao_candidato_munzona_2026_BR.csv",
+      "crc32": "c2c98556",
+      "size": 33579378
+    },
+    {
+      "source": "parties",
+      "zip": "votacao_partido_munzona_2026.zip",
+      "member": "votacao_partido_munzona_2026_RJ.csv",
+      "crc32": "7ef4c7e7",
+      "size": 4843919
+    },
+    {
+      "source": "parties",
+      "zip": "votacao_partido_munzona_2026.zip",
+      "member": "votacao_partido_munzona_2026_BR.csv",
+      "crc32": "0fb576b3",
+      "size": 23677041
+    }
+  ],
+  "limits": [
+    "Name-based crosswalk inferred from supplied files; not an official TSE/IBGE correspondence table.",
+    "Municipality aggregate reconciliation only; no section-level or candidate-level independent validation.",
+    "IBGE geometry vintage 2025; boundary history not audited."
+  ]
+}

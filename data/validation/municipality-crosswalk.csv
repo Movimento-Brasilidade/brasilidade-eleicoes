@@ -1,0 +1,93 @@
+﻿code_tse,code_ibge,name_tse,name_ibge,method
+58009,3304151,QUISSAMÃ,Quissamã,unique_normalized_name_within_RJ
+58017,3300100,ANGRA DOS REIS,Angra dos Reis,unique_normalized_name_within_RJ
+58025,3304128,QUATIS,Quatis,unique_normalized_name_within_RJ
+58033,3300209,ARARUAMA,Araruama,unique_normalized_name_within_RJ
+58041,3300456,BELFORD ROXO,Belford Roxo,unique_normalized_name_within_RJ
+58050,3300308,BARRA DO PIRAÍ,Barra do Piraí,unique_normalized_name_within_RJ
+58068,3301157,CARDOSO MOREIRA,Cardoso Moreira,unique_normalized_name_within_RJ
+58076,3300407,BARRA MANSA,Barra Mansa,unique_normalized_name_within_RJ
+58084,3306156,VARRE-SAI,Varre-Sai,unique_normalized_name_within_RJ
+58092,3300506,BOM JARDIM,Bom Jardim,unique_normalized_name_within_RJ
+58106,3301850,GUAPIMIRIM,Guapimirim,unique_normalized_name_within_RJ
+58114,3300605,BOM JESUS DO ITABAPOANA,Bom Jesus do Itabapoana,unique_normalized_name_within_RJ
+58122,3304144,QUEIMADOS,Queimados,unique_normalized_name_within_RJ
+58130,3300704,CABO FRIO,Cabo Frio,unique_normalized_name_within_RJ
+58149,3302270,JAPERI,Japeri,unique_normalized_name_within_RJ
+58157,3300803,CACHOEIRAS DE MACACU,Cachoeiras de Macacu,unique_normalized_name_within_RJ
+58165,3300951,COMENDADOR LEVY GASPARIAN,Comendador Levy Gasparian,unique_normalized_name_within_RJ
+58173,3300902,CAMBUCI,Cambuci,unique_normalized_name_within_RJ
+58181,3300159,APERIBÉ,Aperibé,unique_normalized_name_within_RJ
+58190,3301009,CAMPOS DOS GOYTACAZES,Campos dos Goytacazes,unique_normalized_name_within_RJ
+58203,3304524,RIO DAS OSTRAS,Rio das Ostras,unique_normalized_name_within_RJ
+58211,3301108,CANTAGALO,Cantagalo,unique_normalized_name_within_RJ
+58220,3300225,AREAL,Areal,unique_normalized_name_within_RJ
+58238,3301207,CARMO,Carmo,unique_normalized_name_within_RJ
+58246,3303955,PINHEIRAL,Pinheiral,unique_normalized_name_within_RJ
+58254,3301306,CASIMIRO DE ABREU,Casimiro de Abreu,unique_normalized_name_within_RJ
+58262,3301876,IGUABA GRANDE,Iguaba Grande,unique_normalized_name_within_RJ
+58270,3301405,CONCEIÇÃO DE MACABU,Conceição de Macabu,unique_normalized_name_within_RJ
+58289,3304755,SÃO FRANCISCO DE ITABAPOANA,São Francisco de Itabapoana,unique_normalized_name_within_RJ
+58297,3301504,CORDEIRO,Cordeiro,unique_normalized_name_within_RJ
+58300,3300936,CARAPEBUS,Carapebus,unique_normalized_name_within_RJ
+58319,3301603,DUAS BARRAS,Duas Barras,unique_normalized_name_within_RJ
+58327,3304110,PORTO REAL,Porto Real,unique_normalized_name_within_RJ
+58335,3301702,DUQUE DE CAXIAS,Duque de Caxias,unique_normalized_name_within_RJ
+58343,3305133,SÃO JOSÉ DE UBÁ,São José de Ubá,unique_normalized_name_within_RJ
+58351,3301801,ENGENHEIRO PAULO DE FRONTIN,Engenheiro Paulo de Frontin,unique_normalized_name_within_RJ
+58360,3305752,TANGUÁ,Tanguá,unique_normalized_name_within_RJ
+58378,3301900,ITABORAÍ,Itaboraí,unique_normalized_name_within_RJ
+58386,3302452,MACUCO,Macuco,unique_normalized_name_within_RJ
+58394,3302007,ITAGUAÍ,Itaguaí,unique_normalized_name_within_RJ
+58408,3300233,ARMAÇÃO DOS BÚZIOS,Armação dos Búzios,unique_normalized_name_within_RJ
+58416,3302106,ITAOCARA,Itaocara,unique_normalized_name_within_RJ
+58424,3305554,SEROPÉDICA,Seropédica,unique_normalized_name_within_RJ
+58432,3302205,ITAPERUNA,Itaperuna,unique_normalized_name_within_RJ
+58440,3302254,ITATIAIA,Itatiaia,unique_normalized_name_within_RJ
+58459,3302304,LAJE DO MURIAÉ,Laje do Muriaé,unique_normalized_name_within_RJ
+58467,3302858,MESQUITA,Mesquita,unique_normalized_name_within_RJ
+58475,3302403,MACAÉ,Macaé,unique_normalized_name_within_RJ
+58491,3302502,MAGÉ,Magé,unique_normalized_name_within_RJ
+58513,3302601,MANGARATIBA,Mangaratiba,unique_normalized_name_within_RJ
+58530,3302700,MARICÁ,Maricá,unique_normalized_name_within_RJ
+58556,3302809,MENDES,Mendes,unique_normalized_name_within_RJ
+58572,3302908,MIGUEL PEREIRA,Miguel Pereira,unique_normalized_name_within_RJ
+58599,3303005,MIRACEMA,Miracema,unique_normalized_name_within_RJ
+58610,3303104,NATIVIDADE,Natividade,unique_normalized_name_within_RJ
+58637,3303203,NILÓPOLIS,Nilópolis,unique_normalized_name_within_RJ
+58653,3303302,NITERÓI,Niterói,unique_normalized_name_within_RJ
+58670,3303401,NOVA FRIBURGO,Nova Friburgo,unique_normalized_name_within_RJ
+58696,3303500,NOVA IGUAÇU,Nova Iguaçu,unique_normalized_name_within_RJ
+58718,3303609,PARACAMBI,Paracambi,unique_normalized_name_within_RJ
+58734,3303708,PARAÍBA DO SUL,Paraíba do Sul,unique_normalized_name_within_RJ
+58750,3303807,PARATY,Paraty,unique_normalized_name_within_RJ
+58777,3303906,PETRÓPOLIS,Petrópolis,unique_normalized_name_within_RJ
+58793,3304003,PIRAÍ,Piraí,unique_normalized_name_within_RJ
+58815,3304102,PORCIÚNCULA,Porciúncula,unique_normalized_name_within_RJ
+58831,3304201,RESENDE,Resende,unique_normalized_name_within_RJ
+58858,3304300,RIO BONITO,Rio Bonito,unique_normalized_name_within_RJ
+58874,3304409,RIO CLARO,Rio Claro,unique_normalized_name_within_RJ
+58890,3304508,RIO DAS FLORES,Rio das Flores,unique_normalized_name_within_RJ
+58912,3304607,SANTA MARIA MADALENA,Santa Maria Madalena,unique_normalized_name_within_RJ
+58939,3304706,SANTO ANTÔNIO DE PÁDUA,Santo Antônio de Pádua,unique_normalized_name_within_RJ
+58955,3304805,SÃO FIDÉLIS,São Fidélis,unique_normalized_name_within_RJ
+58971,3304904,SÃO GONÇALO,São Gonçalo,unique_normalized_name_within_RJ
+58998,3305000,SÃO JOÃO DA BARRA,São João da Barra,unique_normalized_name_within_RJ
+59013,3305109,SÃO JOÃO DE MERITI,São João de Meriti,unique_normalized_name_within_RJ
+59030,3305208,SÃO PEDRO DA ALDEIA,São Pedro da Aldeia,unique_normalized_name_within_RJ
+59056,3305307,SÃO SEBASTIÃO DO ALTO,São Sebastião do Alto,unique_normalized_name_within_RJ
+59072,3305406,SAPUCAIA,Sapucaia,unique_normalized_name_within_RJ
+59099,3305505,SAQUAREMA,Saquarema,unique_normalized_name_within_RJ
+59110,3305604,SILVA JARDIM,Silva Jardim,unique_normalized_name_within_RJ
+59137,3305703,SUMIDOURO,Sumidouro,unique_normalized_name_within_RJ
+59153,3305802,TERESÓPOLIS,Teresópolis,unique_normalized_name_within_RJ
+59170,3305901,TRAJANO DE MORAES,Trajano de Moraes,unique_normalized_name_within_RJ
+59196,3306008,TRÊS RIOS,Três Rios,unique_normalized_name_within_RJ
+59218,3306107,VALENÇA,Valença,unique_normalized_name_within_RJ
+59234,3306206,VASSOURAS,Vassouras,unique_normalized_name_within_RJ
+59250,3306305,VOLTA REDONDA,Volta Redonda,unique_normalized_name_within_RJ
+59277,3300258,ARRAIAL DO CABO,Arraial do Cabo,unique_normalized_name_within_RJ
+59293,3302056,ITALVA,Italva,unique_normalized_name_within_RJ
+59315,3303856,PATY DO ALFERES,Paty do Alferes,unique_normalized_name_within_RJ
+59331,3305158,SÃO JOSÉ DO VALE DO RIO PRETO,São José do Vale do Rio Preto,unique_normalized_name_within_RJ
+60011,3304557,RIO DE JANEIRO,Rio de Janeiro,unique_normalized_name_within_RJ

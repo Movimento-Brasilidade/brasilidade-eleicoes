@@ -1,0 +1,854 @@
+{
+  "candidate": {
+    "SQ_CANDIDATO": "190002541800",
+    "NR_CANDIDATO": "12345",
+    "NM_CANDIDATO": "LEONARDO ROCHA LUPI",
+    "NM_URNA_CANDIDATO": "LEO LUPI",
+    "SG_PARTIDO": "PDT",
+    "DS_CARGO": "Deputado Estadual",
+    "CD_CARGO": "7",
+    "CD_ELEICAO": "6259",
+    "ANO_ELEICAO": "2026",
+    "NR_TURNO": "1",
+    "DT_GERACAO": "19/10/2026"
+  },
+  "denominator": "Total valid votes for state deputy in each municipality, including party-list votes; excludes blank, null and invalid votes.",
+  "state_valid_candidate_votes": 23105,
+  "state_office_valid_votes": 8479421,
+  "state_vote_share_percent": 0.2724832273335644,
+  "municipalities": [
+    {
+      "code_tse": "58009",
+      "code_ibge": "3304151",
+      "municipality": "Quissamã",
+      "candidate_valid_votes": 34,
+      "candidate_raw_votes": 34,
+      "office_valid_votes": 13867,
+      "vote_share_percent": 0.24518641378813008
+    },
+    {
+      "code_tse": "58017",
+      "code_ibge": "3300100",
+      "municipality": "Angra dos Reis",
+      "candidate_valid_votes": 58,
+      "candidate_raw_votes": 58,
+      "office_valid_votes": 86490,
+      "vote_share_percent": 0.06705977569661233
+    },
+    {
+      "code_tse": "58025",
+      "code_ibge": "3304128",
+      "municipality": "Quatis",
+      "candidate_valid_votes": 7,
+      "candidate_raw_votes": 7,
+      "office_valid_votes": 7863,
+      "vote_share_percent": 0.08902454533892916
+    },
+    {
+      "code_tse": "58033",
+      "code_ibge": "3300209",
+      "municipality": "Araruama",
+      "candidate_valid_votes": 77,
+      "candidate_raw_votes": 77,
+      "office_valid_votes": 75496,
+      "vote_share_percent": 0.10199215852495497
+    },
+    {
+      "code_tse": "58041",
+      "code_ibge": "3300456",
+      "municipality": "Belford Roxo",
+      "candidate_valid_votes": 233,
+      "candidate_raw_votes": 233,
+      "office_valid_votes": 239792,
+      "vote_share_percent": 0.09716754520584507
+    },
+    {
+      "code_tse": "58050",
+      "code_ibge": "3300308",
+      "municipality": "Barra do Piraí",
+      "candidate_valid_votes": 94,
+      "candidate_raw_votes": 94,
+      "office_valid_votes": 46702,
+      "vote_share_percent": 0.2012761766091388
+    },
+    {
+      "code_tse": "58068",
+      "code_ibge": "3301157",
+      "municipality": "Cardoso Moreira",
+      "candidate_valid_votes": 3,
+      "candidate_raw_votes": 3,
+      "office_valid_votes": 9549,
+      "vote_share_percent": 0.031416902293433864
+    },
+    {
+      "code_tse": "58076",
+      "code_ibge": "3300407",
+      "municipality": "Barra Mansa",
+      "candidate_valid_votes": 92,
+      "candidate_raw_votes": 92,
+      "office_valid_votes": 91586,
+      "vote_share_percent": 0.10045203415369161
+    },
+    {
+      "code_tse": "58084",
+      "code_ibge": "3306156",
+      "municipality": "Varre-Sai",
+      "candidate_valid_votes": 9,
+      "candidate_raw_votes": 9,
+      "office_valid_votes": 6096,
+      "vote_share_percent": 0.14763779527559054
+    },
+    {
+      "code_tse": "58092",
+      "code_ibge": "3300506",
+      "municipality": "Bom Jardim",
+      "candidate_valid_votes": 35,
+      "candidate_raw_votes": 35,
+      "office_valid_votes": 15186,
+      "vote_share_percent": 0.23047543790333203
+    },
+    {
+      "code_tse": "58106",
+      "code_ibge": "3301850",
+      "municipality": "Guapimirim",
+      "candidate_valid_votes": 40,
+      "candidate_raw_votes": 40,
+      "office_valid_votes": 32185,
+      "vote_share_percent": 0.12428149759204599
+    },
+    {
+      "code_tse": "58114",
+      "code_ibge": "3300605",
+      "municipality": "Bom Jesus do Itabapoana",
+      "candidate_valid_votes": 32,
+      "candidate_raw_votes": 32,
+      "office_valid_votes": 20200,
+      "vote_share_percent": 0.15841584158415842
+    },
+    {
+      "code_tse": "58122",
+      "code_ibge": "3304144",
+      "municipality": "Queimados",
+      "candidate_valid_votes": 65,
+      "candidate_raw_votes": 65,
+      "office_valid_votes": 76786,
+      "vote_share_percent": 0.08465084781079885
+    },
+    {
+      "code_tse": "58130",
+      "code_ibge": "3300704",
+      "municipality": "Cabo Frio",
+      "candidate_valid_votes": 230,
+      "candidate_raw_votes": 230,
+      "office_valid_votes": 126216,
+      "vote_share_percent": 0.18222729289472017
+    },
+    {
+      "code_tse": "58149",
+      "code_ibge": "3302270",
+      "municipality": "Japeri",
+      "candidate_valid_votes": 52,
+      "candidate_raw_votes": 52,
+      "office_valid_votes": 51176,
+      "vote_share_percent": 0.10161012974831952
+    },
+    {
+      "code_tse": "58157",
+      "code_ibge": "3300803",
+      "municipality": "Cachoeiras de Macacu",
+      "candidate_valid_votes": 60,
+      "candidate_raw_votes": 60,
+      "office_valid_votes": 32197,
+      "vote_share_percent": 0.1863527657856322
+    },
+    {
+      "code_tse": "58165",
+      "code_ibge": "3300951",
+      "municipality": "Comendador Levy Gasparian",
+      "candidate_valid_votes": 74,
+      "candidate_raw_votes": 74,
+      "office_valid_votes": 5192,
+      "vote_share_percent": 1.4252696456086287
+    },
+    {
+      "code_tse": "58173",
+      "code_ibge": "3300902",
+      "municipality": "Cambuci",
+      "candidate_valid_votes": 45,
+      "candidate_raw_votes": 45,
+      "office_valid_votes": 9198,
+      "vote_share_percent": 0.4892367906066536
+    },
+    {
+      "code_tse": "58181",
+      "code_ibge": "3300159",
+      "municipality": "Aperibé",
+      "candidate_valid_votes": 6,
+      "candidate_raw_votes": 6,
+      "office_valid_votes": 7097,
+      "vote_share_percent": 0.08454276454840073
+    },
+    {
+      "code_tse": "58190",
+      "code_ibge": "3301009",
+      "municipality": "Campos dos Goytacazes",
+      "candidate_valid_votes": 315,
+      "candidate_raw_votes": 315,
+      "office_valid_votes": 259141,
+      "vote_share_percent": 0.12155544664873563
+    },
+    {
+      "code_tse": "58203",
+      "code_ibge": "3304524",
+      "municipality": "Rio das Ostras",
+      "candidate_valid_votes": 109,
+      "candidate_raw_votes": 109,
+      "office_valid_votes": 73210,
+      "vote_share_percent": 0.14888676410326457
+    },
+    {
+      "code_tse": "58211",
+      "code_ibge": "3301108",
+      "municipality": "Cantagalo",
+      "candidate_valid_votes": 30,
+      "candidate_raw_votes": 30,
+      "office_valid_votes": 10452,
+      "vote_share_percent": 0.2870264064293915
+    },
+    {
+      "code_tse": "58220",
+      "code_ibge": "3300225",
+      "municipality": "Areal",
+      "candidate_valid_votes": 8,
+      "candidate_raw_votes": 8,
+      "office_valid_votes": 7332,
+      "vote_share_percent": 0.10911074740861974
+    },
+    {
+      "code_tse": "58238",
+      "code_ibge": "3301207",
+      "municipality": "Carmo",
+      "candidate_valid_votes": 8,
+      "candidate_raw_votes": 8,
+      "office_valid_votes": 9528,
+      "vote_share_percent": 0.08396305625524769
+    },
+    {
+      "code_tse": "58246",
+      "code_ibge": "3303955",
+      "municipality": "Pinheiral",
+      "candidate_valid_votes": 7,
+      "candidate_raw_votes": 7,
+      "office_valid_votes": 13662,
+      "vote_share_percent": 0.051237007758746886
+    },
+    {
+      "code_tse": "58254",
+      "code_ibge": "3301306",
+      "municipality": "Casimiro de Abreu",
+      "candidate_valid_votes": 26,
+      "candidate_raw_votes": 26,
+      "office_valid_votes": 25104,
+      "vote_share_percent": 0.1035691523263225
+    },
+    {
+      "code_tse": "58262",
+      "code_ibge": "3301876",
+      "municipality": "Iguaba Grande",
+      "candidate_valid_votes": 11,
+      "candidate_raw_votes": 11,
+      "office_valid_votes": 22763,
+      "vote_share_percent": 0.04832403461758116
+    },
+    {
+      "code_tse": "58270",
+      "code_ibge": "3301405",
+      "municipality": "Conceição de Macabu",
+      "candidate_valid_votes": 13,
+      "candidate_raw_votes": 13,
+      "office_valid_votes": 12567,
+      "vote_share_percent": 0.10344553194875468
+    },
+    {
+      "code_tse": "58289",
+      "code_ibge": "3304755",
+      "municipality": "São Francisco de Itabapoana",
+      "candidate_valid_votes": 7,
+      "candidate_raw_votes": 7,
+      "office_valid_votes": 27618,
+      "vote_share_percent": 0.02534578897820262
+    },
+    {
+      "code_tse": "58297",
+      "code_ibge": "3301504",
+      "municipality": "Cordeiro",
+      "candidate_valid_votes": 235,
+      "candidate_raw_votes": 235,
+      "office_valid_votes": 12307,
+      "vote_share_percent": 1.9094824083854718
+    },
+    {
+      "code_tse": "58300",
+      "code_ibge": "3300936",
+      "municipality": "Carapebus",
+      "candidate_valid_votes": 10,
+      "candidate_raw_votes": 10,
+      "office_valid_votes": 9451,
+      "vote_share_percent": 0.10580890911014708
+    },
+    {
+      "code_tse": "58319",
+      "code_ibge": "3301603",
+      "municipality": "Duas Barras",
+      "candidate_valid_votes": 15,
+      "candidate_raw_votes": 15,
+      "office_valid_votes": 7137,
+      "vote_share_percent": 0.2101723413198823
+    },
+    {
+      "code_tse": "58327",
+      "code_ibge": "3304110",
+      "municipality": "Porto Real",
+      "candidate_valid_votes": 19,
+      "candidate_raw_votes": 19,
+      "office_valid_votes": 13198,
+      "vote_share_percent": 0.14396120624337022
+    },
+    {
+      "code_tse": "58335",
+      "code_ibge": "3301702",
+      "municipality": "Duque de Caxias",
+      "candidate_valid_votes": 519,
+      "candidate_raw_votes": 519,
+      "office_valid_votes": 457269,
+      "vote_share_percent": 0.11349993111275858
+    },
+    {
+      "code_tse": "58343",
+      "code_ibge": "3305133",
+      "municipality": "São José de Ubá",
+      "candidate_valid_votes": 3,
+      "candidate_raw_votes": 3,
+      "office_valid_votes": 5100,
+      "vote_share_percent": 0.058823529411764705
+    },
+    {
+      "code_tse": "58351",
+      "code_ibge": "3301801",
+      "municipality": "Engenheiro Paulo de Frontin",
+      "candidate_valid_votes": 10,
+      "candidate_raw_votes": 10,
+      "office_valid_votes": 8530,
+      "vote_share_percent": 0.11723329425556858
+    },
+    {
+      "code_tse": "58360",
+      "code_ibge": "3305752",
+      "municipality": "Tanguá",
+      "candidate_valid_votes": 34,
+      "candidate_raw_votes": 34,
+      "office_valid_votes": 19404,
+      "vote_share_percent": 0.17522160379303237
+    },
+    {
+      "code_tse": "58378",
+      "code_ibge": "3301900",
+      "municipality": "Itaboraí",
+      "candidate_valid_votes": 233,
+      "candidate_raw_votes": 233,
+      "office_valid_votes": 120827,
+      "vote_share_percent": 0.19283769356186944
+    },
+    {
+      "code_tse": "58386",
+      "code_ibge": "3302452",
+      "municipality": "Macuco",
+      "candidate_valid_votes": 6,
+      "candidate_raw_votes": 6,
+      "office_valid_votes": 5736,
+      "vote_share_percent": 0.10460251046025104
+    },
+    {
+      "code_tse": "58394",
+      "code_ibge": "3302007",
+      "municipality": "Itaguaí",
+      "candidate_valid_votes": 82,
+      "candidate_raw_votes": 82,
+      "office_valid_votes": 67742,
+      "vote_share_percent": 0.12104750376428212
+    },
+    {
+      "code_tse": "58408",
+      "code_ibge": "3300233",
+      "municipality": "Armação dos Búzios",
+      "candidate_valid_votes": 25,
+      "candidate_raw_votes": 25,
+      "office_valid_votes": 25921,
+      "vote_share_percent": 0.09644689633887582
+    },
+    {
+      "code_tse": "58416",
+      "code_ibge": "3302106",
+      "municipality": "Itaocara",
+      "candidate_valid_votes": 13,
+      "candidate_raw_votes": 13,
+      "office_valid_votes": 13666,
+      "vote_share_percent": 0.09512659154105078
+    },
+    {
+      "code_tse": "58424",
+      "code_ibge": "3305554",
+      "municipality": "Seropédica",
+      "candidate_valid_votes": 53,
+      "candidate_raw_votes": 53,
+      "office_valid_votes": 40795,
+      "vote_share_percent": 0.1299178820933938
+    },
+    {
+      "code_tse": "58432",
+      "code_ibge": "3302205",
+      "municipality": "Itaperuna",
+      "candidate_valid_votes": 57,
+      "candidate_raw_votes": 57,
+      "office_valid_votes": 53416,
+      "vote_share_percent": 0.10670960011981429
+    },
+    {
+      "code_tse": "58440",
+      "code_ibge": "3302254",
+      "municipality": "Itatiaia",
+      "candidate_valid_votes": 34,
+      "candidate_raw_votes": 34,
+      "office_valid_votes": 18967,
+      "vote_share_percent": 0.17925871250065903
+    },
+    {
+      "code_tse": "58459",
+      "code_ibge": "3302304",
+      "municipality": "Laje do Muriaé",
+      "candidate_valid_votes": 6,
+      "candidate_raw_votes": 6,
+      "office_valid_votes": 5042,
+      "vote_share_percent": 0.1190003966679889
+    },
+    {
+      "code_tse": "58467",
+      "code_ibge": "3302858",
+      "municipality": "Mesquita",
+      "candidate_valid_votes": 129,
+      "candidate_raw_votes": 129,
+      "office_valid_votes": 94101,
+      "vote_share_percent": 0.13708674721841427
+    },
+    {
+      "code_tse": "58475",
+      "code_ibge": "3302403",
+      "municipality": "Macaé",
+      "candidate_valid_votes": 107,
+      "candidate_raw_votes": 107,
+      "office_valid_votes": 129982,
+      "vote_share_percent": 0.08231909033558493
+    },
+    {
+      "code_tse": "58491",
+      "code_ibge": "3302502",
+      "municipality": "Magé",
+      "candidate_valid_votes": 335,
+      "candidate_raw_votes": 335,
+      "office_valid_votes": 126729,
+      "vote_share_percent": 0.26434359933401197
+    },
+    {
+      "code_tse": "58513",
+      "code_ibge": "3302601",
+      "municipality": "Mangaratiba",
+      "candidate_valid_votes": 37,
+      "candidate_raw_votes": 37,
+      "office_valid_votes": 29433,
+      "vote_share_percent": 0.12570923793021438
+    },
+    {
+      "code_tse": "58530",
+      "code_ibge": "3302700",
+      "municipality": "Maricá",
+      "candidate_valid_votes": 1633,
+      "candidate_raw_votes": 1633,
+      "office_valid_votes": 117390,
+      "vote_share_percent": 1.3910895306244144
+    },
+    {
+      "code_tse": "58556",
+      "code_ibge": "3302809",
+      "municipality": "Mendes",
+      "candidate_valid_votes": 14,
+      "candidate_raw_votes": 14,
+      "office_valid_votes": 10543,
+      "vote_share_percent": 0.13278952859717347
+    },
+    {
+      "code_tse": "58572",
+      "code_ibge": "3302908",
+      "municipality": "Miguel Pereira",
+      "candidate_valid_votes": 35,
+      "candidate_raw_votes": 35,
+      "office_valid_votes": 17323,
+      "vote_share_percent": 0.2020435259481614
+    },
+    {
+      "code_tse": "58599",
+      "code_ibge": "3303005",
+      "municipality": "Miracema",
+      "candidate_valid_votes": 11,
+      "candidate_raw_votes": 11,
+      "office_valid_votes": 14662,
+      "vote_share_percent": 0.07502387123175557
+    },
+    {
+      "code_tse": "58610",
+      "code_ibge": "3303104",
+      "municipality": "Natividade",
+      "candidate_valid_votes": 42,
+      "candidate_raw_votes": 42,
+      "office_valid_votes": 8576,
+      "vote_share_percent": 0.48973880597014924
+    },
+    {
+      "code_tse": "58637",
+      "code_ibge": "3303203",
+      "municipality": "Nilópolis",
+      "candidate_valid_votes": 209,
+      "candidate_raw_votes": 209,
+      "office_valid_votes": 84825,
+      "vote_share_percent": 0.24638962569997053
+    },
+    {
+      "code_tse": "58653",
+      "code_ibge": "3303302",
+      "municipality": "Niterói",
+      "candidate_valid_votes": 601,
+      "candidate_raw_votes": 601,
+      "office_valid_votes": 298662,
+      "vote_share_percent": 0.20123082280303486
+    },
+    {
+      "code_tse": "58670",
+      "code_ibge": "3303401",
+      "municipality": "Nova Friburgo",
+      "candidate_valid_votes": 219,
+      "candidate_raw_votes": 219,
+      "office_valid_votes": 101577,
+      "vote_share_percent": 0.21559998818630202
+    },
+    {
+      "code_tse": "58696",
+      "code_ibge": "3303500",
+      "municipality": "Nova Iguaçu",
+      "candidate_valid_votes": 883,
+      "candidate_raw_votes": 883,
+      "office_valid_votes": 389229,
+      "vote_share_percent": 0.22685873868596637
+    },
+    {
+      "code_tse": "58718",
+      "code_ibge": "3303609",
+      "municipality": "Paracambi",
+      "candidate_valid_votes": 14,
+      "candidate_raw_votes": 14,
+      "office_valid_votes": 23913,
+      "vote_share_percent": 0.05854556099192908
+    },
+    {
+      "code_tse": "58734",
+      "code_ibge": "3303708",
+      "municipality": "Paraíba do Sul",
+      "candidate_valid_votes": 144,
+      "candidate_raw_votes": 144,
+      "office_valid_votes": 23756,
+      "vote_share_percent": 0.6061626536453949
+    },
+    {
+      "code_tse": "58750",
+      "code_ibge": "3303807",
+      "municipality": "Paraty",
+      "candidate_valid_votes": 20,
+      "candidate_raw_votes": 20,
+      "office_valid_votes": 22406,
+      "vote_share_percent": 0.08926180487369455
+    },
+    {
+      "code_tse": "58777",
+      "code_ibge": "3303906",
+      "municipality": "Petrópolis",
+      "candidate_valid_votes": 99,
+      "candidate_raw_votes": 99,
+      "office_valid_votes": 152426,
+      "vote_share_percent": 0.06494954928949129
+    },
+    {
+      "code_tse": "58793",
+      "code_ibge": "3304003",
+      "municipality": "Piraí",
+      "candidate_valid_votes": 11,
+      "candidate_raw_votes": 11,
+      "office_valid_votes": 16906,
+      "vote_share_percent": 0.06506565716313735
+    },
+    {
+      "code_tse": "58815",
+      "code_ibge": "3304102",
+      "municipality": "Porciúncula",
+      "candidate_valid_votes": 36,
+      "candidate_raw_votes": 36,
+      "office_valid_votes": 9216,
+      "vote_share_percent": 0.390625
+    },
+    {
+      "code_tse": "58831",
+      "code_ibge": "3304201",
+      "municipality": "Resende",
+      "candidate_valid_votes": 81,
+      "candidate_raw_votes": 81,
+      "office_valid_votes": 67830,
+      "vote_share_percent": 0.11941618752764263
+    },
+    {
+      "code_tse": "58858",
+      "code_ibge": "3304300",
+      "municipality": "Rio Bonito",
+      "candidate_valid_votes": 97,
+      "candidate_raw_votes": 97,
+      "office_valid_votes": 31891,
+      "vote_share_percent": 0.30416104857169735
+    },
+    {
+      "code_tse": "58874",
+      "code_ibge": "3304409",
+      "municipality": "Rio Claro",
+      "candidate_valid_votes": 18,
+      "candidate_raw_votes": 18,
+      "office_valid_votes": 10634,
+      "vote_share_percent": 0.16926838442730863
+    },
+    {
+      "code_tse": "58890",
+      "code_ibge": "3304508",
+      "municipality": "Rio das Flores",
+      "candidate_valid_votes": 5,
+      "candidate_raw_votes": 5,
+      "office_valid_votes": 6282,
+      "vote_share_percent": 0.0795924864692773
+    },
+    {
+      "code_tse": "58912",
+      "code_ibge": "3304607",
+      "municipality": "Santa Maria Madalena",
+      "candidate_valid_votes": 7,
+      "candidate_raw_votes": 7,
+      "office_valid_votes": 6384,
+      "vote_share_percent": 0.10964912280701754
+    },
+    {
+      "code_tse": "58939",
+      "code_ibge": "3304706",
+      "municipality": "Santo Antônio de Pádua",
+      "candidate_valid_votes": 39,
+      "candidate_raw_votes": 39,
+      "office_valid_votes": 23548,
+      "vote_share_percent": 0.1656191608629183
+    },
+    {
+      "code_tse": "58955",
+      "code_ibge": "3304805",
+      "municipality": "São Fidélis",
+      "candidate_valid_votes": 10,
+      "candidate_raw_votes": 10,
+      "office_valid_votes": 21274,
+      "vote_share_percent": 0.04700573469963336
+    },
+    {
+      "code_tse": "58971",
+      "code_ibge": "3304904",
+      "municipality": "São Gonçalo",
+      "candidate_valid_votes": 758,
+      "candidate_raw_votes": 758,
+      "office_valid_votes": 422195,
+      "vote_share_percent": 0.17953789125877853
+    },
+    {
+      "code_tse": "58998",
+      "code_ibge": "3305000",
+      "municipality": "São João da Barra",
+      "candidate_valid_votes": 23,
+      "candidate_raw_votes": 23,
+      "office_valid_votes": 32402,
+      "vote_share_percent": 0.07098327263749152
+    },
+    {
+      "code_tse": "59013",
+      "code_ibge": "3305109",
+      "municipality": "São João de Meriti",
+      "candidate_valid_votes": 472,
+      "candidate_raw_votes": 472,
+      "office_valid_votes": 235747,
+      "vote_share_percent": 0.20021463687766972
+    },
+    {
+      "code_tse": "59030",
+      "code_ibge": "3305208",
+      "municipality": "São Pedro da Aldeia",
+      "candidate_valid_votes": 43,
+      "candidate_raw_votes": 43,
+      "office_valid_votes": 53119,
+      "vote_share_percent": 0.08095031909486247
+    },
+    {
+      "code_tse": "59056",
+      "code_ibge": "3305307",
+      "municipality": "São Sebastião do Alto",
+      "candidate_valid_votes": 11,
+      "candidate_raw_votes": 11,
+      "office_valid_votes": 5678,
+      "vote_share_percent": 0.19373018668545264
+    },
+    {
+      "code_tse": "59072",
+      "code_ibge": "3305406",
+      "municipality": "Sapucaia",
+      "candidate_valid_votes": 16,
+      "candidate_raw_votes": 16,
+      "office_valid_votes": 10853,
+      "vote_share_percent": 0.14742467520501243
+    },
+    {
+      "code_tse": "59099",
+      "code_ibge": "3305505",
+      "municipality": "Saquarema",
+      "candidate_valid_votes": 48,
+      "candidate_raw_votes": 48,
+      "office_valid_votes": 58934,
+      "vote_share_percent": 0.08144704245427088
+    },
+    {
+      "code_tse": "59110",
+      "code_ibge": "3305604",
+      "municipality": "Silva Jardim",
+      "candidate_valid_votes": 16,
+      "candidate_raw_votes": 16,
+      "office_valid_votes": 13271,
+      "vote_share_percent": 0.12056363499359506
+    },
+    {
+      "code_tse": "59137",
+      "code_ibge": "3305703",
+      "municipality": "Sumidouro",
+      "candidate_valid_votes": 9,
+      "candidate_raw_votes": 9,
+      "office_valid_votes": 10976,
+      "vote_share_percent": 0.08199708454810496
+    },
+    {
+      "code_tse": "59153",
+      "code_ibge": "3305802",
+      "municipality": "Teresópolis",
+      "candidate_valid_votes": 106,
+      "candidate_raw_votes": 106,
+      "office_valid_votes": 89013,
+      "vote_share_percent": 0.11908372934290497
+    },
+    {
+      "code_tse": "59170",
+      "code_ibge": "3305901",
+      "municipality": "Trajano de Moraes",
+      "candidate_valid_votes": 7,
+      "candidate_raw_votes": 7,
+      "office_valid_votes": 6927,
+      "vote_share_percent": 0.10105384726432799
+    },
+    {
+      "code_tse": "59196",
+      "code_ibge": "3306008",
+      "municipality": "Três Rios",
+      "candidate_valid_votes": 159,
+      "candidate_raw_votes": 159,
+      "office_valid_votes": 41041,
+      "vote_share_percent": 0.3874174605881923
+    },
+    {
+      "code_tse": "59218",
+      "code_ibge": "3306107",
+      "municipality": "Valença",
+      "candidate_valid_votes": 36,
+      "candidate_raw_votes": 36,
+      "office_valid_votes": 37163,
+      "vote_share_percent": 0.09687054328229691
+    },
+    {
+      "code_tse": "59234",
+      "code_ibge": "3306206",
+      "municipality": "Vassouras",
+      "candidate_valid_votes": 29,
+      "candidate_raw_votes": 29,
+      "office_valid_votes": 21123,
+      "vote_share_percent": 0.13729110448326468
+    },
+    {
+      "code_tse": "59250",
+      "code_ibge": "3306305",
+      "municipality": "Volta Redonda",
+      "candidate_valid_votes": 133,
+      "candidate_raw_votes": 133,
+      "office_valid_votes": 155481,
+      "vote_share_percent": 0.08554099857860446
+    },
+    {
+      "code_tse": "59277",
+      "code_ibge": "3300258",
+      "municipality": "Arraial do Cabo",
+      "candidate_valid_votes": 16,
+      "candidate_raw_votes": 16,
+      "office_valid_votes": 25401,
+      "vote_share_percent": 0.0629896460769261
+    },
+    {
+      "code_tse": "59293",
+      "code_ibge": "3302056",
+      "municipality": "Italva",
+      "candidate_valid_votes": 14,
+      "candidate_raw_votes": 14,
+      "office_valid_votes": 8554,
+      "vote_share_percent": 0.16366612111292964
+    },
+    {
+      "code_tse": "59315",
+      "code_ibge": "3303856",
+      "municipality": "Paty do Alferes",
+      "candidate_valid_votes": 32,
+      "candidate_raw_votes": 32,
+      "office_valid_votes": 16696,
+      "vote_share_percent": 0.19166267369429804
+    },
+    {
+      "code_tse": "59331",
+      "code_ibge": "3305158",
+      "municipality": "São José do Vale do Rio Preto",
+      "candidate_valid_votes": 12,
+      "candidate_raw_votes": 12,
+      "office_valid_votes": 11678,
+      "vote_share_percent": 0.10275732145915396
+    },
+    {
+      "code_tse": "60011",
+      "code_ibge": "3304557",
+      "municipality": "Rio de Janeiro",
+      "candidate_valid_votes": 13195,
+      "candidate_raw_votes": 13195,
+      "office_valid_votes": 3084912,
+      "vote_share_percent": 0.4277269497476751
+    }
+  ],
+  "limitations": [
+    "TSE/IBGE crosswalk inferred by unique normalized municipality names.",
+    "IBGE boundary vintage 2025.",
+    "No independent section-level validation."
+  ]
+}

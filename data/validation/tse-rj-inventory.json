@@ -1,0 +1,248 @@
+{
+  "detalhe_votacao_munzona_2026": {
+    "2026|1|6259|6|Deputado Federal": {
+      "rows": 183,
+      "municipalities": 92,
+      "zones": 165,
+      "generated": [
+        "18/10/2026"
+      ],
+      "transit": [
+        "N"
+      ],
+      "totals": {
+        "QT_VOTOS_NOMINAIS_VALIDOS": 8467054,
+        "QT_TOTAL_VOTOS_VALIDOS": 8743753,
+        "QT_TOTAL_VOTOS_LEG_VALIDOS": 276699,
+        "QT_COMPARECIMENTO": 9845867,
+        "QT_APTOS": 12842517
+      }
+    },
+    "2026|1|6259|5|Senador": {
+      "rows": 183,
+      "municipalities": 92,
+      "zones": 165,
+      "generated": [
+        "18/10/2026"
+      ],
+      "transit": [
+        "N"
+      ],
+      "totals": {
+        "QT_VOTOS_NOMINAIS_VALIDOS": 15923657,
+        "QT_TOTAL_VOTOS_VALIDOS": 15923657,
+        "QT_TOTAL_VOTOS_LEG_VALIDOS": 0,
+        "QT_COMPARECIMENTO": 9845867,
+        "QT_APTOS": 12842517
+      }
+    },
+    "2026|1|6259|3|Governador": {
+      "rows": 183,
+      "municipalities": 92,
+      "zones": 165,
+      "generated": [
+        "18/10/2026"
+      ],
+      "transit": [
+        "N"
+      ],
+      "totals": {
+        "QT_VOTOS_NOMINAIS_VALIDOS": 8394627,
+        "QT_TOTAL_VOTOS_VALIDOS": 8394627,
+        "QT_TOTAL_VOTOS_LEG_VALIDOS": 0,
+        "QT_COMPARECIMENTO": 9845867,
+        "QT_APTOS": 12842517
+      }
+    },
+    "2026|1|6259|7|Deputado Estadual": {
+      "rows": 183,
+      "municipalities": 92,
+      "zones": 165,
+      "generated": [
+        "18/10/2026"
+      ],
+      "transit": [
+        "N"
+      ],
+      "totals": {
+        "QT_VOTOS_NOMINAIS_VALIDOS": 7943403,
+        "QT_TOTAL_VOTOS_VALIDOS": 8479421,
+        "QT_TOTAL_VOTOS_LEG_VALIDOS": 536018,
+        "QT_COMPARECIMENTO": 9845867,
+        "QT_APTOS": 12842517
+      }
+    },
+    "2026|1|6257|1|Presidente": {
+      "rows": 183,
+      "municipalities": 92,
+      "zones": 165,
+      "generated": [
+        "18/10/2026"
+      ],
+      "transit": [
+        "N"
+      ],
+      "totals": {
+        "QT_VOTOS_NOMINAIS_VALIDOS": 9369700,
+        "QT_TOTAL_VOTOS_VALIDOS": 9369700,
+        "QT_TOTAL_VOTOS_LEG_VALIDOS": 0,
+        "QT_COMPARECIMENTO": 9859802,
+        "QT_APTOS": 12857648
+      }
+    }
+  },
+  "votacao_candidato_munzona_2026": {
+    "2026|1|6259|6|Deputado Federal": {
+      "rows": 139995,
+      "municipalities": 92,
+      "zones": 165,
+      "generated": [
+        "19/10/2026"
+      ],
+      "transit": [
+        "N"
+      ],
+      "totals": {
+        "QT_VOTOS_NOMINAIS_VALIDOS": 8467054,
+        "QT_VOTOS_NOMINAIS": 8581247
+      }
+    },
+    "2026|1|6259|7|Deputado Estadual": {
+      "rows": 207705,
+      "municipalities": 92,
+      "zones": 165,
+      "generated": [
+        "19/10/2026"
+      ],
+      "transit": [
+        "N"
+      ],
+      "totals": {
+        "QT_VOTOS_NOMINAIS_VALIDOS": 7943403,
+        "QT_VOTOS_NOMINAIS": 8281851
+      }
+    },
+    "2026|1|6259|5|Senador": {
+      "rows": 2745,
+      "municipalities": 92,
+      "zones": 165,
+      "generated": [
+        "19/10/2026"
+      ],
+      "transit": [
+        "N"
+      ],
+      "totals": {
+        "QT_VOTOS_NOMINAIS_VALIDOS": 15923657,
+        "QT_VOTOS_NOMINAIS": 15929482
+      }
+    },
+    "2026|1|6259|3|Governador": {
+      "rows": 1464,
+      "municipalities": 92,
+      "zones": 165,
+      "generated": [
+        "19/10/2026"
+      ],
+      "transit": [
+        "N"
+      ],
+      "totals": {
+        "QT_VOTOS_NOMINAIS_VALIDOS": 8394627,
+        "QT_VOTOS_NOMINAIS": 8394627
+      }
+    },
+    "2026|1|6257|1|Presidente": {
+      "rows": 2196,
+      "municipalities": 92,
+      "zones": 165,
+      "generated": [
+        "19/10/2026"
+      ],
+      "transit": [
+        "N"
+      ],
+      "totals": {
+        "QT_VOTOS_NOMINAIS_VALIDOS": 9369700,
+        "QT_VOTOS_NOMINAIS": 9369700
+      }
+    }
+  },
+  "votacao_partido_munzona_2026": {
+    "2026|1|6259|6|Deputado Federal": {
+      "rows": 4941,
+      "municipalities": 92,
+      "zones": 165,
+      "generated": [
+        "19/10/2026"
+      ],
+      "transit": [
+        "N"
+      ],
+      "totals": {
+        "QT_VOTOS_NOMINAIS_VALIDOS": 8467054,
+        "QT_TOTAL_VOTOS_LEG_VALIDOS": 276699
+      }
+    },
+    "2026|1|6259|7|Deputado Estadual": {
+      "rows": 5124,
+      "municipalities": 92,
+      "zones": 165,
+      "generated": [
+        "19/10/2026"
+      ],
+      "transit": [
+        "N"
+      ],
+      "totals": {
+        "QT_VOTOS_NOMINAIS_VALIDOS": 7943403,
+        "QT_TOTAL_VOTOS_LEG_VALIDOS": 536018
+      }
+    },
+    "2026|1|6259|3|Governador": {
+      "rows": 1464,
+      "municipalities": 92,
+      "zones": 165,
+      "generated": [
+        "19/10/2026"
+      ],
+      "transit": [
+        "N"
+      ],
+      "totals": {
+        "QT_VOTOS_NOMINAIS_VALIDOS": 8394627,
+        "QT_TOTAL_VOTOS_LEG_VALIDOS": 0
+      }
+    },
+    "2026|1|6259|5|Senador": {
+      "rows": 2196,
+      "municipalities": 92,
+      "zones": 165,
+      "generated": [
+        "19/10/2026"
+      ],
+      "transit": [
+        "N"
+      ],
+      "totals": {
+        "QT_VOTOS_NOMINAIS_VALIDOS": 15923657,
+        "QT_TOTAL_VOTOS_LEG_VALIDOS": 0
+      }
+    },
+    "2026|1|6257|1|Presidente": {
+      "rows": 2196,
+      "municipalities": 92,
+      "zones": 165,
+      "generated": [
+        "19/10/2026"
+      ],
+      "transit": [
+        "N"
+      ],
+      "totals": {
+        "QT_VOTOS_NOMINAIS_VALIDOS": 9369700,
+        "QT_TOTAL_VOTOS_LEG_VALIDOS": 0
+      }
+    }
+  }
+}

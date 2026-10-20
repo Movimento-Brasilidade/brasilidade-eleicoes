@@ -1,0 +1,1691 @@
+{
+  "source": {
+    "url": "https://pgeo3.rio.rj.gov.br/arcgis/rest/services/Cartografia/Limites_administrativos/FeatureServer/4",
+    "retrieved_at": "2026-10-19T23:11:02.485351+00:00",
+    "count": 167,
+    "sha256": "0f6266bb75beee7364fe70fa2fe0f7c4014e02c86555fb9dc9bb430891025cb4"
+  },
+  "area_crs": "EPSG:31983",
+  "integral_threshold_percent": 99.9,
+  "residual_threshold_percent": 0.1,
+  "zone_count": 49,
+  "neighborhood_count": 167,
+  "relation_count": 470,
+  "integral_relations": 14,
+  "residual_relations": 41,
+  "uncovered_neighborhoods": [],
+  "coverage": [
+    {
+      "code": "133",
+      "name": "Grumari",
+      "area_m2": 9598851.461603899,
+      "covered_percent": 97.10500462798271,
+      "uncovered_area_m2": 277886.3055802472,
+      "overlap_area_m2": 1.4901161193847656e-08,
+      "zone_count": 2,
+      "area_percent_sum": 97.10500462798285
+    },
+    {
+      "code": "137",
+      "name": "Jardim Sulacap",
+      "area_m2": 7869225.308677276,
+      "covered_percent": 99.9999999999998,
+      "uncovered_area_m2": 1.5832483768463135e-08,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 99.99999999999977
+    },
+    {
+      "code": "001",
+      "name": "Saúde",
+      "area_m2": 363818.58395303186,
+      "covered_percent": 99.99999999999999,
+      "uncovered_area_m2": 5.820766091346741e-11,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 99.99999999999999
+    },
+    {
+      "code": "084",
+      "name": "Vaz Lobo",
+      "area_m2": 1101223.8991079857,
+      "covered_percent": 99.99999999999737,
+      "uncovered_area_m2": 2.8870999813079834e-08,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.99999999999736
+    },
+    {
+      "code": "091",
+      "name": "Ribeira",
+      "area_m2": 861927.1564558813,
+      "covered_percent": 75.82640801012536,
+      "uncovered_area_m2": 208358.75405157323,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 75.82640801012536
+    },
+    {
+      "code": "138",
+      "name": "Magalhães Bastos",
+      "area_m2": 1975954.6013505226,
+      "covered_percent": 100.00000000000361,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 100.00000000000361
+    },
+    {
+      "code": "139",
+      "name": "Realengo",
+      "area_m2": 26054267.77794082,
+      "covered_percent": 99.74231696740459,
+      "uncovered_area_m2": 67137.42733072862,
+      "overlap_area_m2": 2.0489096641540527e-07,
+      "zone_count": 8,
+      "area_percent_sum": 99.74231696740537
+    },
+    {
+      "code": "150",
+      "name": "Sepetiba",
+      "area_m2": 11621330.813637966,
+      "covered_percent": 98.60160616892267,
+      "uncovered_area_m2": 162511.97318700142,
+      "overlap_area_m2": 3117.8008111044765,
+      "zone_count": 2,
+      "area_percent_sum": 98.62843442862118
+    },
+    {
+      "code": "140",
+      "name": "Padre Miguel",
+      "area_m2": 4865804.920099342,
+      "covered_percent": 99.99999999999936,
+      "uncovered_area_m2": 3.073364496231079e-08,
+      "overlap_area_m2": 9.313225746154785e-10,
+      "zone_count": 4,
+      "area_percent_sum": 99.99999999999939
+    },
+    {
+      "code": "142",
+      "name": "Senador Camará",
+      "area_m2": 16908650.151031274,
+      "covered_percent": 100.00000000000031,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 7,
+      "area_percent_sum": 100.00000000000031
+    },
+    {
+      "code": "151",
+      "name": "Guaratiba",
+      "area_m2": 131786941.56844175,
+      "covered_percent": 97.369631775258,
+      "uncovered_area_m2": 3466481.835375592,
+      "overlap_area_m2": 0,
+      "zone_count": 6,
+      "area_percent_sum": 97.36963177525774
+    },
+    {
+      "code": "152",
+      "name": "Barra de Guaratiba",
+      "area_m2": 9442055.273109073,
+      "covered_percent": 98.80864768126067,
+      "uncovered_area_m2": 112488.14443283528,
+      "overlap_area_m2": 1.6763806343078613e-08,
+      "zone_count": 2,
+      "area_percent_sum": 98.80864768126084
+    },
+    {
+      "code": "093",
+      "name": "Cacuia",
+      "area_m2": 2068691.6703243682,
+      "covered_percent": 92.53892271537276,
+      "uncovered_area_m2": 154346.68430354702,
+      "overlap_area_m2": 1.3969838619232178e-09,
+      "zone_count": 2,
+      "area_percent_sum": 92.53892271537285
+    },
+    {
+      "code": "097",
+      "name": "Bancários",
+      "area_m2": 978049.1822438387,
+      "covered_percent": 98.43313301249323,
+      "uncovered_area_m2": 15324.729758158675,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 98.43313301249323
+    },
+    {
+      "code": "098",
+      "name": "Freguesia (Ilha)",
+      "area_m2": 4056413.757932858,
+      "covered_percent": 89.86696712725703,
+      "uncovered_area_m2": 411037.7395458049,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 89.86696712725703
+    },
+    {
+      "code": "154",
+      "name": "Rocinha",
+      "area_m2": 1437198.5771322667,
+      "covered_percent": 99.99999999968172,
+      "uncovered_area_m2": 4.574190825223923e-06,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 99.99999999968172
+    },
+    {
+      "code": "155",
+      "name": "Jacarezinho",
+      "area_m2": 943876.6239437328,
+      "covered_percent": 99.99999999999989,
+      "uncovered_area_m2": 1.0477378964424133e-09,
+      "overlap_area_m2": 2.3283064365386963e-10,
+      "zone_count": 2,
+      "area_percent_sum": 99.9999999999999
+    },
+    {
+      "code": "022",
+      "name": "Urca",
+      "area_m2": 2319007.98390763,
+      "covered_percent": 99.28446260409706,
+      "uncovered_area_m2": 16593.369338834193,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.28446260409663
+    },
+    {
+      "code": "092",
+      "name": "Zumbi",
+      "area_m2": 161118.23572240234,
+      "covered_percent": 98.40951478739984,
+      "uncovered_area_m2": 2562.561713967065,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 98.40951478739986
+    },
+    {
+      "code": "043",
+      "name": "Penha",
+      "area_m2": 5811338.820741734,
+      "covered_percent": 99.88861625075758,
+      "uncovered_area_m2": 6472.887059722096,
+      "overlap_area_m2": 2.7939677238464355e-09,
+      "zone_count": 3,
+      "area_percent_sum": 99.88861625075762
+    },
+    {
+      "code": "104",
+      "name": "Galeão",
+      "area_m2": 18957473.377737135,
+      "covered_percent": 99.16218404975746,
+      "uncovered_area_m2": 158828.73572166637,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 99.16218404975746
+    },
+    {
+      "code": "105",
+      "name": "Cidade Universitária",
+      "area_m2": 4690719.087134347,
+      "covered_percent": 98.35229122493884,
+      "uncovered_area_m2": 77289.39001218136,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 98.35229122493875
+    },
+    {
+      "code": "115",
+      "name": "Jacarepaguá",
+      "area_m2": 68210569.67987312,
+      "covered_percent": 100.00000000000054,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 9,
+      "area_percent_sum": 100.00000000000048
+    },
+    {
+      "code": "108",
+      "name": "Parque Anchieta",
+      "area_m2": 3905800.48198053,
+      "covered_percent": 99.98965130466526,
+      "uncovered_area_m2": 404.19939226284623,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.98965130466513
+    },
+    {
+      "code": "143",
+      "name": "Santíssimo",
+      "area_m2": 8319636.334401117,
+      "covered_percent": 100.00000000000081,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 2.7939677238464355e-09,
+      "zone_count": 5,
+      "area_percent_sum": 100.00000000000085
+    },
+    {
+      "code": "028",
+      "name": "Jardim Botânico",
+      "area_m2": 2689210.85543482,
+      "covered_percent": 99.99999999999996,
+      "uncovered_area_m2": 1.3969838619232178e-09,
+      "overlap_area_m2": 1.3969838619232178e-09,
+      "zone_count": 2,
+      "area_percent_sum": 100.0
+    },
+    {
+      "code": "029",
+      "name": "Gávea",
+      "area_m2": 2579643.414914267,
+      "covered_percent": 100.00000000000102,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 100.00000000000078
+    },
+    {
+      "code": "030",
+      "name": "Vidigal",
+      "area_m2": 1621382.121794963,
+      "covered_percent": 99.2363690408255,
+      "uncovered_area_m2": 12381.375848546857,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.23636904082551
+    },
+    {
+      "code": "031",
+      "name": "São Conrado",
+      "area_m2": 6488582.983063287,
+      "covered_percent": 99.0628555671107,
+      "uncovered_area_m2": 60807.394199179485,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.0628555671107
+    },
+    {
+      "code": "033",
+      "name": "Tijuca",
+      "area_m2": 10065585.296880178,
+      "covered_percent": 100.00000000000043,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 5,
+      "area_percent_sum": 100.00000000000041
+    },
+    {
+      "code": "034",
+      "name": "Alto da Boa Vista",
+      "area_m2": 31495759.64890235,
+      "covered_percent": 99.9999999999997,
+      "uncovered_area_m2": 9.313225746154785e-08,
+      "overlap_area_m2": 3.7456474527716637,
+      "zone_count": 7,
+      "area_percent_sum": 100.0000118925449
+    },
+    {
+      "code": "145",
+      "name": "Senador Vasconcelos",
+      "area_m2": 6441786.350450615,
+      "covered_percent": 99.99999999999875,
+      "uncovered_area_m2": 8.102506399154663e-08,
+      "overlap_area_m2": 7.450580596923828e-09,
+      "zone_count": 3,
+      "area_percent_sum": 99.99999999999886
+    },
+    {
+      "code": "013",
+      "name": "Paquetá",
+      "area_m2": 1705689.1177938106,
+      "covered_percent": 69.60464521562484,
+      "uncovered_area_m2": 518450.25887190737,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 69.60464521562484
+    },
+    {
+      "code": "014",
+      "name": "Santa Teresa",
+      "area_m2": 5157142.202805934,
+      "covered_percent": 99.99999999999797,
+      "uncovered_area_m2": 1.0523945093154907e-07,
+      "overlap_area_m2": 0,
+      "zone_count": 5,
+      "area_percent_sum": 99.9999999999979
+    },
+    {
+      "code": "015",
+      "name": "Flamengo",
+      "area_m2": 1646257.9637462096,
+      "covered_percent": 99.90594545247046,
+      "uncovered_area_m2": 1548.3804789704736,
+      "overlap_area_m2": 9.313225746154785e-10,
+      "zone_count": 2,
+      "area_percent_sum": 99.90594545247052
+    },
+    {
+      "code": "081",
+      "name": "Engenheiro Leal",
+      "area_m2": 708276.1743263736,
+      "covered_percent": 99.99999999999937,
+      "uncovered_area_m2": 4.423782229423523e-09,
+      "overlap_area_m2": 1.1641532182693481e-10,
+      "zone_count": 2,
+      "area_percent_sum": 99.99999999999939
+    },
+    {
+      "code": "147",
+      "name": "Cosmos",
+      "area_m2": 11261348.974236147,
+      "covered_percent": 100.00000000000004,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 7.450580596923828e-09,
+      "zone_count": 3,
+      "area_percent_sum": 100.0000000000001
+    },
+    {
+      "code": "148",
+      "name": "Paciência",
+      "area_m2": 27418044.17493746,
+      "covered_percent": 99.9840616410426,
+      "uncovered_area_m2": 4369.98629969731,
+      "overlap_area_m2": 3.725290298461914e-09,
+      "zone_count": 3,
+      "area_percent_sum": 99.98406164104263
+    },
+    {
+      "code": "149",
+      "name": "Santa Cruz",
+      "area_m2": 125044629.03539675,
+      "covered_percent": 98.83685179073976,
+      "uncovered_area_m2": 1454454.3634013236,
+      "overlap_area_m2": 34715.659680485725,
+      "zone_count": 4,
+      "area_percent_sum": 98.86461440633411
+    },
+    {
+      "code": "153",
+      "name": "Pedra de Guaratiba",
+      "area_m2": 3636921.88216848,
+      "covered_percent": 94.55518609901168,
+      "uncovered_area_m2": 198023.62820839556,
+      "overlap_area_m2": 3.259629011154175e-09,
+      "zone_count": 2,
+      "area_percent_sum": 94.55518609901178
+    },
+    {
+      "code": "159",
+      "name": "Parque Colúmbia",
+      "area_m2": 1517138.5418058871,
+      "covered_percent": 99.99999999999906,
+      "uncovered_area_m2": 1.4202669262886047e-08,
+      "overlap_area_m2": 1.1641532182693481e-09,
+      "zone_count": 2,
+      "area_percent_sum": 99.99999999999913
+    },
+    {
+      "code": "156",
+      "name": "Complexo do Alemão",
+      "area_m2": 2960863.124690674,
+      "covered_percent": 99.99999999999973,
+      "uncovered_area_m2": 7.916241884231567e-09,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.99999999999969
+    },
+    {
+      "code": "158",
+      "name": "Vasco da Gama",
+      "area_m2": 863076.8342998943,
+      "covered_percent": 100.00000000000168,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 3.4924596548080444e-10,
+      "zone_count": 2,
+      "area_percent_sum": 100.0000000000017
+    },
+    {
+      "code": "119",
+      "name": "Curicica",
+      "area_m2": 3339574.413461863,
+      "covered_percent": 100.00000000000006,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 100.00000000000004
+    },
+    {
+      "code": "117",
+      "name": "Gardênia Azul",
+      "area_m2": 1236294.8056672402,
+      "covered_percent": 99.99999999999989,
+      "uncovered_area_m2": 1.3969838619232178e-09,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.9999999999998
+    },
+    {
+      "code": "122",
+      "name": "Taquara",
+      "area_m2": 13206665.317181231,
+      "covered_percent": 100.00000000000004,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 100.00000000000004
+    },
+    {
+      "code": "003",
+      "name": "Santo Cristo",
+      "area_m2": 1684725.176962261,
+      "covered_percent": 99.99999385146546,
+      "uncovered_area_m2": 0.10358590935356915,
+      "overlap_area_m2": 2.3283064365386963e-10,
+      "zone_count": 2,
+      "area_percent_sum": 99.99999385146549
+    },
+    {
+      "code": "004",
+      "name": "Caju",
+      "area_m2": 5347494.848534746,
+      "covered_percent": 97.69433565023687,
+      "uncovered_area_m2": 123295.28232808597,
+      "overlap_area_m2": 4.6566128730773926e-09,
+      "zone_count": 3,
+      "area_percent_sum": 97.69433565023694
+    },
+    {
+      "code": "141",
+      "name": "Bangu",
+      "area_m2": 35966293.17696504,
+      "covered_percent": 99.9497639572495,
+      "uncovered_area_m2": 18068.042416147888,
+      "overlap_area_m2": 82.67997469753027,
+      "zone_count": 5,
+      "area_percent_sum": 99.9499938390844
+    },
+    {
+      "code": "005",
+      "name": "Centro",
+      "area_m2": 5424753.71215521,
+      "covered_percent": 97.00171428373429,
+      "uncovered_area_m2": 162649.6156941438,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 97.00171428373427
+    },
+    {
+      "code": "144",
+      "name": "Campo Grande",
+      "area_m2": 104445426.69103013,
+      "covered_percent": 99.99421922400145,
+      "uncovered_area_m2": 6037.756157726049,
+      "overlap_area_m2": 0,
+      "zone_count": 9,
+      "area_percent_sum": 99.99421922400124
+    },
+    {
+      "code": "146",
+      "name": "Inhoaíba",
+      "area_m2": 8287905.199437725,
+      "covered_percent": 99.9999999999996,
+      "uncovered_area_m2": 3.259629011154175e-08,
+      "overlap_area_m2": 5.587935447692871e-09,
+      "zone_count": 5,
+      "area_percent_sum": 99.99999999999967
+    },
+    {
+      "code": "160",
+      "name": "Gericinó",
+      "area_m2": 2534311.073895525,
+      "covered_percent": 99.93778766152222,
+      "uncovered_area_m2": 1576.6541833719239,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.9377876615222
+    },
+    {
+      "code": "161",
+      "name": "Lapa",
+      "area_m2": 298326.6203262483,
+      "covered_percent": 99.99999999999429,
+      "uncovered_area_m2": 1.705484464764595e-08,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.99999999999429
+    },
+    {
+      "code": "006",
+      "name": "Catumbi",
+      "area_m2": 539459.8926654938,
+      "covered_percent": 100.00000000001437,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 100.00000000001438
+    },
+    {
+      "code": "157",
+      "name": "Maré",
+      "area_m2": 4268772.775299436,
+      "covered_percent": 99.87129740057638,
+      "uncovered_area_m2": 5494.021525298245,
+      "overlap_area_m2": 1.862645149230957e-09,
+      "zone_count": 4,
+      "area_percent_sum": 99.87129740057644
+    },
+    {
+      "code": "008",
+      "name": "Cidade Nova",
+      "area_m2": 934855.3754420519,
+      "covered_percent": 100.0000000000004,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 100.00000000000034
+    },
+    {
+      "code": "009",
+      "name": "Estácio",
+      "area_m2": 980403.2907530337,
+      "covered_percent": 99.99999999999955,
+      "uncovered_area_m2": 4.423782229423523e-09,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.99999999999949
+    },
+    {
+      "code": "162",
+      "name": "Vila Kennedy",
+      "area_m2": 1473741.300964887,
+      "covered_percent": 99.99999999999979,
+      "uncovered_area_m2": 3.259629011154175e-09,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.99999999999977
+    },
+    {
+      "code": "163",
+      "name": "Jabour",
+      "area_m2": 327327.9810098218,
+      "covered_percent": 99.99999999999997,
+      "uncovered_area_m2": 1.1641532182693481e-10,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 99.99999999999997
+    },
+    {
+      "code": "164",
+      "name": "Ilha de Guaratiba",
+      "area_m2": 7714636.53596837,
+      "covered_percent": 99.99999999999994,
+      "uncovered_area_m2": 4.6566128730773926e-09,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 99.99999999999994
+    },
+    {
+      "code": "002",
+      "name": "Gamboa",
+      "area_m2": 1112905.7204879583,
+      "covered_percent": 100.0,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 100.0
+    },
+    {
+      "code": "007",
+      "name": "Rio Comprido",
+      "area_m2": 3342519.5601587673,
+      "covered_percent": 100.00000000000003,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 1.214936466421932,
+      "zone_count": 3,
+      "area_percent_sum": 100.00003634792395
+    },
+    {
+      "code": "058",
+      "name": "Rocha",
+      "area_m2": 1311629.114489095,
+      "covered_percent": 99.99999999999844,
+      "uncovered_area_m2": 2.0489096641540527e-08,
+      "overlap_area_m2": 0,
+      "zone_count": 4,
+      "area_percent_sum": 99.99999999999835
+    },
+    {
+      "code": "011",
+      "name": "Mangueira",
+      "area_m2": 798131.0505173256,
+      "covered_percent": 99.99999999999754,
+      "uncovered_area_m2": 1.955777406692505e-08,
+      "overlap_area_m2": 0,
+      "zone_count": 5,
+      "area_percent_sum": 99.99999999999753
+    },
+    {
+      "code": "012",
+      "name": "Benfica",
+      "area_m2": 1736417.4373746668,
+      "covered_percent": 99.99999999999808,
+      "uncovered_area_m2": 3.329478204250336e-08,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 99.99999999999797
+    },
+    {
+      "code": "059",
+      "name": "Riachuelo",
+      "area_m2": 928110.9844559213,
+      "covered_percent": 100.00000000000156,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 100.00000000000152
+    },
+    {
+      "code": "060",
+      "name": "Sampaio",
+      "area_m2": 884410.8379816511,
+      "covered_percent": 100.0000000000008,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 100.0000000000008
+    },
+    {
+      "code": "017",
+      "name": "Laranjeiras",
+      "area_m2": 2493514.034291349,
+      "covered_percent": 99.99999999999885,
+      "uncovered_area_m2": 2.8870999813079834e-08,
+      "overlap_area_m2": 1.3969838619232178e-09,
+      "zone_count": 2,
+      "area_percent_sum": 99.9999999999989
+    },
+    {
+      "code": "016",
+      "name": "Glória",
+      "area_m2": 1140068.5417308607,
+      "covered_percent": 99.73441814256066,
+      "uncovered_area_m2": 3027.8152092103846,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 99.73441814256057
+    },
+    {
+      "code": "018",
+      "name": "Catete",
+      "area_m2": 681028.5409531281,
+      "covered_percent": 99.99999999999994,
+      "uncovered_area_m2": 4.656612873077393e-10,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 99.99999999999994
+    },
+    {
+      "code": "068",
+      "name": "Encantado",
+      "area_m2": 1060149.022424317,
+      "covered_percent": 100.00000000000102,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 100.00000000000101
+    },
+    {
+      "code": "019",
+      "name": "Cosme Velho",
+      "area_m2": 892542.4698139331,
+      "covered_percent": 99.99999999999861,
+      "uncovered_area_m2": 1.2456439435482025e-08,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.99999999999858
+    },
+    {
+      "code": "021",
+      "name": "Humaitá",
+      "area_m2": 1054478.0944215115,
+      "covered_percent": 100.00000000000323,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 4,
+      "area_percent_sum": 100.00000000000317
+    },
+    {
+      "code": "023",
+      "name": "Leme",
+      "area_m2": 977201.6425626699,
+      "covered_percent": 87.17289661104923,
+      "uncovered_area_m2": 125346.66501003888,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 87.17289661104923
+    },
+    {
+      "code": "024",
+      "name": "Copacabana",
+      "area_m2": 4100861.0108377063,
+      "covered_percent": 98.88609212011436,
+      "uncovered_area_m2": 45679.81394287944,
+      "overlap_area_m2": 1.3969838619232178e-09,
+      "zone_count": 3,
+      "area_percent_sum": 98.88609212011438
+    },
+    {
+      "code": "025",
+      "name": "Ipanema",
+      "area_m2": 3084915.337593139,
+      "covered_percent": 60.15081297034992,
+      "uncovered_area_m2": 1229313.6825838513,
+      "overlap_area_m2": 1.3969838619232178e-09,
+      "zone_count": 2,
+      "area_percent_sum": 60.15081297034995
+    },
+    {
+      "code": "027",
+      "name": "Lagoa",
+      "area_m2": 5109906.834980321,
+      "covered_percent": 55.929389975522724,
+      "uncovered_area_m2": 2251967.1138582868,
+      "overlap_area_m2": 0,
+      "zone_count": 4,
+      "area_percent_sum": 55.92938997552269
+    },
+    {
+      "code": "020",
+      "name": "Botafogo",
+      "area_m2": 4798968.633357427,
+      "covered_percent": 99.98463783017219,
+      "uncovered_area_m2": 737.2257114397362,
+      "overlap_area_m2": 0,
+      "zone_count": 4,
+      "area_percent_sum": 99.98463783017215
+    },
+    {
+      "code": "049",
+      "name": "Jardim América",
+      "area_m2": 1973973.7630699296,
+      "covered_percent": 99.99524412715306,
+      "uncovered_area_m2": 93.87968220352195,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.99524412715304
+    },
+    {
+      "code": "026",
+      "name": "Leblon",
+      "area_m2": 2153101.6527418047,
+      "covered_percent": 97.96727516329031,
+      "uncovered_area_m2": 43766.632054889575,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 97.96727516329027
+    },
+    {
+      "code": "032",
+      "name": "Praça da Bandeira",
+      "area_m2": 719911.6299810848,
+      "covered_percent": 99.99999999997337,
+      "uncovered_area_m2": 1.9173603504896164e-07,
+      "overlap_area_m2": 2.3283064365386963e-10,
+      "zone_count": 2,
+      "area_percent_sum": 99.9999999999734
+    },
+    {
+      "code": "072",
+      "name": "Vila Kosmos",
+      "area_m2": 1519258.1951391522,
+      "covered_percent": 100.00000000000023,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 1.1641532182693481e-09,
+      "zone_count": 3,
+      "area_percent_sum": 100.0000000000003
+    },
+    {
+      "code": "035",
+      "name": "Maracanã",
+      "area_m2": 1667306.6672409545,
+      "covered_percent": 99.99999999999962,
+      "uncovered_area_m2": 6.51925802230835e-09,
+      "overlap_area_m2": 4.656612873077393e-10,
+      "zone_count": 3,
+      "area_percent_sum": 99.99999999999963
+    },
+    {
+      "code": "036",
+      "name": "Vila Isabel",
+      "area_m2": 3217134.517975977,
+      "covered_percent": 99.99999999999957,
+      "uncovered_area_m2": 1.3504177331924438e-08,
+      "overlap_area_m2": 1.0517601170577109,
+      "zone_count": 3,
+      "area_percent_sum": 100.0000326924503
+    },
+    {
+      "code": "073",
+      "name": "Vicente de Carvalho",
+      "area_m2": 1835715.6392979026,
+      "covered_percent": 100.00000000000082,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 100.0000000000008
+    },
+    {
+      "code": "037",
+      "name": "Andaraí",
+      "area_m2": 2261306.490658739,
+      "covered_percent": 99.99999999999949,
+      "uncovered_area_m2": 1.1641532182693481e-08,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 99.99999999999947
+    },
+    {
+      "code": "038",
+      "name": "Grajaú",
+      "area_m2": 5739119.772688877,
+      "covered_percent": 100.00000000000057,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 100.00000000000053
+    },
+    {
+      "code": "039",
+      "name": "Manguinhos",
+      "area_m2": 2618358.2516135955,
+      "covered_percent": 100.00000000000112,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 4,
+      "area_percent_sum": 100.00000000000112
+    },
+    {
+      "code": "040",
+      "name": "Bonsucesso",
+      "area_m2": 2199722.08233565,
+      "covered_percent": 100.0000000000003,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 100.00000000000023
+    },
+    {
+      "code": "041",
+      "name": "Ramos",
+      "area_m2": 2793540.5291773016,
+      "covered_percent": 100.00000000000095,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 100.00000000000094
+    },
+    {
+      "code": "042",
+      "name": "Olaria",
+      "area_m2": 3689843.104922249,
+      "covered_percent": 99.99999999999955,
+      "uncovered_area_m2": 1.6763806343078613e-08,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 99.99999999999949
+    },
+    {
+      "code": "050",
+      "name": "Higienópolis",
+      "area_m2": 1157475.8863234478,
+      "covered_percent": 99.99999999999997,
+      "uncovered_area_m2": 2.3283064365386963e-10,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 99.99999999999997
+    },
+    {
+      "code": "044",
+      "name": "Penha Circular",
+      "area_m2": 4623394.363945857,
+      "covered_percent": 99.87999647156244,
+      "uncovered_area_m2": 5548.236370318569,
+      "overlap_area_m2": 9.313225746154785e-10,
+      "zone_count": 3,
+      "area_percent_sum": 99.87999647156245
+    },
+    {
+      "code": "056",
+      "name": "Tomás Coelho",
+      "area_m2": 1747531.193730172,
+      "covered_percent": 99.99999999999869,
+      "uncovered_area_m2": 2.2817403078079224e-08,
+      "overlap_area_m2": 4.656612873077393e-10,
+      "zone_count": 4,
+      "area_percent_sum": 99.99999999999872
+    },
+    {
+      "code": "057",
+      "name": "São Francisco Xavier",
+      "area_m2": 648909.3497371995,
+      "covered_percent": 100.00000000000314,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 5,
+      "area_percent_sum": 100.00000000000308
+    },
+    {
+      "code": "048",
+      "name": "Vigário Geral",
+      "area_m2": 3385317.181298403,
+      "covered_percent": 99.84914852359151,
+      "uncovered_area_m2": 5106.800949099008,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 99.84914852359147
+    },
+    {
+      "code": "051",
+      "name": "Jacaré",
+      "area_m2": 842567.8841538769,
+      "covered_percent": 100.0000000000001,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 100.0000000000001
+    },
+    {
+      "code": "061",
+      "name": "Engenho Novo",
+      "area_m2": 2644854.1469691265,
+      "covered_percent": 100.00000000000011,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 100.0000000000001
+    },
+    {
+      "code": "054",
+      "name": "Inhaúma",
+      "area_m2": 3485283.658308486,
+      "covered_percent": 99.99999999999994,
+      "uncovered_area_m2": 1.862645149230957e-09,
+      "overlap_area_m2": 9.313225746154785e-10,
+      "zone_count": 4,
+      "area_percent_sum": 99.99999999999997
+    },
+    {
+      "code": "055",
+      "name": "Engenho da Rainha",
+      "area_m2": 2225650.9068462094,
+      "covered_percent": 99.99999999999993,
+      "uncovered_area_m2": 1.3969838619232178e-09,
+      "overlap_area_m2": 0,
+      "zone_count": 5,
+      "area_percent_sum": 99.99999999999984
+    },
+    {
+      "code": "062",
+      "name": "Lins de Vasconcelos",
+      "area_m2": 2669204.7082381346,
+      "covered_percent": 99.99999999999963,
+      "uncovered_area_m2": 9.778887033462524e-09,
+      "overlap_area_m2": 4.656612873077393e-10,
+      "zone_count": 3,
+      "area_percent_sum": 99.99999999999964
+    },
+    {
+      "code": "063",
+      "name": "Méier",
+      "area_m2": 2470939.7689121803,
+      "covered_percent": 99.99999999999955,
+      "uncovered_area_m2": 1.1175870895385742e-08,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 99.99999999999955
+    },
+    {
+      "code": "064",
+      "name": "Todos os Santos",
+      "area_m2": 1012638.6714058382,
+      "covered_percent": 100.00000000000058,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 1.1641532182693481e-10,
+      "zone_count": 2,
+      "area_percent_sum": 100.0000000000006
+    },
+    {
+      "code": "065",
+      "name": "Cachambi",
+      "area_m2": 2250165.8126927675,
+      "covered_percent": 99.99999999999923,
+      "uncovered_area_m2": 1.7229467630386353e-08,
+      "overlap_area_m2": 9.313225746154785e-10,
+      "zone_count": 2,
+      "area_percent_sum": 99.99999999999928
+    },
+    {
+      "code": "071",
+      "name": "Pilares",
+      "area_m2": 1836424.9576386285,
+      "covered_percent": 100.0000000000015,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 100.0000000000015
+    },
+    {
+      "code": "087",
+      "name": "Honório Gurgel",
+      "area_m2": 1374850.699876869,
+      "covered_percent": 100.00000000000112,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 100.00000000000105
+    },
+    {
+      "code": "082",
+      "name": "Cascadura",
+      "area_m2": 2838978.326774394,
+      "covered_percent": 99.99999999999905,
+      "uncovered_area_m2": 2.7008354663848877e-08,
+      "overlap_area_m2": 0,
+      "zone_count": 4,
+      "area_percent_sum": 99.99999999999902
+    },
+    {
+      "code": "066",
+      "name": "Engenho de Dentro",
+      "area_m2": 3920451.0044113933,
+      "covered_percent": 99.9999999999998,
+      "uncovered_area_m2": 7.450580596923828e-09,
+      "overlap_area_m2": 1.3969838619232178e-09,
+      "zone_count": 5,
+      "area_percent_sum": 99.99999999999984
+    },
+    {
+      "code": "067",
+      "name": "Água Santa",
+      "area_m2": 2426238.3416324556,
+      "covered_percent": 100.00000000000051,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 4,
+      "area_percent_sum": 100.0000000000005
+    },
+    {
+      "code": "069",
+      "name": "Piedade",
+      "area_m2": 3887110.747126519,
+      "covered_percent": 99.99999999999969,
+      "uncovered_area_m2": 1.210719347000122e-08,
+      "overlap_area_m2": 5.122274160385132e-09,
+      "zone_count": 2,
+      "area_percent_sum": 99.9999999999998
+    },
+    {
+      "code": "070",
+      "name": "Abolição",
+      "area_m2": 616334.280822302,
+      "covered_percent": 100.00000000000009,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 100.00000000000009
+    },
+    {
+      "code": "078",
+      "name": "Campinho",
+      "area_m2": 984513.1250609395,
+      "covered_percent": 99.99999999999999,
+      "uncovered_area_m2": 1.1641532182693481e-10,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 99.99999999999999
+    },
+    {
+      "code": "077",
+      "name": "Colégio",
+      "area_m2": 2261116.3416490094,
+      "covered_percent": 99.9999999999988,
+      "uncovered_area_m2": 2.7008354663848877e-08,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 99.9999999999988
+    },
+    {
+      "code": "079",
+      "name": "Quintino Bocaiúva",
+      "area_m2": 4323806.269961195,
+      "covered_percent": 100.00000000000004,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 4,
+      "area_percent_sum": 100.00000000000006
+    },
+    {
+      "code": "080",
+      "name": "Cavalcanti",
+      "area_m2": 1924154.4127911187,
+      "covered_percent": 100.00000000000092,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 100.00000000000091
+    },
+    {
+      "code": "088",
+      "name": "Osvaldo Cruz",
+      "area_m2": 2071132.3748566788,
+      "covered_percent": 99.99999999999825,
+      "uncovered_area_m2": 3.632158041000366e-08,
+      "overlap_area_m2": 1.1641532182693481e-09,
+      "zone_count": 4,
+      "area_percent_sum": 99.9999999999983
+    },
+    {
+      "code": "083",
+      "name": "Madureira",
+      "area_m2": 3787623.4263756773,
+      "covered_percent": 100.0,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 1.3969838619232178e-09,
+      "zone_count": 4,
+      "area_percent_sum": 100.00000000000006
+    },
+    {
+      "code": "085",
+      "name": "Turiaçú",
+      "area_m2": 1255813.0219655605,
+      "covered_percent": 100.00000000000065,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 6.984919309616089e-10,
+      "zone_count": 2,
+      "area_percent_sum": 100.0000000000007
+    },
+    {
+      "code": "086",
+      "name": "Rocha Miranda",
+      "area_m2": 2886713.312698192,
+      "covered_percent": 99.99999999999886,
+      "uncovered_area_m2": 3.259629011154175e-08,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.99999999999886
+    },
+    {
+      "code": "089",
+      "name": "Bento Ribeiro",
+      "area_m2": 3037854.7856191723,
+      "covered_percent": 100.00000000000064,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 4,
+      "area_percent_sum": 100.0000000000006
+    },
+    {
+      "code": "090",
+      "name": "Marechal Hermes",
+      "area_m2": 3886236.031757112,
+      "covered_percent": 100.00000000000074,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 100.00000000000074
+    },
+    {
+      "code": "094",
+      "name": "Pitangueiras",
+      "area_m2": 604131.3949114865,
+      "covered_percent": 99.40116683074321,
+      "uncovered_area_m2": 3617.7391786237713,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.4011668307432
+    },
+    {
+      "code": "095",
+      "name": "Praia da Bandeira",
+      "area_m2": 379406.9293378464,
+      "covered_percent": 98.25297116639048,
+      "uncovered_area_m2": 6628.348452244711,
+      "overlap_area_m2": 5.820766091346741e-11,
+      "zone_count": 1,
+      "area_percent_sum": 98.2529711663905
+    },
+    {
+      "code": "113",
+      "name": "Costa Barros",
+      "area_m2": 1814836.573416962,
+      "covered_percent": 99.99999999999851,
+      "uncovered_area_m2": 2.7008354663848877e-08,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 99.9999999999985
+    },
+    {
+      "code": "096",
+      "name": "Cocotá",
+      "area_m2": 490103.73866485315,
+      "covered_percent": 97.30644211934026,
+      "uncovered_area_m2": 13201.227876215184,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 97.30644211934026
+    },
+    {
+      "code": "099",
+      "name": "Jardim Guanabara",
+      "area_m2": 3205890.691343619,
+      "covered_percent": 96.31492876449816,
+      "uncovered_area_m2": 118139.35570833506,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 96.31492876449816
+    },
+    {
+      "code": "100",
+      "name": "Jardim Carioca",
+      "area_m2": 1621130.5751467189,
+      "covered_percent": 100.00000000000061,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 1.6298145055770874e-09,
+      "zone_count": 2,
+      "area_percent_sum": 100.0000000000007
+    },
+    {
+      "code": "101",
+      "name": "Tauá",
+      "area_m2": 1672550.2780987953,
+      "covered_percent": 99.6233679849701,
+      "uncovered_area_m2": 6299.3598147914745,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 99.6233679849701
+    },
+    {
+      "code": "102",
+      "name": "Moneró",
+      "area_m2": 520558.8780116828,
+      "covered_percent": 96.57869271589578,
+      "uncovered_area_m2": 17809.918811464915,
+      "overlap_area_m2": 2.3283064365386963e-10,
+      "zone_count": 2,
+      "area_percent_sum": 96.57869271589581
+    },
+    {
+      "code": "111",
+      "name": "Acari",
+      "area_m2": 1605528.6053393453,
+      "covered_percent": 100.00000000000787,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 100.00000000000784
+    },
+    {
+      "code": "103",
+      "name": "Portuguesa",
+      "area_m2": 1186412.6497850895,
+      "covered_percent": 98.73927892472955,
+      "uncovered_area_m2": 14957.354315515142,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 98.73927892472955
+    },
+    {
+      "code": "112",
+      "name": "Barros Filho",
+      "area_m2": 1723868.974470469,
+      "covered_percent": 100.0000000000002,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 100.00000000000014
+    },
+    {
+      "code": "106",
+      "name": "Guadalupe",
+      "area_m2": 3820017.9815211925,
+      "covered_percent": 100.00000000000067,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 100.00000000000064
+    },
+    {
+      "code": "109",
+      "name": "Ricardo de Albuquerque",
+      "area_m2": 2116875.498002034,
+      "covered_percent": 100.0000000000002,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 1.3969838619232178e-09,
+      "zone_count": 3,
+      "area_percent_sum": 100.00000000000027
+    },
+    {
+      "code": "107",
+      "name": "Anchieta",
+      "area_m2": 4345738.720900451,
+      "covered_percent": 99.97113333428453,
+      "uncovered_area_m2": 1254.469869430177,
+      "overlap_area_m2": 3.725290298461914e-09,
+      "zone_count": 2,
+      "area_percent_sum": 99.97113333428462
+    },
+    {
+      "code": "110",
+      "name": "Coelho Neto",
+      "area_m2": 2511977.150459212,
+      "covered_percent": 99.99999999999541,
+      "uncovered_area_m2": 1.1548399925231934e-07,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.99999999999538
+    },
+    {
+      "code": "118",
+      "name": "Cidade de Deus",
+      "area_m2": 1273028.1816056878,
+      "covered_percent": 100.00000000000125,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 4,
+      "area_percent_sum": 100.00000000000124
+    },
+    {
+      "code": "116",
+      "name": "Anil",
+      "area_m2": 3500419.99160602,
+      "covered_percent": 99.99999999999933,
+      "uncovered_area_m2": 2.3283064365386963e-08,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.99999999999933
+    },
+    {
+      "code": "114",
+      "name": "Pavuna",
+      "area_m2": 8311428.030129256,
+      "covered_percent": 99.8665504725368,
+      "uncovered_area_m2": 11091.561431651935,
+      "overlap_area_m2": 1.862645149230957e-09,
+      "zone_count": 4,
+      "area_percent_sum": 99.8665504725368
+    },
+    {
+      "code": "120",
+      "name": "Freguesia (Jacarepaguá)",
+      "area_m2": 10328433.605301823,
+      "covered_percent": 100.0000000000001,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 5,
+      "area_percent_sum": 100.00000000000011
+    },
+    {
+      "code": "121",
+      "name": "Pechincha",
+      "area_m2": 2830923.1734899743,
+      "covered_percent": 99.99999999999648,
+      "uncovered_area_m2": 9.96515154838562e-08,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 99.99999999999649
+    },
+    {
+      "code": "123",
+      "name": "Tanque",
+      "area_m2": 5568004.962182008,
+      "covered_percent": 100.00000000000247,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 3.725290298461914e-09,
+      "zone_count": 6,
+      "area_percent_sum": 100.00000000000253
+    },
+    {
+      "code": "124",
+      "name": "Praça Seca",
+      "area_m2": 6499994.823187463,
+      "covered_percent": 100.00000000000007,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 100.00000000000004
+    },
+    {
+      "code": "134",
+      "name": "Deodoro",
+      "area_m2": 4640523.625184942,
+      "covered_percent": 99.99999999999982,
+      "uncovered_area_m2": 8.381903171539307e-09,
+      "overlap_area_m2": 9.313225746154785e-10,
+      "zone_count": 4,
+      "area_percent_sum": 99.99999999999983
+    },
+    {
+      "code": "125",
+      "name": "Vila Valqueire",
+      "area_m2": 4232226.089229797,
+      "covered_percent": 99.9999999999995,
+      "uncovered_area_m2": 2.1420419216156006e-08,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.99999999999946
+    },
+    {
+      "code": "126",
+      "name": "Joá",
+      "area_m2": 1689695.7888972329,
+      "covered_percent": 99.31222166359127,
+      "uncovered_area_m2": 11621.361587245716,
+      "overlap_area_m2": 9.313225746154785e-10,
+      "zone_count": 2,
+      "area_percent_sum": 99.31222166359132
+    },
+    {
+      "code": "127",
+      "name": "Itanhangá",
+      "area_m2": 13197761.115402916,
+      "covered_percent": 99.9999999999998,
+      "uncovered_area_m2": 2.60770320892334e-08,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.99999999999973
+    },
+    {
+      "code": "135",
+      "name": "Vila Militar",
+      "area_m2": 10756738.322823795,
+      "covered_percent": 99.99999999999926,
+      "uncovered_area_m2": 8.009374141693115e-08,
+      "overlap_area_m2": 5.587935447692871e-09,
+      "zone_count": 4,
+      "area_percent_sum": 99.99999999999932
+    },
+    {
+      "code": "136",
+      "name": "Campo dos Afonsos",
+      "area_m2": 3252301.636689902,
+      "covered_percent": 100.0000000000001,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 1.862645149230957e-09,
+      "zone_count": 2,
+      "area_percent_sum": 100.00000000000014
+    },
+    {
+      "code": "129",
+      "name": "Camorim",
+      "area_m2": 7352022.833156844,
+      "covered_percent": 100.0,
+      "uncovered_area_m2": 9.313225746154785e-10,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 100.0
+    },
+    {
+      "code": "128",
+      "name": "Barra da Tijuca",
+      "area_m2": 46271713.26400329,
+      "covered_percent": 99.46691909777952,
+      "uncovered_area_m2": 246665.66654061526,
+      "overlap_area_m2": 9.685754776000977e-08,
+      "zone_count": 2,
+      "area_percent_sum": 99.46691909777974
+    },
+    {
+      "code": "130",
+      "name": "Vargem Pequena",
+      "area_m2": 14438332.930466289,
+      "covered_percent": 99.99999999999996,
+      "uncovered_area_m2": 7.450580596923828e-09,
+      "overlap_area_m2": 0,
+      "zone_count": 1,
+      "area_percent_sum": 99.99999999999996
+    },
+    {
+      "code": "131",
+      "name": "Vargem Grande",
+      "area_m2": 39380486.9467687,
+      "covered_percent": 100.00000000000009,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 5,
+      "area_percent_sum": 100.00000000000004
+    },
+    {
+      "code": "132",
+      "name": "Recreio dos Bandeirantes",
+      "area_m2": 30655705.14075343,
+      "covered_percent": 99.36069007695136,
+      "uncovered_area_m2": 195984.9649453722,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.36069007695126
+    },
+    {
+      "code": "047",
+      "name": "Parada de Lucas",
+      "area_m2": 2064782.6766305007,
+      "covered_percent": 99.96647547781706,
+      "uncovered_area_m2": 692.2085264564957,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.96647547781706
+    },
+    {
+      "code": "046",
+      "name": "Cordovil",
+      "area_m2": 3675067.910923723,
+      "covered_percent": 91.64426580003645,
+      "uncovered_area_m2": 307078.90630493965,
+      "overlap_area_m2": 1.3969838619232178e-09,
+      "zone_count": 3,
+      "area_percent_sum": 91.64426580003648
+    },
+    {
+      "code": "075",
+      "name": "Vista Alegre",
+      "area_m2": 1254362.141796238,
+      "covered_percent": 100.00000000000018,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 9.313225746154785e-10,
+      "zone_count": 2,
+      "area_percent_sum": 100.00000000000027
+    },
+    {
+      "code": "076",
+      "name": "Irajá",
+      "area_m2": 7481981.715604212,
+      "covered_percent": 100.0000000000002,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 6,
+      "area_percent_sum": 100.00000000000013
+    },
+    {
+      "code": "010",
+      "name": "Imperial de São Cristóvão",
+      "area_m2": 4105654.8522365396,
+      "covered_percent": 100.00000000000477,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 100.00000000000477
+    },
+    {
+      "code": "166",
+      "name": "Argentino",
+      "area_m2": 31768.627296387112,
+      "covered_percent": 99.99999999994077,
+      "uncovered_area_m2": 1.881926436908543e-08,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 99.99999999994075
+    },
+    {
+      "code": "045",
+      "name": "Brás de Pina",
+      "area_m2": 2956169.114960767,
+      "covered_percent": 100.00000000000152,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 9.313225746154785e-10,
+      "zone_count": 3,
+      "area_percent_sum": 100.00000000000155
+    },
+    {
+      "code": "074",
+      "name": "Vila da Penha",
+      "area_m2": 1541675.2136346614,
+      "covered_percent": 100.00000000000003,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 3,
+      "area_percent_sum": 99.99999999999997
+    },
+    {
+      "code": "165",
+      "name": "Barra Olímpica",
+      "area_m2": 10973064.767161036,
+      "covered_percent": 99.99999999999784,
+      "uncovered_area_m2": 2.3655593395233154e-07,
+      "overlap_area_m2": 1.4901161193847656e-08,
+      "zone_count": 4,
+      "area_percent_sum": 99.99999999999797
+    },
+    {
+      "code": "053",
+      "name": "Del Castilho",
+      "area_m2": 1434170.6117463794,
+      "covered_percent": 100.00000000000196,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 9.313225746154785e-10,
+      "zone_count": 3,
+      "area_percent_sum": 100.00000000000203
+    },
+    {
+      "code": "052",
+      "name": "Maria da Graça",
+      "area_m2": 736947.1973110073,
+      "covered_percent": 100.00000000000013,
+      "uncovered_area_m2": 0,
+      "overlap_area_m2": 0,
+      "zone_count": 2,
+      "area_percent_sum": 100.00000000000011
+    },
+    {
+      "code": "167",
+      "name": "Ingleses",
+      "area_m2": 94792.43362912357,
+      "covered_percent": 99.99999999998202,
+      "uncovered_area_m2": 1.7040292732417583e-08,
+      "overlap_area_m2": 1.4551915228366852e-11,
+      "zone_count": 2,
+      "area_percent_sum": 99.99999999998204
+    }
+  ],
+  "geometry_repairs": [],
+  "warning": "Cruzamento territorial exploratório. Malha eleitoral com datas internas de 2018 e vigência em 2026 não confirmada. Percentuais representam área, não votos. Nenhuma interseção de área positiva foi excluída."
+}

@@ -1,0 +1,4369 @@
+{
+  "zones": [
+    {
+      "id": "RJ-4",
+      "zone": "4",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 294,
+      "office_valid_votes": 80377,
+      "vote_share_percent": 0.36577627928387474,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-5",
+      "zone": "5",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 334,
+      "office_valid_votes": 72159,
+      "vote_share_percent": 0.4628667248714644,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-7",
+      "zone": "7",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 279,
+      "office_valid_votes": 70894,
+      "vote_share_percent": 0.393545292972607,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-8",
+      "zone": "8",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 267,
+      "office_valid_votes": 51854,
+      "vote_share_percent": 0.5149072395572184,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-9",
+      "zone": "9",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 272,
+      "office_valid_votes": 111512,
+      "vote_share_percent": 0.24391993686778105,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-10",
+      "zone": "10",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 262,
+      "office_valid_votes": 50305,
+      "vote_share_percent": 0.5208229798230792,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-14",
+      "zone": "14",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 267,
+      "office_valid_votes": 51374,
+      "vote_share_percent": 0.5197181453653599,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-16",
+      "zone": "16",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 329,
+      "office_valid_votes": 78644,
+      "vote_share_percent": 0.41834087788006713,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-17",
+      "zone": "17",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 262,
+      "office_valid_votes": 70643,
+      "vote_share_percent": 0.37087892643290915,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-21",
+      "zone": "21",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 168,
+      "office_valid_votes": 46098,
+      "vote_share_percent": 0.3644409735780294,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-22",
+      "zone": "22",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 244,
+      "office_valid_votes": 61981,
+      "vote_share_percent": 0.39366902760523387,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-23",
+      "zone": "23",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 182,
+      "office_valid_votes": 48687,
+      "vote_share_percent": 0.3738164191673342,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-24",
+      "zone": "24",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 568,
+      "office_valid_votes": 61479,
+      "vote_share_percent": 0.9238927113323249,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-25",
+      "zone": "25",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 185,
+      "office_valid_votes": 63580,
+      "vote_share_percent": 0.29097200377477195,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-26",
+      "zone": "26",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "NOVA FRIBURGO"
+      ],
+      "municipality_codes": [
+        "58670"
+      ],
+      "candidate_valid_votes": 115,
+      "office_valid_votes": 41963,
+      "vote_share_percent": 0.2740509496461168,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-27",
+      "zone": "27",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "NOVA IGUAÇU"
+      ],
+      "municipality_codes": [
+        "58696"
+      ],
+      "candidate_valid_votes": 126,
+      "office_valid_votes": 53561,
+      "vote_share_percent": 0.2352457945146655,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-28",
+      "zone": "28",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "PARAÍBA DO SUL"
+      ],
+      "municipality_codes": [
+        "58734"
+      ],
+      "candidate_valid_votes": 144,
+      "office_valid_votes": 23756,
+      "vote_share_percent": 0.6061626536453949,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-29",
+      "zone": "29",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "PETRÓPOLIS"
+      ],
+      "municipality_codes": [
+        "58777"
+      ],
+      "candidate_valid_votes": 61,
+      "office_valid_votes": 84760,
+      "vote_share_percent": 0.07196790939122227,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-30",
+      "zone": "30",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "PINHEIRAL",
+        "PIRAÍ"
+      ],
+      "municipality_codes": [
+        "58246",
+        "58793"
+      ],
+      "candidate_valid_votes": 18,
+      "office_valid_votes": 30568,
+      "vote_share_percent": 0.05888510861031144,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-31",
+      "zone": "31",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "RESENDE"
+      ],
+      "municipality_codes": [
+        "58831"
+      ],
+      "candidate_valid_votes": 54,
+      "office_valid_votes": 45607,
+      "vote_share_percent": 0.11840287675137588,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-32",
+      "zone": "32",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "RIO BONITO"
+      ],
+      "municipality_codes": [
+        "58858"
+      ],
+      "candidate_valid_votes": 97,
+      "office_valid_votes": 31891,
+      "vote_share_percent": 0.30416104857169735,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-34",
+      "zone": "34",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "APERIBÉ",
+        "SANTO ANTÔNIO DE PÁDUA"
+      ],
+      "municipality_codes": [
+        "58181",
+        "58939"
+      ],
+      "candidate_valid_votes": 45,
+      "office_valid_votes": 30645,
+      "vote_share_percent": 0.14684287812041116,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-35",
+      "zone": "35",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SÃO FIDÉLIS"
+      ],
+      "municipality_codes": [
+        "58955"
+      ],
+      "candidate_valid_votes": 10,
+      "office_valid_votes": 21274,
+      "vote_share_percent": 0.04700573469963336,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-36",
+      "zone": "36",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SÃO GONÇALO"
+      ],
+      "municipality_codes": [
+        "58971"
+      ],
+      "candidate_valid_votes": 73,
+      "office_valid_votes": 58105,
+      "vote_share_percent": 0.12563462696841923,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-37",
+      "zone": "37",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SÃO JOÃO DA BARRA"
+      ],
+      "municipality_codes": [
+        "58998"
+      ],
+      "candidate_valid_votes": 23,
+      "office_valid_votes": 32402,
+      "vote_share_percent": 0.07098327263749152,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-38",
+      "zone": "38",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "TERESÓPOLIS"
+      ],
+      "municipality_codes": [
+        "59153"
+      ],
+      "candidate_valid_votes": 43,
+      "office_valid_votes": 40825,
+      "vote_share_percent": 0.10532761788120025,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-40",
+      "zone": "40",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "COMENDADOR LEVY GASPARIAN",
+        "TRÊS RIOS"
+      ],
+      "municipality_codes": [
+        "58165",
+        "59196"
+      ],
+      "candidate_valid_votes": 131,
+      "office_valid_votes": 17908,
+      "vote_share_percent": 0.7315166406075497,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-41",
+      "zone": "41",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "VASSOURAS"
+      ],
+      "municipality_codes": [
+        "59234"
+      ],
+      "candidate_valid_votes": 29,
+      "office_valid_votes": 21123,
+      "vote_share_percent": 0.13729110448326468,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-42",
+      "zone": "42",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "BOM JARDIM",
+        "DUAS BARRAS"
+      ],
+      "municipality_codes": [
+        "58092",
+        "58319"
+      ],
+      "candidate_valid_votes": 50,
+      "office_valid_votes": 22323,
+      "vote_share_percent": 0.2239842315101017,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-43",
+      "zone": "43",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "VARRE-SAI",
+        "NATIVIDADE"
+      ],
+      "municipality_codes": [
+        "58084",
+        "58610"
+      ],
+      "candidate_valid_votes": 51,
+      "office_valid_votes": 14672,
+      "vote_share_percent": 0.34760087241003274,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-45",
+      "zone": "45",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "PORCIÚNCULA"
+      ],
+      "municipality_codes": [
+        "58815"
+      ],
+      "candidate_valid_votes": 36,
+      "office_valid_votes": 9216,
+      "vote_share_percent": 0.390625,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-48",
+      "zone": "48",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "MIGUEL PEREIRA",
+        "PATY DO ALFERES"
+      ],
+      "municipality_codes": [
+        "58572",
+        "59315"
+      ],
+      "candidate_valid_votes": 67,
+      "office_valid_votes": 34019,
+      "vote_share_percent": 0.19694876392604133,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-49",
+      "zone": "49",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "CACHOEIRAS DE MACACU"
+      ],
+      "municipality_codes": [
+        "58157"
+      ],
+      "candidate_valid_votes": 60,
+      "office_valid_votes": 32197,
+      "vote_share_percent": 0.1863527657856322,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-50",
+      "zone": "50",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "CASIMIRO DE ABREU"
+      ],
+      "municipality_codes": [
+        "58254"
+      ],
+      "candidate_valid_votes": 26,
+      "office_valid_votes": 25104,
+      "vote_share_percent": 0.1035691523263225,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-51",
+      "zone": "51",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "CONCEIÇÃO DE MACABU",
+        "TRAJANO DE MORAES"
+      ],
+      "municipality_codes": [
+        "58270",
+        "59170"
+      ],
+      "candidate_valid_votes": 20,
+      "office_valid_votes": 19494,
+      "vote_share_percent": 0.10259567046270647,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-52",
+      "zone": "52",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "CORDEIRO",
+        "MACUCO"
+      ],
+      "municipality_codes": [
+        "58297",
+        "58386"
+      ],
+      "candidate_valid_votes": 241,
+      "office_valid_votes": 18043,
+      "vote_share_percent": 1.3356980546472317,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-54",
+      "zone": "54",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "MANGARATIBA"
+      ],
+      "municipality_codes": [
+        "58513"
+      ],
+      "candidate_valid_votes": 37,
+      "office_valid_votes": 29433,
+      "vote_share_percent": 0.12570923793021438,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-55",
+      "zone": "55",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "MARICÁ"
+      ],
+      "municipality_codes": [
+        "58530"
+      ],
+      "candidate_valid_votes": 1633,
+      "office_valid_votes": 117390,
+      "vote_share_percent": 1.3910895306244144,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-56",
+      "zone": "56",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "MENDES"
+      ],
+      "municipality_codes": [
+        "58556"
+      ],
+      "candidate_valid_votes": 14,
+      "office_valid_votes": 10543,
+      "vote_share_percent": 0.13278952859717347,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-57",
+      "zone": "57",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "PARATY"
+      ],
+      "municipality_codes": [
+        "58750"
+      ],
+      "candidate_valid_votes": 20,
+      "office_valid_votes": 22406,
+      "vote_share_percent": 0.08926180487369455,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-59",
+      "zone": "59",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SÃO PEDRO DA ALDEIA"
+      ],
+      "municipality_codes": [
+        "59030"
+      ],
+      "candidate_valid_votes": 43,
+      "office_valid_votes": 53119,
+      "vote_share_percent": 0.08095031909486247,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-60",
+      "zone": "60",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SANTA MARIA MADALENA",
+        "SÃO SEBASTIÃO DO ALTO"
+      ],
+      "municipality_codes": [
+        "58912",
+        "59056"
+      ],
+      "candidate_valid_votes": 18,
+      "office_valid_votes": 12062,
+      "vote_share_percent": 0.1492289835848118,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-61",
+      "zone": "61",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SAPUCAIA"
+      ],
+      "municipality_codes": [
+        "59072"
+      ],
+      "candidate_valid_votes": 16,
+      "office_valid_votes": 10853,
+      "vote_share_percent": 0.14742467520501243,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-62",
+      "zone": "62",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SAQUAREMA"
+      ],
+      "municipality_codes": [
+        "59099"
+      ],
+      "candidate_valid_votes": 48,
+      "office_valid_votes": 58934,
+      "vote_share_percent": 0.08144704245427088,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-63",
+      "zone": "63",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SILVA JARDIM"
+      ],
+      "municipality_codes": [
+        "59110"
+      ],
+      "candidate_valid_votes": 16,
+      "office_valid_votes": 13271,
+      "vote_share_percent": 0.12056363499359506,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-64",
+      "zone": "64",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SUMIDOURO"
+      ],
+      "municipality_codes": [
+        "59137"
+      ],
+      "candidate_valid_votes": 9,
+      "office_valid_votes": 10976,
+      "vote_share_percent": 0.08199708454810496,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-65",
+      "zone": "65",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "PETRÓPOLIS"
+      ],
+      "municipality_codes": [
+        "58777"
+      ],
+      "candidate_valid_votes": 38,
+      "office_valid_votes": 67666,
+      "vote_share_percent": 0.056158188750628085,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-68",
+      "zone": "68",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SÃO GONÇALO"
+      ],
+      "municipality_codes": [
+        "58971"
+      ],
+      "candidate_valid_votes": 87,
+      "office_valid_votes": 52967,
+      "vote_share_percent": 0.16425321426548606,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-69",
+      "zone": "69",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SÃO GONÇALO"
+      ],
+      "municipality_codes": [
+        "58971"
+      ],
+      "candidate_valid_votes": 91,
+      "office_valid_votes": 54205,
+      "vote_share_percent": 0.16788119177197675,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-70",
+      "zone": "70",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "PARACAMBI"
+      ],
+      "municipality_codes": [
+        "58718"
+      ],
+      "candidate_valid_votes": 14,
+      "office_valid_votes": 23913,
+      "vote_share_percent": 0.05854556099192908,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-71",
+      "zone": "71",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "NITERÓI"
+      ],
+      "municipality_codes": [
+        "58653"
+      ],
+      "candidate_valid_votes": 185,
+      "office_valid_votes": 82796,
+      "vote_share_percent": 0.22344074592975505,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-72",
+      "zone": "72",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "NITERÓI"
+      ],
+      "municipality_codes": [
+        "58653"
+      ],
+      "candidate_valid_votes": 141,
+      "office_valid_votes": 87413,
+      "vote_share_percent": 0.16130323864871357,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-74",
+      "zone": "74",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "ENGENHEIRO PAULO DE FRONTIN"
+      ],
+      "municipality_codes": [
+        "58351"
+      ],
+      "candidate_valid_votes": 10,
+      "office_valid_votes": 8530,
+      "vote_share_percent": 0.11723329425556858,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-75",
+      "zone": "75",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "CAMPOS DOS GOYTACAZES"
+      ],
+      "municipality_codes": [
+        "58190"
+      ],
+      "candidate_valid_votes": 87,
+      "office_valid_votes": 81164,
+      "vote_share_percent": 0.1071903799714159,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-76",
+      "zone": "76",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "CAMPOS DOS GOYTACAZES"
+      ],
+      "municipality_codes": [
+        "58190"
+      ],
+      "candidate_valid_votes": 76,
+      "office_valid_votes": 69420,
+      "vote_share_percent": 0.10947853644482858,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-78",
+      "zone": "78",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "DUQUE DE CAXIAS"
+      ],
+      "municipality_codes": [
+        "58335"
+      ],
+      "candidate_valid_votes": 98,
+      "office_valid_votes": 75055,
+      "vote_share_percent": 0.13057091466258078,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-79",
+      "zone": "79",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "DUQUE DE CAXIAS"
+      ],
+      "municipality_codes": [
+        "58335"
+      ],
+      "candidate_valid_votes": 53,
+      "office_valid_votes": 71837,
+      "vote_share_percent": 0.07377813661483637,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-83",
+      "zone": "83",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "MESQUITA"
+      ],
+      "municipality_codes": [
+        "58467"
+      ],
+      "candidate_valid_votes": 70,
+      "office_valid_votes": 44810,
+      "vote_share_percent": 0.15621513055121625,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-84",
+      "zone": "84",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "NOVA IGUAÇU"
+      ],
+      "municipality_codes": [
+        "58696"
+      ],
+      "candidate_valid_votes": 198,
+      "office_valid_votes": 76743,
+      "vote_share_percent": 0.2580039873343497,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-87",
+      "zone": "87",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SÃO GONÇALO"
+      ],
+      "municipality_codes": [
+        "58971"
+      ],
+      "candidate_valid_votes": 89,
+      "office_valid_votes": 55402,
+      "vote_share_percent": 0.16064402007147757,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-88",
+      "zone": "88",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SÃO JOÃO DE MERITI"
+      ],
+      "municipality_codes": [
+        "59013"
+      ],
+      "candidate_valid_votes": 145,
+      "office_valid_votes": 45388,
+      "vote_share_percent": 0.31946770071384506,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-89",
+      "zone": "89",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SÃO JOÃO DE MERITI"
+      ],
+      "municipality_codes": [
+        "59013"
+      ],
+      "candidate_valid_votes": 64,
+      "office_valid_votes": 51957,
+      "vote_share_percent": 0.12317878245472218,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-90",
+      "zone": "90",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "VOLTA REDONDA"
+      ],
+      "municipality_codes": [
+        "59250"
+      ],
+      "candidate_valid_votes": 56,
+      "office_valid_votes": 67450,
+      "vote_share_percent": 0.08302446256486286,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-91",
+      "zone": "91",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "BARRA MANSA"
+      ],
+      "municipality_codes": [
+        "58076"
+      ],
+      "candidate_valid_votes": 66,
+      "office_valid_votes": 60263,
+      "vote_share_percent": 0.10951993760682342,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-92",
+      "zone": "92",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "ARARUAMA"
+      ],
+      "municipality_codes": [
+        "58033"
+      ],
+      "candidate_valid_votes": 77,
+      "office_valid_votes": 75496,
+      "vote_share_percent": 0.10199215852495497,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-93",
+      "zone": "93",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "BARRA DO PIRAÍ"
+      ],
+      "municipality_codes": [
+        "58050"
+      ],
+      "candidate_valid_votes": 94,
+      "office_valid_votes": 46702,
+      "vote_share_percent": 0.2012761766091388,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-94",
+      "zone": "94",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "BARRA MANSA"
+      ],
+      "municipality_codes": [
+        "58076"
+      ],
+      "candidate_valid_votes": 26,
+      "office_valid_votes": 31323,
+      "vote_share_percent": 0.08300609775564281,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-95",
+      "zone": "95",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "BOM JESUS DO ITABAPOANA"
+      ],
+      "municipality_codes": [
+        "58114"
+      ],
+      "candidate_valid_votes": 32,
+      "office_valid_votes": 20200,
+      "vote_share_percent": 0.15841584158415842,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-96",
+      "zone": "96",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "CABO FRIO"
+      ],
+      "municipality_codes": [
+        "58130"
+      ],
+      "candidate_valid_votes": 135,
+      "office_valid_votes": 54910,
+      "vote_share_percent": 0.24585685667455837,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-97",
+      "zone": "97",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "CAMBUCI"
+      ],
+      "municipality_codes": [
+        "58173"
+      ],
+      "candidate_valid_votes": 45,
+      "office_valid_votes": 9198,
+      "vote_share_percent": 0.4892367906066536,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-98",
+      "zone": "98",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "CAMPOS DOS GOYTACAZES"
+      ],
+      "municipality_codes": [
+        "58190"
+      ],
+      "candidate_valid_votes": 102,
+      "office_valid_votes": 64973,
+      "vote_share_percent": 0.15698828744247612,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-101",
+      "zone": "101",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "CANTAGALO"
+      ],
+      "municipality_codes": [
+        "58211"
+      ],
+      "candidate_valid_votes": 30,
+      "office_valid_votes": 10452,
+      "vote_share_percent": 0.2870264064293915,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-102",
+      "zone": "102",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "CARMO"
+      ],
+      "municipality_codes": [
+        "58238"
+      ],
+      "candidate_valid_votes": 8,
+      "office_valid_votes": 9528,
+      "vote_share_percent": 0.08396305625524769,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-103",
+      "zone": "103",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "DUQUE DE CAXIAS"
+      ],
+      "municipality_codes": [
+        "58335"
+      ],
+      "candidate_valid_votes": 81,
+      "office_valid_votes": 59211,
+      "vote_share_percent": 0.13679890560875513,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-104",
+      "zone": "104",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "ITABORAÍ"
+      ],
+      "municipality_codes": [
+        "58378"
+      ],
+      "candidate_valid_votes": 151,
+      "office_valid_votes": 67681,
+      "vote_share_percent": 0.22310545056958378,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-105",
+      "zone": "105",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "ITAGUAÍ"
+      ],
+      "municipality_codes": [
+        "58394"
+      ],
+      "candidate_valid_votes": 82,
+      "office_valid_votes": 67742,
+      "vote_share_percent": 0.12104750376428212,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-106",
+      "zone": "106",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "ITAOCARA"
+      ],
+      "municipality_codes": [
+        "58416"
+      ],
+      "candidate_valid_votes": 13,
+      "office_valid_votes": 13666,
+      "vote_share_percent": 0.09512659154105078,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-107",
+      "zone": "107",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SÃO JOSÉ DE UBÁ",
+        "ITAPERUNA"
+      ],
+      "municipality_codes": [
+        "58343",
+        "58432"
+      ],
+      "candidate_valid_votes": 60,
+      "office_valid_votes": 58516,
+      "vote_share_percent": 0.10253605851391072,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-108",
+      "zone": "108",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "RIO CLARO"
+      ],
+      "municipality_codes": [
+        "58874"
+      ],
+      "candidate_valid_votes": 18,
+      "office_valid_votes": 10634,
+      "vote_share_percent": 0.16926838442730863,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-109",
+      "zone": "109",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "MACAÉ"
+      ],
+      "municipality_codes": [
+        "58475"
+      ],
+      "candidate_valid_votes": 62,
+      "office_valid_votes": 67768,
+      "vote_share_percent": 0.0914886081926573,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-110",
+      "zone": "110",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "MAGÉ"
+      ],
+      "municipality_codes": [
+        "58491"
+      ],
+      "candidate_valid_votes": 203,
+      "office_valid_votes": 63989,
+      "vote_share_percent": 0.31724202597321416,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-111",
+      "zone": "111",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "RIO DAS FLORES",
+        "VALENÇA"
+      ],
+      "municipality_codes": [
+        "58890",
+        "59218"
+      ],
+      "candidate_valid_votes": 41,
+      "office_valid_votes": 43445,
+      "vote_share_percent": 0.09437219472896766,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-112",
+      "zone": "112",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "LAJE DO MURIAÉ",
+        "MIRACEMA"
+      ],
+      "municipality_codes": [
+        "58459",
+        "58599"
+      ],
+      "candidate_valid_votes": 17,
+      "office_valid_votes": 19704,
+      "vote_share_percent": 0.08627689809175802,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-116",
+      "zone": "116",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "ANGRA DOS REIS"
+      ],
+      "municipality_codes": [
+        "58017"
+      ],
+      "candidate_valid_votes": 29,
+      "office_valid_votes": 38624,
+      "vote_share_percent": 0.07508285004142502,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-118",
+      "zone": "118",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 137,
+      "office_valid_votes": 38515,
+      "vote_share_percent": 0.35570556925873037,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-119",
+      "zone": "119",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 285,
+      "office_valid_votes": 101172,
+      "vote_share_percent": 0.2816984936543708,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-120",
+      "zone": "120",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 134,
+      "office_valid_votes": 54496,
+      "vote_share_percent": 0.24588960657662948,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-122",
+      "zone": "122",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 141,
+      "office_valid_votes": 56642,
+      "vote_share_percent": 0.24893188799830515,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-123",
+      "zone": "123",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 207,
+      "office_valid_votes": 56188,
+      "vote_share_percent": 0.36840606535203246,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-125",
+      "zone": "125",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 465,
+      "office_valid_votes": 63686,
+      "vote_share_percent": 0.7301447727915084,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-126",
+      "zone": "126",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "DUQUE DE CAXIAS"
+      ],
+      "municipality_codes": [
+        "58335"
+      ],
+      "candidate_valid_votes": 109,
+      "office_valid_votes": 76283,
+      "vote_share_percent": 0.142888979195889,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-127",
+      "zone": "127",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "DUQUE DE CAXIAS"
+      ],
+      "municipality_codes": [
+        "58335"
+      ],
+      "candidate_valid_votes": 68,
+      "office_valid_votes": 70733,
+      "vote_share_percent": 0.09613617406302574,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-128",
+      "zone": "128",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "DUQUE DE CAXIAS"
+      ],
+      "municipality_codes": [
+        "58335"
+      ],
+      "candidate_valid_votes": 33,
+      "office_valid_votes": 49096,
+      "vote_share_percent": 0.0672152517516702,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-129",
+      "zone": "129",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "CAMPOS DOS GOYTACAZES"
+      ],
+      "municipality_codes": [
+        "58190"
+      ],
+      "candidate_valid_votes": 50,
+      "office_valid_votes": 43584,
+      "vote_share_percent": 0.11472099853157122,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-130",
+      "zone": "130",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SÃO FRANCISCO DE ITABAPOANA"
+      ],
+      "municipality_codes": [
+        "58289"
+      ],
+      "candidate_valid_votes": 7,
+      "office_valid_votes": 27618,
+      "vote_share_percent": 0.02534578897820262,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-131",
+      "zone": "131",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "VOLTA REDONDA"
+      ],
+      "municipality_codes": [
+        "59250"
+      ],
+      "candidate_valid_votes": 77,
+      "office_valid_votes": 88031,
+      "vote_share_percent": 0.08746918699094637,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-132",
+      "zone": "132",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SÃO GONÇALO"
+      ],
+      "municipality_codes": [
+        "58971"
+      ],
+      "candidate_valid_votes": 120,
+      "office_valid_votes": 59569,
+      "vote_share_percent": 0.20144706139099197,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-133",
+      "zone": "133",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SÃO GONÇALO"
+      ],
+      "municipality_codes": [
+        "58971"
+      ],
+      "candidate_valid_votes": 124,
+      "office_valid_votes": 65562,
+      "vote_share_percent": 0.18913394954394314,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-135",
+      "zone": "135",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SÃO GONÇALO"
+      ],
+      "municipality_codes": [
+        "58971"
+      ],
+      "candidate_valid_votes": 174,
+      "office_valid_votes": 76385,
+      "vote_share_percent": 0.22779341493748773,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-138",
+      "zone": "138",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "QUEIMADOS"
+      ],
+      "municipality_codes": [
+        "58122"
+      ],
+      "candidate_valid_votes": 65,
+      "office_valid_votes": 76786,
+      "vote_share_percent": 0.08465084781079885,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-139",
+      "zone": "139",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "JAPERI"
+      ],
+      "municipality_codes": [
+        "58149"
+      ],
+      "candidate_valid_votes": 52,
+      "office_valid_votes": 51176,
+      "vote_share_percent": 0.10161012974831952,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-141",
+      "zone": "141",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "CARDOSO MOREIRA",
+        "ITALVA"
+      ],
+      "municipality_codes": [
+        "58068",
+        "59293"
+      ],
+      "candidate_valid_votes": 17,
+      "office_valid_votes": 18103,
+      "vote_share_percent": 0.0939070872231122,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-144",
+      "zone": "144",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "NITERÓI"
+      ],
+      "municipality_codes": [
+        "58653"
+      ],
+      "candidate_valid_votes": 167,
+      "office_valid_votes": 71066,
+      "vote_share_percent": 0.23499282357245377,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-146",
+      "zone": "146",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "ARRAIAL DO CABO"
+      ],
+      "municipality_codes": [
+        "59277"
+      ],
+      "candidate_valid_votes": 16,
+      "office_valid_votes": 25401,
+      "vote_share_percent": 0.0629896460769261,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-147",
+      "zone": "147",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "ANGRA DOS REIS"
+      ],
+      "municipality_codes": [
+        "58017"
+      ],
+      "candidate_valid_votes": 29,
+      "office_valid_votes": 47866,
+      "vote_share_percent": 0.06058580203066895,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-148",
+      "zone": "148",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "MAGÉ"
+      ],
+      "municipality_codes": [
+        "58491"
+      ],
+      "candidate_valid_votes": 132,
+      "office_valid_votes": 62740,
+      "vote_share_percent": 0.21039209435766656,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-149",
+      "zone": "149",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "GUAPIMIRIM"
+      ],
+      "municipality_codes": [
+        "58106"
+      ],
+      "candidate_valid_votes": 40,
+      "office_valid_votes": 32185,
+      "vote_share_percent": 0.12428149759204599,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-150",
+      "zone": "150",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "MESQUITA"
+      ],
+      "municipality_codes": [
+        "58467"
+      ],
+      "candidate_valid_votes": 59,
+      "office_valid_votes": 49291,
+      "vote_share_percent": 0.1196973078249579,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-151",
+      "zone": "151",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "TANGUÁ",
+        "ITABORAÍ"
+      ],
+      "municipality_codes": [
+        "58360",
+        "58378"
+      ],
+      "candidate_valid_votes": 116,
+      "office_valid_votes": 72550,
+      "vote_share_percent": 0.15988973121984837,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-152",
+      "zone": "152",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "BELFORD ROXO"
+      ],
+      "municipality_codes": [
+        "58041"
+      ],
+      "candidate_valid_votes": 47,
+      "office_valid_votes": 67843,
+      "vote_share_percent": 0.0692775968043866,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-153",
+      "zone": "153",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "BELFORD ROXO"
+      ],
+      "municipality_codes": [
+        "58041"
+      ],
+      "candidate_valid_votes": 41,
+      "office_valid_votes": 58377,
+      "vote_share_percent": 0.07023313976394813,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-154",
+      "zone": "154",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "BELFORD ROXO"
+      ],
+      "municipality_codes": [
+        "58041"
+      ],
+      "candidate_valid_votes": 96,
+      "office_valid_votes": 54320,
+      "vote_share_percent": 0.17673048600883653,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-155",
+      "zone": "155",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "BELFORD ROXO"
+      ],
+      "municipality_codes": [
+        "58041"
+      ],
+      "candidate_valid_votes": 49,
+      "office_valid_votes": 59252,
+      "vote_share_percent": 0.08269763045973132,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-156",
+      "zone": "156",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "NOVA IGUAÇU"
+      ],
+      "municipality_codes": [
+        "58696"
+      ],
+      "candidate_valid_votes": 183,
+      "office_valid_votes": 78999,
+      "vote_share_percent": 0.23164850187977062,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-157",
+      "zone": "157",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "NOVA IGUAÇU"
+      ],
+      "municipality_codes": [
+        "58696"
+      ],
+      "candidate_valid_votes": 149,
+      "office_valid_votes": 63362,
+      "vote_share_percent": 0.23515671853792494,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-158",
+      "zone": "158",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "NOVA IGUAÇU"
+      ],
+      "municipality_codes": [
+        "58696"
+      ],
+      "candidate_valid_votes": 120,
+      "office_valid_votes": 66697,
+      "vote_share_percent": 0.17991813724755237,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-159",
+      "zone": "159",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "NOVA IGUAÇU"
+      ],
+      "municipality_codes": [
+        "58696"
+      ],
+      "candidate_valid_votes": 107,
+      "office_valid_votes": 49867,
+      "vote_share_percent": 0.21457075821685684,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-161",
+      "zone": "161",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 241,
+      "office_valid_votes": 52021,
+      "vote_share_percent": 0.4632744468579997,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-162",
+      "zone": "162",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 502,
+      "office_valid_votes": 68156,
+      "vote_share_percent": 0.7365455719232349,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-167",
+      "zone": "167",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 147,
+      "office_valid_votes": 41876,
+      "vote_share_percent": 0.35103639316076035,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-169",
+      "zone": "169",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 268,
+      "office_valid_votes": 51806,
+      "vote_share_percent": 0.5173145967648535,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-170",
+      "zone": "170",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 470,
+      "office_valid_votes": 86164,
+      "vote_share_percent": 0.5454714265818671,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-172",
+      "zone": "172",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "ARMAÇÃO DOS BÚZIOS"
+      ],
+      "municipality_codes": [
+        "58408"
+      ],
+      "candidate_valid_votes": 25,
+      "office_valid_votes": 25921,
+      "vote_share_percent": 0.09644689633887582,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-174",
+      "zone": "174",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "AREAL",
+        "TRÊS RIOS"
+      ],
+      "municipality_codes": [
+        "58220",
+        "59196"
+      ],
+      "candidate_valid_votes": 110,
+      "office_valid_votes": 35657,
+      "vote_share_percent": 0.30849482570042347,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-176",
+      "zone": "176",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 237,
+      "office_valid_votes": 55604,
+      "vote_share_percent": 0.42622832889720164,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-179",
+      "zone": "179",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 353,
+      "office_valid_votes": 91668,
+      "vote_share_percent": 0.3850853078500676,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-180",
+      "zone": "180",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 162,
+      "office_valid_votes": 58001,
+      "vote_share_percent": 0.27930552921501356,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-181",
+      "zone": "181",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "IGUABA GRANDE"
+      ],
+      "municipality_codes": [
+        "58262"
+      ],
+      "candidate_valid_votes": 11,
+      "office_valid_votes": 22763,
+      "vote_share_percent": 0.04832403461758116,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-182",
+      "zone": "182",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 193,
+      "office_valid_votes": 72080,
+      "vote_share_percent": 0.26775804661487235,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-183",
+      "zone": "183",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "QUATIS",
+        "PORTO REAL"
+      ],
+      "municipality_codes": [
+        "58025",
+        "58327"
+      ],
+      "candidate_valid_votes": 26,
+      "office_valid_votes": 21061,
+      "vote_share_percent": 0.12345092825601824,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-184",
+      "zone": "184",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "RIO DAS OSTRAS"
+      ],
+      "municipality_codes": [
+        "58203"
+      ],
+      "candidate_valid_votes": 109,
+      "office_valid_votes": 73210,
+      "vote_share_percent": 0.14888676410326457,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-185",
+      "zone": "185",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 228,
+      "office_valid_votes": 69509,
+      "vote_share_percent": 0.32801507718424955,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-186",
+      "zone": "186",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SÃO JOÃO DE MERITI"
+      ],
+      "municipality_codes": [
+        "59013"
+      ],
+      "candidate_valid_votes": 107,
+      "office_valid_votes": 66593,
+      "vote_share_percent": 0.16067754869130388,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-187",
+      "zone": "187",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SÃO JOÃO DE MERITI"
+      ],
+      "municipality_codes": [
+        "59013"
+      ],
+      "candidate_valid_votes": 156,
+      "office_valid_votes": 71809,
+      "vote_share_percent": 0.21724296397387513,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-188",
+      "zone": "188",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 229,
+      "office_valid_votes": 76417,
+      "vote_share_percent": 0.2996715390554458,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-191",
+      "zone": "191",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 224,
+      "office_valid_votes": 65244,
+      "vote_share_percent": 0.34332658941818406,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-192",
+      "zone": "192",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 139,
+      "office_valid_votes": 40369,
+      "vote_share_percent": 0.3443236146548094,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-195",
+      "zone": "195",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "TERESÓPOLIS"
+      ],
+      "municipality_codes": [
+        "59153"
+      ],
+      "candidate_valid_votes": 63,
+      "office_valid_votes": 48188,
+      "vote_share_percent": 0.13073794305636258,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-196",
+      "zone": "196",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SÃO JOSÉ DO VALE DO RIO PRETO"
+      ],
+      "municipality_codes": [
+        "59331"
+      ],
+      "candidate_valid_votes": 12,
+      "office_valid_votes": 11678,
+      "vote_share_percent": 0.10275732145915396,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-198",
+      "zone": "198",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "ITATIAIA",
+        "RESENDE"
+      ],
+      "municipality_codes": [
+        "58440",
+        "58831"
+      ],
+      "candidate_valid_votes": 61,
+      "office_valid_votes": 41190,
+      "vote_share_percent": 0.14809419762078174,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-199",
+      "zone": "199",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "NITERÓI"
+      ],
+      "municipality_codes": [
+        "58653"
+      ],
+      "candidate_valid_votes": 108,
+      "office_valid_votes": 57387,
+      "vote_share_percent": 0.18819593287678393,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-200",
+      "zone": "200",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "DUQUE DE CAXIAS"
+      ],
+      "municipality_codes": [
+        "58335"
+      ],
+      "candidate_valid_votes": 77,
+      "office_valid_votes": 55054,
+      "vote_share_percent": 0.13986268027754567,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-201",
+      "zone": "201",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "NILÓPOLIS"
+      ],
+      "municipality_codes": [
+        "58637"
+      ],
+      "candidate_valid_votes": 122,
+      "office_valid_votes": 45210,
+      "vote_share_percent": 0.26985180269851805,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-204",
+      "zone": "204",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 346,
+      "office_valid_votes": 67260,
+      "vote_share_percent": 0.5144216473386857,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-211",
+      "zone": "211",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 389,
+      "office_valid_votes": 65133,
+      "vote_share_percent": 0.5972394945726437,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-214",
+      "zone": "214",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 376,
+      "office_valid_votes": 80985,
+      "vote_share_percent": 0.46428350929184414,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-216",
+      "zone": "216",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 290,
+      "office_valid_votes": 52159,
+      "vote_share_percent": 0.555992254452731,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-218",
+      "zone": "218",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 257,
+      "office_valid_votes": 58353,
+      "vote_share_percent": 0.4404229431220331,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-219",
+      "zone": "219",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 233,
+      "office_valid_votes": 58412,
+      "vote_share_percent": 0.3988906389098131,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-221",
+      "zone": "221",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "NILÓPOLIS"
+      ],
+      "municipality_codes": [
+        "58637"
+      ],
+      "candidate_valid_votes": 87,
+      "office_valid_votes": 39615,
+      "vote_share_percent": 0.21961378265808407,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-222",
+      "zone": "222",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "NOVA FRIBURGO"
+      ],
+      "municipality_codes": [
+        "58670"
+      ],
+      "candidate_valid_votes": 104,
+      "office_valid_votes": 59614,
+      "vote_share_percent": 0.1744556647767303,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-225",
+      "zone": "225",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "SEROPÉDICA"
+      ],
+      "municipality_codes": [
+        "58424"
+      ],
+      "candidate_valid_votes": 53,
+      "office_valid_votes": 40795,
+      "vote_share_percent": 0.1299178820933938,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-229",
+      "zone": "229",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 372,
+      "office_valid_votes": 69480,
+      "vote_share_percent": 0.5354058721934369,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-230",
+      "zone": "230",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 391,
+      "office_valid_votes": 39486,
+      "vote_share_percent": 0.9902243833257357,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-233",
+      "zone": "233",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 438,
+      "office_valid_votes": 65674,
+      "vote_share_percent": 0.6669305965831227,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-234",
+      "zone": "234",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 258,
+      "office_valid_votes": 51661,
+      "vote_share_percent": 0.49940961266719575,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-238",
+      "zone": "238",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 217,
+      "office_valid_votes": 70156,
+      "vote_share_percent": 0.3093106790580991,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-241",
+      "zone": "241",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 130,
+      "office_valid_votes": 46657,
+      "vote_share_percent": 0.27862914460852606,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-242",
+      "zone": "242",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 154,
+      "office_valid_votes": 46020,
+      "vote_share_percent": 0.33463711429813126,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-243",
+      "zone": "243",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 128,
+      "office_valid_votes": 56146,
+      "vote_share_percent": 0.22797705980835678,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-245",
+      "zone": "245",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 251,
+      "office_valid_votes": 68013,
+      "vote_share_percent": 0.3690470939379236,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-246",
+      "zone": "246",
+      "state": "RJ",
+      "capital": true,
+      "municipalities": [
+        "RIO DE JANEIRO"
+      ],
+      "municipality_codes": [
+        "60011"
+      ],
+      "candidate_valid_votes": 290,
+      "office_valid_votes": 70116,
+      "vote_share_percent": 0.4136003194705916,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-254",
+      "zone": "254",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "MACAÉ"
+      ],
+      "municipality_codes": [
+        "58475"
+      ],
+      "candidate_valid_votes": 45,
+      "office_valid_votes": 62214,
+      "vote_share_percent": 0.07233098659465716,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-255",
+      "zone": "255",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "QUISSAMÃ",
+        "CARAPEBUS"
+      ],
+      "municipality_codes": [
+        "58009",
+        "58300"
+      ],
+      "candidate_valid_votes": 44,
+      "office_valid_votes": 23318,
+      "vote_share_percent": 0.18869542842439319,
+      "geometry_status": "available"
+    },
+    {
+      "id": "RJ-256",
+      "zone": "256",
+      "state": "RJ",
+      "capital": false,
+      "municipalities": [
+        "CABO FRIO"
+      ],
+      "municipality_codes": [
+        "58130"
+      ],
+      "candidate_valid_votes": 95,
+      "office_valid_votes": 71306,
+      "vote_share_percent": 0.13322862031245616,
+      "geometry_status": "available"
+    }
+  ],
+  "coverage": {
+    "zones": 165,
+    "capital_zones": 49,
+    "state_votes": 23105,
+    "capital_votes": 13195,
+    "checks": [
+      {
+        "zone": "4",
+        "nominal_detail": 74919,
+        "nominal_candidates": 74919,
+        "nominal_parties": 74919,
+        "legend_detail": 5458,
+        "legend_parties": 5458,
+        "valid_detail": 80377,
+        "passed": true
+      },
+      {
+        "zone": "5",
+        "nominal_detail": 66881,
+        "nominal_candidates": 66881,
+        "nominal_parties": 66881,
+        "legend_detail": 5278,
+        "legend_parties": 5278,
+        "valid_detail": 72159,
+        "passed": true
+      },
+      {
+        "zone": "7",
+        "nominal_detail": 65934,
+        "nominal_candidates": 65934,
+        "nominal_parties": 65934,
+        "legend_detail": 4960,
+        "legend_parties": 4960,
+        "valid_detail": 70894,
+        "passed": true
+      },
+      {
+        "zone": "8",
+        "nominal_detail": 47888,
+        "nominal_candidates": 47888,
+        "nominal_parties": 47888,
+        "legend_detail": 3966,
+        "legend_parties": 3966,
+        "valid_detail": 51854,
+        "passed": true
+      },
+      {
+        "zone": "9",
+        "nominal_detail": 104565,
+        "nominal_candidates": 104565,
+        "nominal_parties": 104565,
+        "legend_detail": 6947,
+        "legend_parties": 6947,
+        "valid_detail": 111512,
+        "passed": true
+      },
+      {
+        "zone": "10",
+        "nominal_detail": 46635,
+        "nominal_candidates": 46635,
+        "nominal_parties": 46635,
+        "legend_detail": 3670,
+        "legend_parties": 3670,
+        "valid_detail": 50305,
+        "passed": true
+      },
+      {
+        "zone": "14",
+        "nominal_detail": 47787,
+        "nominal_candidates": 47787,
+        "nominal_parties": 47787,
+        "legend_detail": 3587,
+        "legend_parties": 3587,
+        "valid_detail": 51374,
+        "passed": true
+      },
+      {
+        "zone": "16",
+        "nominal_detail": 73243,
+        "nominal_candidates": 73243,
+        "nominal_parties": 73243,
+        "legend_detail": 5401,
+        "legend_parties": 5401,
+        "valid_detail": 78644,
+        "passed": true
+      },
+      {
+        "zone": "17",
+        "nominal_detail": 65577,
+        "nominal_candidates": 65577,
+        "nominal_parties": 65577,
+        "legend_detail": 5066,
+        "legend_parties": 5066,
+        "valid_detail": 70643,
+        "passed": true
+      },
+      {
+        "zone": "21",
+        "nominal_detail": 42233,
+        "nominal_candidates": 42233,
+        "nominal_parties": 42233,
+        "legend_detail": 3865,
+        "legend_parties": 3865,
+        "valid_detail": 46098,
+        "passed": true
+      },
+      {
+        "zone": "22",
+        "nominal_detail": 57645,
+        "nominal_candidates": 57645,
+        "nominal_parties": 57645,
+        "legend_detail": 4336,
+        "legend_parties": 4336,
+        "valid_detail": 61981,
+        "passed": true
+      },
+      {
+        "zone": "23",
+        "nominal_detail": 45141,
+        "nominal_candidates": 45141,
+        "nominal_parties": 45141,
+        "legend_detail": 3546,
+        "legend_parties": 3546,
+        "valid_detail": 48687,
+        "passed": true
+      },
+      {
+        "zone": "24",
+        "nominal_detail": 57339,
+        "nominal_candidates": 57339,
+        "nominal_parties": 57339,
+        "legend_detail": 4140,
+        "legend_parties": 4140,
+        "valid_detail": 61479,
+        "passed": true
+      },
+      {
+        "zone": "25",
+        "nominal_detail": 59304,
+        "nominal_candidates": 59304,
+        "nominal_parties": 59304,
+        "legend_detail": 4276,
+        "legend_parties": 4276,
+        "valid_detail": 63580,
+        "passed": true
+      },
+      {
+        "zone": "26",
+        "nominal_detail": 39208,
+        "nominal_candidates": 39208,
+        "nominal_parties": 39208,
+        "legend_detail": 2755,
+        "legend_parties": 2755,
+        "valid_detail": 41963,
+        "passed": true
+      },
+      {
+        "zone": "27",
+        "nominal_detail": 50615,
+        "nominal_candidates": 50615,
+        "nominal_parties": 50615,
+        "legend_detail": 2946,
+        "legend_parties": 2946,
+        "valid_detail": 53561,
+        "passed": true
+      },
+      {
+        "zone": "28",
+        "nominal_detail": 22321,
+        "nominal_candidates": 22321,
+        "nominal_parties": 22321,
+        "legend_detail": 1435,
+        "legend_parties": 1435,
+        "valid_detail": 23756,
+        "passed": true
+      },
+      {
+        "zone": "29",
+        "nominal_detail": 79752,
+        "nominal_candidates": 79752,
+        "nominal_parties": 79752,
+        "legend_detail": 5008,
+        "legend_parties": 5008,
+        "valid_detail": 84760,
+        "passed": true
+      },
+      {
+        "zone": "30",
+        "nominal_detail": 28914,
+        "nominal_candidates": 28914,
+        "nominal_parties": 28914,
+        "legend_detail": 1654,
+        "legend_parties": 1654,
+        "valid_detail": 30568,
+        "passed": true
+      },
+      {
+        "zone": "31",
+        "nominal_detail": 43435,
+        "nominal_candidates": 43435,
+        "nominal_parties": 43435,
+        "legend_detail": 2172,
+        "legend_parties": 2172,
+        "valid_detail": 45607,
+        "passed": true
+      },
+      {
+        "zone": "32",
+        "nominal_detail": 29907,
+        "nominal_candidates": 29907,
+        "nominal_parties": 29907,
+        "legend_detail": 1984,
+        "legend_parties": 1984,
+        "valid_detail": 31891,
+        "passed": true
+      },
+      {
+        "zone": "34",
+        "nominal_detail": 28263,
+        "nominal_candidates": 28263,
+        "nominal_parties": 28263,
+        "legend_detail": 2382,
+        "legend_parties": 2382,
+        "valid_detail": 30645,
+        "passed": true
+      },
+      {
+        "zone": "35",
+        "nominal_detail": 19750,
+        "nominal_candidates": 19750,
+        "nominal_parties": 19750,
+        "legend_detail": 1524,
+        "legend_parties": 1524,
+        "valid_detail": 21274,
+        "passed": true
+      },
+      {
+        "zone": "36",
+        "nominal_detail": 54480,
+        "nominal_candidates": 54480,
+        "nominal_parties": 54480,
+        "legend_detail": 3625,
+        "legend_parties": 3625,
+        "valid_detail": 58105,
+        "passed": true
+      },
+      {
+        "zone": "37",
+        "nominal_detail": 30630,
+        "nominal_candidates": 30630,
+        "nominal_parties": 30630,
+        "legend_detail": 1772,
+        "legend_parties": 1772,
+        "valid_detail": 32402,
+        "passed": true
+      },
+      {
+        "zone": "38",
+        "nominal_detail": 38354,
+        "nominal_candidates": 38354,
+        "nominal_parties": 38354,
+        "legend_detail": 2471,
+        "legend_parties": 2471,
+        "valid_detail": 40825,
+        "passed": true
+      },
+      {
+        "zone": "40",
+        "nominal_detail": 16765,
+        "nominal_candidates": 16765,
+        "nominal_parties": 16765,
+        "legend_detail": 1143,
+        "legend_parties": 1143,
+        "valid_detail": 17908,
+        "passed": true
+      },
+      {
+        "zone": "41",
+        "nominal_detail": 19913,
+        "nominal_candidates": 19913,
+        "nominal_parties": 19913,
+        "legend_detail": 1210,
+        "legend_parties": 1210,
+        "valid_detail": 21123,
+        "passed": true
+      },
+      {
+        "zone": "42",
+        "nominal_detail": 20296,
+        "nominal_candidates": 20296,
+        "nominal_parties": 20296,
+        "legend_detail": 2027,
+        "legend_parties": 2027,
+        "valid_detail": 22323,
+        "passed": true
+      },
+      {
+        "zone": "43",
+        "nominal_detail": 13336,
+        "nominal_candidates": 13336,
+        "nominal_parties": 13336,
+        "legend_detail": 1336,
+        "legend_parties": 1336,
+        "valid_detail": 14672,
+        "passed": true
+      },
+      {
+        "zone": "45",
+        "nominal_detail": 8436,
+        "nominal_candidates": 8436,
+        "nominal_parties": 8436,
+        "legend_detail": 780,
+        "legend_parties": 780,
+        "valid_detail": 9216,
+        "passed": true
+      },
+      {
+        "zone": "48",
+        "nominal_detail": 31769,
+        "nominal_candidates": 31769,
+        "nominal_parties": 31769,
+        "legend_detail": 2250,
+        "legend_parties": 2250,
+        "valid_detail": 34019,
+        "passed": true
+      },
+      {
+        "zone": "49",
+        "nominal_detail": 29818,
+        "nominal_candidates": 29818,
+        "nominal_parties": 29818,
+        "legend_detail": 2379,
+        "legend_parties": 2379,
+        "valid_detail": 32197,
+        "passed": true
+      },
+      {
+        "zone": "50",
+        "nominal_detail": 23480,
+        "nominal_candidates": 23480,
+        "nominal_parties": 23480,
+        "legend_detail": 1624,
+        "legend_parties": 1624,
+        "valid_detail": 25104,
+        "passed": true
+      },
+      {
+        "zone": "51",
+        "nominal_detail": 18089,
+        "nominal_candidates": 18089,
+        "nominal_parties": 18089,
+        "legend_detail": 1405,
+        "legend_parties": 1405,
+        "valid_detail": 19494,
+        "passed": true
+      },
+      {
+        "zone": "52",
+        "nominal_detail": 16863,
+        "nominal_candidates": 16863,
+        "nominal_parties": 16863,
+        "legend_detail": 1180,
+        "legend_parties": 1180,
+        "valid_detail": 18043,
+        "passed": true
+      },
+      {
+        "zone": "54",
+        "nominal_detail": 27816,
+        "nominal_candidates": 27816,
+        "nominal_parties": 27816,
+        "legend_detail": 1617,
+        "legend_parties": 1617,
+        "valid_detail": 29433,
+        "passed": true
+      },
+      {
+        "zone": "55",
+        "nominal_detail": 109974,
+        "nominal_candidates": 109974,
+        "nominal_parties": 109974,
+        "legend_detail": 7416,
+        "legend_parties": 7416,
+        "valid_detail": 117390,
+        "passed": true
+      },
+      {
+        "zone": "56",
+        "nominal_detail": 9918,
+        "nominal_candidates": 9918,
+        "nominal_parties": 9918,
+        "legend_detail": 625,
+        "legend_parties": 625,
+        "valid_detail": 10543,
+        "passed": true
+      },
+      {
+        "zone": "57",
+        "nominal_detail": 20759,
+        "nominal_candidates": 20759,
+        "nominal_parties": 20759,
+        "legend_detail": 1647,
+        "legend_parties": 1647,
+        "valid_detail": 22406,
+        "passed": true
+      },
+      {
+        "zone": "59",
+        "nominal_detail": 50520,
+        "nominal_candidates": 50520,
+        "nominal_parties": 50520,
+        "legend_detail": 2599,
+        "legend_parties": 2599,
+        "valid_detail": 53119,
+        "passed": true
+      },
+      {
+        "zone": "60",
+        "nominal_detail": 10998,
+        "nominal_candidates": 10998,
+        "nominal_parties": 10998,
+        "legend_detail": 1064,
+        "legend_parties": 1064,
+        "valid_detail": 12062,
+        "passed": true
+      },
+      {
+        "zone": "61",
+        "nominal_detail": 9927,
+        "nominal_candidates": 9927,
+        "nominal_parties": 9927,
+        "legend_detail": 926,
+        "legend_parties": 926,
+        "valid_detail": 10853,
+        "passed": true
+      },
+      {
+        "zone": "62",
+        "nominal_detail": 55535,
+        "nominal_candidates": 55535,
+        "nominal_parties": 55535,
+        "legend_detail": 3399,
+        "legend_parties": 3399,
+        "valid_detail": 58934,
+        "passed": true
+      },
+      {
+        "zone": "63",
+        "nominal_detail": 12269,
+        "nominal_candidates": 12269,
+        "nominal_parties": 12269,
+        "legend_detail": 1002,
+        "legend_parties": 1002,
+        "valid_detail": 13271,
+        "passed": true
+      },
+      {
+        "zone": "64",
+        "nominal_detail": 9989,
+        "nominal_candidates": 9989,
+        "nominal_parties": 9989,
+        "legend_detail": 987,
+        "legend_parties": 987,
+        "valid_detail": 10976,
+        "passed": true
+      },
+      {
+        "zone": "65",
+        "nominal_detail": 63104,
+        "nominal_candidates": 63104,
+        "nominal_parties": 63104,
+        "legend_detail": 4562,
+        "legend_parties": 4562,
+        "valid_detail": 67666,
+        "passed": true
+      },
+      {
+        "zone": "68",
+        "nominal_detail": 50001,
+        "nominal_candidates": 50001,
+        "nominal_parties": 50001,
+        "legend_detail": 2966,
+        "legend_parties": 2966,
+        "valid_detail": 52967,
+        "passed": true
+      },
+      {
+        "zone": "69",
+        "nominal_detail": 50287,
+        "nominal_candidates": 50287,
+        "nominal_parties": 50287,
+        "legend_detail": 3918,
+        "legend_parties": 3918,
+        "valid_detail": 54205,
+        "passed": true
+      },
+      {
+        "zone": "70",
+        "nominal_detail": 22585,
+        "nominal_candidates": 22585,
+        "nominal_parties": 22585,
+        "legend_detail": 1328,
+        "legend_parties": 1328,
+        "valid_detail": 23913,
+        "passed": true
+      },
+      {
+        "zone": "71",
+        "nominal_detail": 78174,
+        "nominal_candidates": 78174,
+        "nominal_parties": 78174,
+        "legend_detail": 4622,
+        "legend_parties": 4622,
+        "valid_detail": 82796,
+        "passed": true
+      },
+      {
+        "zone": "72",
+        "nominal_detail": 82107,
+        "nominal_candidates": 82107,
+        "nominal_parties": 82107,
+        "legend_detail": 5306,
+        "legend_parties": 5306,
+        "valid_detail": 87413,
+        "passed": true
+      },
+      {
+        "zone": "74",
+        "nominal_detail": 8056,
+        "nominal_candidates": 8056,
+        "nominal_parties": 8056,
+        "legend_detail": 474,
+        "legend_parties": 474,
+        "valid_detail": 8530,
+        "passed": true
+      },
+      {
+        "zone": "75",
+        "nominal_detail": 76600,
+        "nominal_candidates": 76600,
+        "nominal_parties": 76600,
+        "legend_detail": 4564,
+        "legend_parties": 4564,
+        "valid_detail": 81164,
+        "passed": true
+      },
+      {
+        "zone": "76",
+        "nominal_detail": 64897,
+        "nominal_candidates": 64897,
+        "nominal_parties": 64897,
+        "legend_detail": 4523,
+        "legend_parties": 4523,
+        "valid_detail": 69420,
+        "passed": true
+      },
+      {
+        "zone": "78",
+        "nominal_detail": 70816,
+        "nominal_candidates": 70816,
+        "nominal_parties": 70816,
+        "legend_detail": 4239,
+        "legend_parties": 4239,
+        "valid_detail": 75055,
+        "passed": true
+      },
+      {
+        "zone": "79",
+        "nominal_detail": 68207,
+        "nominal_candidates": 68207,
+        "nominal_parties": 68207,
+        "legend_detail": 3630,
+        "legend_parties": 3630,
+        "valid_detail": 71837,
+        "passed": true
+      },
+      {
+        "zone": "83",
+        "nominal_detail": 42482,
+        "nominal_candidates": 42482,
+        "nominal_parties": 42482,
+        "legend_detail": 2328,
+        "legend_parties": 2328,
+        "valid_detail": 44810,
+        "passed": true
+      },
+      {
+        "zone": "84",
+        "nominal_detail": 71223,
+        "nominal_candidates": 71223,
+        "nominal_parties": 71223,
+        "legend_detail": 5520,
+        "legend_parties": 5520,
+        "valid_detail": 76743,
+        "passed": true
+      },
+      {
+        "zone": "87",
+        "nominal_detail": 51963,
+        "nominal_candidates": 51963,
+        "nominal_parties": 51963,
+        "legend_detail": 3439,
+        "legend_parties": 3439,
+        "valid_detail": 55402,
+        "passed": true
+      },
+      {
+        "zone": "88",
+        "nominal_detail": 42769,
+        "nominal_candidates": 42769,
+        "nominal_parties": 42769,
+        "legend_detail": 2619,
+        "legend_parties": 2619,
+        "valid_detail": 45388,
+        "passed": true
+      },
+      {
+        "zone": "89",
+        "nominal_detail": 48948,
+        "nominal_candidates": 48948,
+        "nominal_parties": 48948,
+        "legend_detail": 3009,
+        "legend_parties": 3009,
+        "valid_detail": 51957,
+        "passed": true
+      },
+      {
+        "zone": "90",
+        "nominal_detail": 64009,
+        "nominal_candidates": 64009,
+        "nominal_parties": 64009,
+        "legend_detail": 3441,
+        "legend_parties": 3441,
+        "valid_detail": 67450,
+        "passed": true
+      },
+      {
+        "zone": "91",
+        "nominal_detail": 56656,
+        "nominal_candidates": 56656,
+        "nominal_parties": 56656,
+        "legend_detail": 3607,
+        "legend_parties": 3607,
+        "valid_detail": 60263,
+        "passed": true
+      },
+      {
+        "zone": "92",
+        "nominal_detail": 70887,
+        "nominal_candidates": 70887,
+        "nominal_parties": 70887,
+        "legend_detail": 4609,
+        "legend_parties": 4609,
+        "valid_detail": 75496,
+        "passed": true
+      },
+      {
+        "zone": "93",
+        "nominal_detail": 43983,
+        "nominal_candidates": 43983,
+        "nominal_parties": 43983,
+        "legend_detail": 2719,
+        "legend_parties": 2719,
+        "valid_detail": 46702,
+        "passed": true
+      },
+      {
+        "zone": "94",
+        "nominal_detail": 29505,
+        "nominal_candidates": 29505,
+        "nominal_parties": 29505,
+        "legend_detail": 1818,
+        "legend_parties": 1818,
+        "valid_detail": 31323,
+        "passed": true
+      },
+      {
+        "zone": "95",
+        "nominal_detail": 18776,
+        "nominal_candidates": 18776,
+        "nominal_parties": 18776,
+        "legend_detail": 1424,
+        "legend_parties": 1424,
+        "valid_detail": 20200,
+        "passed": true
+      },
+      {
+        "zone": "96",
+        "nominal_detail": 52785,
+        "nominal_candidates": 52785,
+        "nominal_parties": 52785,
+        "legend_detail": 2125,
+        "legend_parties": 2125,
+        "valid_detail": 54910,
+        "passed": true
+      },
+      {
+        "zone": "97",
+        "nominal_detail": 8550,
+        "nominal_candidates": 8550,
+        "nominal_parties": 8550,
+        "legend_detail": 648,
+        "legend_parties": 648,
+        "valid_detail": 9198,
+        "passed": true
+      },
+      {
+        "zone": "98",
+        "nominal_detail": 61926,
+        "nominal_candidates": 61926,
+        "nominal_parties": 61926,
+        "legend_detail": 3047,
+        "legend_parties": 3047,
+        "valid_detail": 64973,
+        "passed": true
+      },
+      {
+        "zone": "101",
+        "nominal_detail": 9686,
+        "nominal_candidates": 9686,
+        "nominal_parties": 9686,
+        "legend_detail": 766,
+        "legend_parties": 766,
+        "valid_detail": 10452,
+        "passed": true
+      },
+      {
+        "zone": "102",
+        "nominal_detail": 8813,
+        "nominal_candidates": 8813,
+        "nominal_parties": 8813,
+        "legend_detail": 715,
+        "legend_parties": 715,
+        "valid_detail": 9528,
+        "passed": true
+      },
+      {
+        "zone": "103",
+        "nominal_detail": 55840,
+        "nominal_candidates": 55840,
+        "nominal_parties": 55840,
+        "legend_detail": 3371,
+        "legend_parties": 3371,
+        "valid_detail": 59211,
+        "passed": true
+      },
+      {
+        "zone": "104",
+        "nominal_detail": 63585,
+        "nominal_candidates": 63585,
+        "nominal_parties": 63585,
+        "legend_detail": 4096,
+        "legend_parties": 4096,
+        "valid_detail": 67681,
+        "passed": true
+      },
+      {
+        "zone": "105",
+        "nominal_detail": 63633,
+        "nominal_candidates": 63633,
+        "nominal_parties": 63633,
+        "legend_detail": 4109,
+        "legend_parties": 4109,
+        "valid_detail": 67742,
+        "passed": true
+      },
+      {
+        "zone": "106",
+        "nominal_detail": 12714,
+        "nominal_candidates": 12714,
+        "nominal_parties": 12714,
+        "legend_detail": 952,
+        "legend_parties": 952,
+        "valid_detail": 13666,
+        "passed": true
+      },
+      {
+        "zone": "107",
+        "nominal_detail": 54636,
+        "nominal_candidates": 54636,
+        "nominal_parties": 54636,
+        "legend_detail": 3880,
+        "legend_parties": 3880,
+        "valid_detail": 58516,
+        "passed": true
+      },
+      {
+        "zone": "108",
+        "nominal_detail": 9793,
+        "nominal_candidates": 9793,
+        "nominal_parties": 9793,
+        "legend_detail": 841,
+        "legend_parties": 841,
+        "valid_detail": 10634,
+        "passed": true
+      },
+      {
+        "zone": "109",
+        "nominal_detail": 64231,
+        "nominal_candidates": 64231,
+        "nominal_parties": 64231,
+        "legend_detail": 3537,
+        "legend_parties": 3537,
+        "valid_detail": 67768,
+        "passed": true
+      },
+      {
+        "zone": "110",
+        "nominal_detail": 59699,
+        "nominal_candidates": 59699,
+        "nominal_parties": 59699,
+        "legend_detail": 4290,
+        "legend_parties": 4290,
+        "valid_detail": 63989,
+        "passed": true
+      },
+      {
+        "zone": "111",
+        "nominal_detail": 40729,
+        "nominal_candidates": 40729,
+        "nominal_parties": 40729,
+        "legend_detail": 2716,
+        "legend_parties": 2716,
+        "valid_detail": 43445,
+        "passed": true
+      },
+      {
+        "zone": "112",
+        "nominal_detail": 18190,
+        "nominal_candidates": 18190,
+        "nominal_parties": 18190,
+        "legend_detail": 1514,
+        "legend_parties": 1514,
+        "valid_detail": 19704,
+        "passed": true
+      },
+      {
+        "zone": "116",
+        "nominal_detail": 36414,
+        "nominal_candidates": 36414,
+        "nominal_parties": 36414,
+        "legend_detail": 2210,
+        "legend_parties": 2210,
+        "valid_detail": 38624,
+        "passed": true
+      },
+      {
+        "zone": "118",
+        "nominal_detail": 35936,
+        "nominal_candidates": 35936,
+        "nominal_parties": 35936,
+        "legend_detail": 2579,
+        "legend_parties": 2579,
+        "valid_detail": 38515,
+        "passed": true
+      },
+      {
+        "zone": "119",
+        "nominal_detail": 94343,
+        "nominal_candidates": 94343,
+        "nominal_parties": 94343,
+        "legend_detail": 6829,
+        "legend_parties": 6829,
+        "valid_detail": 101172,
+        "passed": true
+      },
+      {
+        "zone": "120",
+        "nominal_detail": 51053,
+        "nominal_candidates": 51053,
+        "nominal_parties": 51053,
+        "legend_detail": 3443,
+        "legend_parties": 3443,
+        "valid_detail": 54496,
+        "passed": true
+      },
+      {
+        "zone": "122",
+        "nominal_detail": 52849,
+        "nominal_candidates": 52849,
+        "nominal_parties": 52849,
+        "legend_detail": 3793,
+        "legend_parties": 3793,
+        "valid_detail": 56642,
+        "passed": true
+      },
+      {
+        "zone": "123",
+        "nominal_detail": 52358,
+        "nominal_candidates": 52358,
+        "nominal_parties": 52358,
+        "legend_detail": 3830,
+        "legend_parties": 3830,
+        "valid_detail": 56188,
+        "passed": true
+      },
+      {
+        "zone": "125",
+        "nominal_detail": 58903,
+        "nominal_candidates": 58903,
+        "nominal_parties": 58903,
+        "legend_detail": 4783,
+        "legend_parties": 4783,
+        "valid_detail": 63686,
+        "passed": true
+      },
+      {
+        "zone": "126",
+        "nominal_detail": 71460,
+        "nominal_candidates": 71460,
+        "nominal_parties": 71460,
+        "legend_detail": 4823,
+        "legend_parties": 4823,
+        "valid_detail": 76283,
+        "passed": true
+      },
+      {
+        "zone": "127",
+        "nominal_detail": 66705,
+        "nominal_candidates": 66705,
+        "nominal_parties": 66705,
+        "legend_detail": 4028,
+        "legend_parties": 4028,
+        "valid_detail": 70733,
+        "passed": true
+      },
+      {
+        "zone": "128",
+        "nominal_detail": 46366,
+        "nominal_candidates": 46366,
+        "nominal_parties": 46366,
+        "legend_detail": 2730,
+        "legend_parties": 2730,
+        "valid_detail": 49096,
+        "passed": true
+      },
+      {
+        "zone": "129",
+        "nominal_detail": 40604,
+        "nominal_candidates": 40604,
+        "nominal_parties": 40604,
+        "legend_detail": 2980,
+        "legend_parties": 2980,
+        "valid_detail": 43584,
+        "passed": true
+      },
+      {
+        "zone": "130",
+        "nominal_detail": 25663,
+        "nominal_candidates": 25663,
+        "nominal_parties": 25663,
+        "legend_detail": 1955,
+        "legend_parties": 1955,
+        "valid_detail": 27618,
+        "passed": true
+      },
+      {
+        "zone": "131",
+        "nominal_detail": 83967,
+        "nominal_candidates": 83967,
+        "nominal_parties": 83967,
+        "legend_detail": 4064,
+        "legend_parties": 4064,
+        "valid_detail": 88031,
+        "passed": true
+      },
+      {
+        "zone": "132",
+        "nominal_detail": 55546,
+        "nominal_candidates": 55546,
+        "nominal_parties": 55546,
+        "legend_detail": 4023,
+        "legend_parties": 4023,
+        "valid_detail": 59569,
+        "passed": true
+      },
+      {
+        "zone": "133",
+        "nominal_detail": 61019,
+        "nominal_candidates": 61019,
+        "nominal_parties": 61019,
+        "legend_detail": 4543,
+        "legend_parties": 4543,
+        "valid_detail": 65562,
+        "passed": true
+      },
+      {
+        "zone": "135",
+        "nominal_detail": 71882,
+        "nominal_candidates": 71882,
+        "nominal_parties": 71882,
+        "legend_detail": 4503,
+        "legend_parties": 4503,
+        "valid_detail": 76385,
+        "passed": true
+      },
+      {
+        "zone": "138",
+        "nominal_detail": 72410,
+        "nominal_candidates": 72410,
+        "nominal_parties": 72410,
+        "legend_detail": 4376,
+        "legend_parties": 4376,
+        "valid_detail": 76786,
+        "passed": true
+      },
+      {
+        "zone": "139",
+        "nominal_detail": 47712,
+        "nominal_candidates": 47712,
+        "nominal_parties": 47712,
+        "legend_detail": 3464,
+        "legend_parties": 3464,
+        "valid_detail": 51176,
+        "passed": true
+      },
+      {
+        "zone": "141",
+        "nominal_detail": 16815,
+        "nominal_candidates": 16815,
+        "nominal_parties": 16815,
+        "legend_detail": 1288,
+        "legend_parties": 1288,
+        "valid_detail": 18103,
+        "passed": true
+      },
+      {
+        "zone": "144",
+        "nominal_detail": 66699,
+        "nominal_candidates": 66699,
+        "nominal_parties": 66699,
+        "legend_detail": 4367,
+        "legend_parties": 4367,
+        "valid_detail": 71066,
+        "passed": true
+      },
+      {
+        "zone": "146",
+        "nominal_detail": 24272,
+        "nominal_candidates": 24272,
+        "nominal_parties": 24272,
+        "legend_detail": 1129,
+        "legend_parties": 1129,
+        "valid_detail": 25401,
+        "passed": true
+      },
+      {
+        "zone": "147",
+        "nominal_detail": 44760,
+        "nominal_candidates": 44760,
+        "nominal_parties": 44760,
+        "legend_detail": 3106,
+        "legend_parties": 3106,
+        "valid_detail": 47866,
+        "passed": true
+      },
+      {
+        "zone": "148",
+        "nominal_detail": 58606,
+        "nominal_candidates": 58606,
+        "nominal_parties": 58606,
+        "legend_detail": 4134,
+        "legend_parties": 4134,
+        "valid_detail": 62740,
+        "passed": true
+      },
+      {
+        "zone": "149",
+        "nominal_detail": 30242,
+        "nominal_candidates": 30242,
+        "nominal_parties": 30242,
+        "legend_detail": 1943,
+        "legend_parties": 1943,
+        "valid_detail": 32185,
+        "passed": true
+      },
+      {
+        "zone": "150",
+        "nominal_detail": 46752,
+        "nominal_candidates": 46752,
+        "nominal_parties": 46752,
+        "legend_detail": 2539,
+        "legend_parties": 2539,
+        "valid_detail": 49291,
+        "passed": true
+      },
+      {
+        "zone": "151",
+        "nominal_detail": 67860,
+        "nominal_candidates": 67860,
+        "nominal_parties": 67860,
+        "legend_detail": 4690,
+        "legend_parties": 4690,
+        "valid_detail": 72550,
+        "passed": true
+      },
+      {
+        "zone": "152",
+        "nominal_detail": 65033,
+        "nominal_candidates": 65033,
+        "nominal_parties": 65033,
+        "legend_detail": 2810,
+        "legend_parties": 2810,
+        "valid_detail": 67843,
+        "passed": true
+      },
+      {
+        "zone": "153",
+        "nominal_detail": 55946,
+        "nominal_candidates": 55946,
+        "nominal_parties": 55946,
+        "legend_detail": 2431,
+        "legend_parties": 2431,
+        "valid_detail": 58377,
+        "passed": true
+      },
+      {
+        "zone": "154",
+        "nominal_detail": 51871,
+        "nominal_candidates": 51871,
+        "nominal_parties": 51871,
+        "legend_detail": 2449,
+        "legend_parties": 2449,
+        "valid_detail": 54320,
+        "passed": true
+      },
+      {
+        "zone": "155",
+        "nominal_detail": 56267,
+        "nominal_candidates": 56267,
+        "nominal_parties": 56267,
+        "legend_detail": 2985,
+        "legend_parties": 2985,
+        "valid_detail": 59252,
+        "passed": true
+      },
+      {
+        "zone": "156",
+        "nominal_detail": 74363,
+        "nominal_candidates": 74363,
+        "nominal_parties": 74363,
+        "legend_detail": 4636,
+        "legend_parties": 4636,
+        "valid_detail": 78999,
+        "passed": true
+      },
+      {
+        "zone": "157",
+        "nominal_detail": 59963,
+        "nominal_candidates": 59963,
+        "nominal_parties": 59963,
+        "legend_detail": 3399,
+        "legend_parties": 3399,
+        "valid_detail": 63362,
+        "passed": true
+      },
+      {
+        "zone": "158",
+        "nominal_detail": 62644,
+        "nominal_candidates": 62644,
+        "nominal_parties": 62644,
+        "legend_detail": 4053,
+        "legend_parties": 4053,
+        "valid_detail": 66697,
+        "passed": true
+      },
+      {
+        "zone": "159",
+        "nominal_detail": 46564,
+        "nominal_candidates": 46564,
+        "nominal_parties": 46564,
+        "legend_detail": 3303,
+        "legend_parties": 3303,
+        "valid_detail": 49867,
+        "passed": true
+      },
+      {
+        "zone": "161",
+        "nominal_detail": 47841,
+        "nominal_candidates": 47841,
+        "nominal_parties": 47841,
+        "legend_detail": 4180,
+        "legend_parties": 4180,
+        "valid_detail": 52021,
+        "passed": true
+      },
+      {
+        "zone": "162",
+        "nominal_detail": 63188,
+        "nominal_candidates": 63188,
+        "nominal_parties": 63188,
+        "legend_detail": 4968,
+        "legend_parties": 4968,
+        "valid_detail": 68156,
+        "passed": true
+      },
+      {
+        "zone": "167",
+        "nominal_detail": 38998,
+        "nominal_candidates": 38998,
+        "nominal_parties": 38998,
+        "legend_detail": 2878,
+        "legend_parties": 2878,
+        "valid_detail": 41876,
+        "passed": true
+      },
+      {
+        "zone": "169",
+        "nominal_detail": 47697,
+        "nominal_candidates": 47697,
+        "nominal_parties": 47697,
+        "legend_detail": 4109,
+        "legend_parties": 4109,
+        "valid_detail": 51806,
+        "passed": true
+      },
+      {
+        "zone": "170",
+        "nominal_detail": 80125,
+        "nominal_candidates": 80125,
+        "nominal_parties": 80125,
+        "legend_detail": 6039,
+        "legend_parties": 6039,
+        "valid_detail": 86164,
+        "passed": true
+      },
+      {
+        "zone": "172",
+        "nominal_detail": 24706,
+        "nominal_candidates": 24706,
+        "nominal_parties": 24706,
+        "legend_detail": 1215,
+        "legend_parties": 1215,
+        "valid_detail": 25921,
+        "passed": true
+      },
+      {
+        "zone": "174",
+        "nominal_detail": 33236,
+        "nominal_candidates": 33236,
+        "nominal_parties": 33236,
+        "legend_detail": 2421,
+        "legend_parties": 2421,
+        "valid_detail": 35657,
+        "passed": true
+      },
+      {
+        "zone": "176",
+        "nominal_detail": 51965,
+        "nominal_candidates": 51965,
+        "nominal_parties": 51965,
+        "legend_detail": 3639,
+        "legend_parties": 3639,
+        "valid_detail": 55604,
+        "passed": true
+      },
+      {
+        "zone": "179",
+        "nominal_detail": 85279,
+        "nominal_candidates": 85279,
+        "nominal_parties": 85279,
+        "legend_detail": 6389,
+        "legend_parties": 6389,
+        "valid_detail": 91668,
+        "passed": true
+      },
+      {
+        "zone": "180",
+        "nominal_detail": 53928,
+        "nominal_candidates": 53928,
+        "nominal_parties": 53928,
+        "legend_detail": 4073,
+        "legend_parties": 4073,
+        "valid_detail": 58001,
+        "passed": true
+      },
+      {
+        "zone": "181",
+        "nominal_detail": 21801,
+        "nominal_candidates": 21801,
+        "nominal_parties": 21801,
+        "legend_detail": 962,
+        "legend_parties": 962,
+        "valid_detail": 22763,
+        "passed": true
+      },
+      {
+        "zone": "182",
+        "nominal_detail": 67451,
+        "nominal_candidates": 67451,
+        "nominal_parties": 67451,
+        "legend_detail": 4629,
+        "legend_parties": 4629,
+        "valid_detail": 72080,
+        "passed": true
+      },
+      {
+        "zone": "183",
+        "nominal_detail": 19823,
+        "nominal_candidates": 19823,
+        "nominal_parties": 19823,
+        "legend_detail": 1238,
+        "legend_parties": 1238,
+        "valid_detail": 21061,
+        "passed": true
+      },
+      {
+        "zone": "184",
+        "nominal_detail": 69295,
+        "nominal_candidates": 69295,
+        "nominal_parties": 69295,
+        "legend_detail": 3915,
+        "legend_parties": 3915,
+        "valid_detail": 73210,
+        "passed": true
+      },
+      {
+        "zone": "185",
+        "nominal_detail": 65070,
+        "nominal_candidates": 65070,
+        "nominal_parties": 65070,
+        "legend_detail": 4439,
+        "legend_parties": 4439,
+        "valid_detail": 69509,
+        "passed": true
+      },
+      {
+        "zone": "186",
+        "nominal_detail": 62815,
+        "nominal_candidates": 62815,
+        "nominal_parties": 62815,
+        "legend_detail": 3778,
+        "legend_parties": 3778,
+        "valid_detail": 66593,
+        "passed": true
+      },
+      {
+        "zone": "187",
+        "nominal_detail": 67566,
+        "nominal_candidates": 67566,
+        "nominal_parties": 67566,
+        "legend_detail": 4243,
+        "legend_parties": 4243,
+        "valid_detail": 71809,
+        "passed": true
+      },
+      {
+        "zone": "188",
+        "nominal_detail": 71278,
+        "nominal_candidates": 71278,
+        "nominal_parties": 71278,
+        "legend_detail": 5139,
+        "legend_parties": 5139,
+        "valid_detail": 76417,
+        "passed": true
+      },
+      {
+        "zone": "191",
+        "nominal_detail": 60956,
+        "nominal_candidates": 60956,
+        "nominal_parties": 60956,
+        "legend_detail": 4288,
+        "legend_parties": 4288,
+        "valid_detail": 65244,
+        "passed": true
+      },
+      {
+        "zone": "192",
+        "nominal_detail": 37536,
+        "nominal_candidates": 37536,
+        "nominal_parties": 37536,
+        "legend_detail": 2833,
+        "legend_parties": 2833,
+        "valid_detail": 40369,
+        "passed": true
+      },
+      {
+        "zone": "195",
+        "nominal_detail": 44883,
+        "nominal_candidates": 44883,
+        "nominal_parties": 44883,
+        "legend_detail": 3305,
+        "legend_parties": 3305,
+        "valid_detail": 48188,
+        "passed": true
+      },
+      {
+        "zone": "196",
+        "nominal_detail": 10761,
+        "nominal_candidates": 10761,
+        "nominal_parties": 10761,
+        "legend_detail": 917,
+        "legend_parties": 917,
+        "valid_detail": 11678,
+        "passed": true
+      },
+      {
+        "zone": "198",
+        "nominal_detail": 38810,
+        "nominal_candidates": 38810,
+        "nominal_parties": 38810,
+        "legend_detail": 2380,
+        "legend_parties": 2380,
+        "valid_detail": 41190,
+        "passed": true
+      },
+      {
+        "zone": "199",
+        "nominal_detail": 54018,
+        "nominal_candidates": 54018,
+        "nominal_parties": 54018,
+        "legend_detail": 3369,
+        "legend_parties": 3369,
+        "valid_detail": 57387,
+        "passed": true
+      },
+      {
+        "zone": "200",
+        "nominal_detail": 51896,
+        "nominal_candidates": 51896,
+        "nominal_parties": 51896,
+        "legend_detail": 3158,
+        "legend_parties": 3158,
+        "valid_detail": 55054,
+        "passed": true
+      },
+      {
+        "zone": "201",
+        "nominal_detail": 42821,
+        "nominal_candidates": 42821,
+        "nominal_parties": 42821,
+        "legend_detail": 2389,
+        "legend_parties": 2389,
+        "valid_detail": 45210,
+        "passed": true
+      },
+      {
+        "zone": "204",
+        "nominal_detail": 61703,
+        "nominal_candidates": 61703,
+        "nominal_parties": 61703,
+        "legend_detail": 5557,
+        "legend_parties": 5557,
+        "valid_detail": 67260,
+        "passed": true
+      },
+      {
+        "zone": "211",
+        "nominal_detail": 60339,
+        "nominal_candidates": 60339,
+        "nominal_parties": 60339,
+        "legend_detail": 4794,
+        "legend_parties": 4794,
+        "valid_detail": 65133,
+        "passed": true
+      },
+      {
+        "zone": "214",
+        "nominal_detail": 75131,
+        "nominal_candidates": 75131,
+        "nominal_parties": 75131,
+        "legend_detail": 5854,
+        "legend_parties": 5854,
+        "valid_detail": 80985,
+        "passed": true
+      },
+      {
+        "zone": "216",
+        "nominal_detail": 48364,
+        "nominal_candidates": 48364,
+        "nominal_parties": 48364,
+        "legend_detail": 3795,
+        "legend_parties": 3795,
+        "valid_detail": 52159,
+        "passed": true
+      },
+      {
+        "zone": "218",
+        "nominal_detail": 54571,
+        "nominal_candidates": 54571,
+        "nominal_parties": 54571,
+        "legend_detail": 3782,
+        "legend_parties": 3782,
+        "valid_detail": 58353,
+        "passed": true
+      },
+      {
+        "zone": "219",
+        "nominal_detail": 54094,
+        "nominal_candidates": 54094,
+        "nominal_parties": 54094,
+        "legend_detail": 4318,
+        "legend_parties": 4318,
+        "valid_detail": 58412,
+        "passed": true
+      },
+      {
+        "zone": "221",
+        "nominal_detail": 37591,
+        "nominal_candidates": 37591,
+        "nominal_parties": 37591,
+        "legend_detail": 2024,
+        "legend_parties": 2024,
+        "valid_detail": 39615,
+        "passed": true
+      },
+      {
+        "zone": "222",
+        "nominal_detail": 55224,
+        "nominal_candidates": 55224,
+        "nominal_parties": 55224,
+        "legend_detail": 4390,
+        "legend_parties": 4390,
+        "valid_detail": 59614,
+        "passed": true
+      },
+      {
+        "zone": "225",
+        "nominal_detail": 38222,
+        "nominal_candidates": 38222,
+        "nominal_parties": 38222,
+        "legend_detail": 2573,
+        "legend_parties": 2573,
+        "valid_detail": 40795,
+        "passed": true
+      },
+      {
+        "zone": "229",
+        "nominal_detail": 64225,
+        "nominal_candidates": 64225,
+        "nominal_parties": 64225,
+        "legend_detail": 5255,
+        "legend_parties": 5255,
+        "valid_detail": 69480,
+        "passed": true
+      },
+      {
+        "zone": "230",
+        "nominal_detail": 36982,
+        "nominal_candidates": 36982,
+        "nominal_parties": 36982,
+        "legend_detail": 2504,
+        "legend_parties": 2504,
+        "valid_detail": 39486,
+        "passed": true
+      },
+      {
+        "zone": "233",
+        "nominal_detail": 61399,
+        "nominal_candidates": 61399,
+        "nominal_parties": 61399,
+        "legend_detail": 4275,
+        "legend_parties": 4275,
+        "valid_detail": 65674,
+        "passed": true
+      },
+      {
+        "zone": "234",
+        "nominal_detail": 47912,
+        "nominal_candidates": 47912,
+        "nominal_parties": 47912,
+        "legend_detail": 3749,
+        "legend_parties": 3749,
+        "valid_detail": 51661,
+        "passed": true
+      },
+      {
+        "zone": "238",
+        "nominal_detail": 65651,
+        "nominal_candidates": 65651,
+        "nominal_parties": 65651,
+        "legend_detail": 4505,
+        "legend_parties": 4505,
+        "valid_detail": 70156,
+        "passed": true
+      },
+      {
+        "zone": "241",
+        "nominal_detail": 43483,
+        "nominal_candidates": 43483,
+        "nominal_parties": 43483,
+        "legend_detail": 3174,
+        "legend_parties": 3174,
+        "valid_detail": 46657,
+        "passed": true
+      },
+      {
+        "zone": "242",
+        "nominal_detail": 43079,
+        "nominal_candidates": 43079,
+        "nominal_parties": 43079,
+        "legend_detail": 2941,
+        "legend_parties": 2941,
+        "valid_detail": 46020,
+        "passed": true
+      },
+      {
+        "zone": "243",
+        "nominal_detail": 52304,
+        "nominal_candidates": 52304,
+        "nominal_parties": 52304,
+        "legend_detail": 3842,
+        "legend_parties": 3842,
+        "valid_detail": 56146,
+        "passed": true
+      },
+      {
+        "zone": "245",
+        "nominal_detail": 63242,
+        "nominal_candidates": 63242,
+        "nominal_parties": 63242,
+        "legend_detail": 4771,
+        "legend_parties": 4771,
+        "valid_detail": 68013,
+        "passed": true
+      },
+      {
+        "zone": "246",
+        "nominal_detail": 65504,
+        "nominal_candidates": 65504,
+        "nominal_parties": 65504,
+        "legend_detail": 4612,
+        "legend_parties": 4612,
+        "valid_detail": 70116,
+        "passed": true
+      },
+      {
+        "zone": "254",
+        "nominal_detail": 59049,
+        "nominal_candidates": 59049,
+        "nominal_parties": 59049,
+        "legend_detail": 3165,
+        "legend_parties": 3165,
+        "valid_detail": 62214,
+        "passed": true
+      },
+      {
+        "zone": "255",
+        "nominal_detail": 21679,
+        "nominal_candidates": 21679,
+        "nominal_parties": 21679,
+        "legend_detail": 1639,
+        "legend_parties": 1639,
+        "valid_detail": 23318,
+        "passed": true
+      },
+      {
+        "zone": "256",
+        "nominal_detail": 68030,
+        "nominal_candidates": 68030,
+        "nominal_parties": 68030,
+        "legend_detail": 3276,
+        "legend_parties": 3276,
+        "valid_detail": 71306,
+        "passed": true
+      }
+    ],
+    "missing": [],
+    "extra": [],
+    "ambiguous": [],
+    "geometry_repairs": [],
+    "matched": 165,
+    "sources": [
+      {
+        "region": "capital",
+        "file": "rezoneamento_capital_zonas_unidas.zip",
+        "sha256": "93125c0843fa64cc0f2ba07b844d92a6e5904adbd6a2b2cbf2b98aaa009fbe61",
+        "crs_wkt": "GEOGCS[\"SIRGAS 2000\",DATUM[\"D_SIRGAS_2000\",SPHEROID[\"GRS_1980\",6378137,298.257222101]],PRIMEM[\"Greenwich\",0],UNIT[\"Degree\",0.017453292519943295]]",
+        "records": 49,
+        "archive_dates": [
+          "(2018, 5, 29)",
+          "(2018, 5, 3)"
+        ],
+        "effective_2026": "unconfirmed"
+      },
+      {
+        "region": "interior",
+        "file": "rezoneamento_interior_zonas_unidas.zip",
+        "sha256": "e3b793124718295cd6ddd106edc8bc50878cc5e0b06c15a9d6ca982463c76324",
+        "crs_wkt": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137,298.257223563]],PRIMEM[\"Greenwich\",0],UNIT[\"Degree\",0.017453292519943295]]",
+        "records": 143,
+        "archive_dates": [
+          "(2018, 5, 29)"
+        ],
+        "effective_2026": "unconfirmed"
+      }
+    ],
+    "warning": "Malha oficial TRE-RJ; vigência em 2026 não confirmada. Cruzamento exploratório por UF e número da zona."
+  }
+}

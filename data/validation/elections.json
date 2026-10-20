@@ -1,0 +1,5038 @@
+{
+  "data": [
+    {
+      "id": "03a535b5-f73d-41ac-8236-0b59709a8a56",
+      "tseElectionId": 2006001,
+      "year": 2006,
+      "name": "ELEIÇÕES GERAIS 2006 PRIMEIRO TURNO",
+      "electionDate": "2006-10-01",
+      "scope": "FEDERAL",
+      "createdAt": "2026-09-22T17:29:18.285Z",
+      "updatedAt": "2026-09-22T17:51:25.01Z"
+    },
+    {
+      "id": "63460ad4-7254-4de0-9d5d-d00940c15a7d",
+      "tseElectionId": 2006002,
+      "year": 2006,
+      "name": "ELEIÇÕES GERAIS 2006 SEGUNDO TURNO",
+      "electionDate": "2006-10-29",
+      "scope": "FEDERAL",
+      "createdAt": "2026-09-22T17:29:18.285Z",
+      "updatedAt": "2026-09-22T17:51:25.01Z"
+    },
+    {
+      "id": "67b947d9-de15-4089-9de0-37b8d0a8fdef",
+      "tseElectionId": 30,
+      "year": 2008,
+      "name": "Eleições 2008",
+      "electionDate": "2008-10-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:44:40.422Z",
+      "updatedAt": "2026-09-22T18:06:51.565Z"
+    },
+    {
+      "id": "138a1f4f-a724-40f7-b0a8-42e20280138b",
+      "tseElectionId": 31,
+      "year": 2008,
+      "name": "Eleições 2008",
+      "electionDate": "2008-10-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:44:40.422Z",
+      "updatedAt": "2026-09-22T18:06:51.565Z"
+    },
+    {
+      "id": "bcd015b1-db4d-496a-b6d8-c79f2e117fd4",
+      "tseElectionId": 39,
+      "year": 2008,
+      "name": "Eleições Suplementares",
+      "electionDate": "2010-07-18",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:44:40.422Z",
+      "updatedAt": "2026-09-22T18:06:51.565Z"
+    },
+    {
+      "id": "063ab355-5e98-4c8d-b619-9b9e8e7a16b8",
+      "tseElectionId": 32,
+      "year": 2008,
+      "name": "Eleições Suplementares 2008",
+      "electionDate": "2011-06-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:44:40.422Z",
+      "updatedAt": "2026-09-22T18:06:51.565Z"
+    },
+    {
+      "id": "30be0056-46c8-44fa-b322-fa18259f0a6e",
+      "tseElectionId": 37,
+      "year": 2010,
+      "name": "Eleições 2010",
+      "electionDate": "2010-10-03",
+      "scope": "FEDERAL",
+      "createdAt": "2026-09-22T17:22:36.581Z",
+      "updatedAt": "2026-09-22T17:22:36.581Z"
+    },
+    {
+      "id": "044fa17e-3432-4ab9-a178-35a83419a7e1",
+      "tseElectionId": 38,
+      "year": 2010,
+      "name": "Eleições 2010",
+      "electionDate": "2010-10-31",
+      "scope": "FEDERAL",
+      "createdAt": "2026-09-22T17:22:36.581Z",
+      "updatedAt": "2026-09-22T17:22:36.581Z"
+    },
+    {
+      "id": "778d7acc-8a1b-4f8d-a65d-c2609738b5cd",
+      "tseElectionId": 124,
+      "year": 2012,
+      "name": "ELEICAO SUPLEM. DE BOA VISTA DO GURUPI",
+      "electionDate": "2013-10-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "b547e714-6967-4888-a5f7-db0df5bf65cf",
+      "tseElectionId": 79,
+      "year": 2012,
+      "name": "Eleição Maj_Caiçara do Rio do Vento/RN",
+      "electionDate": "2013-04-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "d4bedb8f-94ac-467a-8b54-d5af2f8f6aa2",
+      "tseElectionId": 65,
+      "year": 2012,
+      "name": "Eleição Majoritária_Serra do Mel/RN",
+      "electionDate": "2013-04-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "a5817ff8-130f-4a49-9205-d190b66d25dd",
+      "tseElectionId": 47,
+      "year": 2012,
+      "name": "Eleição Municipal 2012",
+      "electionDate": "2012-10-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "8352a79e-85d6-4020-940c-e1a0814930b6",
+      "tseElectionId": 48,
+      "year": 2012,
+      "name": "Eleição Municipal 2012",
+      "electionDate": "2012-10-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "b583457b-2f28-4abb-b333-97f07e61f33b",
+      "tseElectionId": 209,
+      "year": 2012,
+      "name": "Eleição Sup de Pres Tancredo Neves",
+      "electionDate": "2015-06-14",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "61944621-bbdd-482e-a27c-c70a42e04359",
+      "tseElectionId": 197,
+      "year": 2012,
+      "name": "Eleição Sup. Santa Maria do Pará",
+      "electionDate": "2015-01-18",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "6f0bc353-9fe6-4378-b7c2-28ff9322cb96",
+      "tseElectionId": 71,
+      "year": 2012,
+      "name": "Eleição Sup. de Cachoeira Dourada",
+      "electionDate": "2013-04-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "9bc18448-78a8-4936-a6fe-2cd4048e45f7",
+      "tseElectionId": 70,
+      "year": 2012,
+      "name": "Eleição Sup. de São João do Paraíso",
+      "electionDate": "2013-04-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "9da8d3e6-e719-4684-8ad9-b4f349e7ac3e",
+      "tseElectionId": 133,
+      "year": 2012,
+      "name": "Eleição Supl. de Água Azul do Norte",
+      "electionDate": "2013-12-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "4a531b4d-3994-42ad-8ea1-6feae6019b9b",
+      "tseElectionId": 191,
+      "year": 2012,
+      "name": "Eleição Supl. de Água Doce do Norte ES",
+      "electionDate": "2014-12-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "0c5864cb-e898-488d-81bc-1c18e1cc28cc",
+      "tseElectionId": 68,
+      "year": 2012,
+      "name": "Eleição Suplem Muquém do São Francisco",
+      "electionDate": "2013-04-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "36c530d4-8750-43cd-9684-f3c1675213bc",
+      "tseElectionId": 90,
+      "year": 2012,
+      "name": "Eleição Suplem. Brejo da Madre de Deus",
+      "electionDate": "2013-07-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "7fa804d1-8494-4d5b-a892-8c45063fb6d2",
+      "tseElectionId": 193,
+      "year": 2012,
+      "name": "Eleição Suplementar  de Bento de Abreu",
+      "electionDate": "2014-12-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "067327bb-c996-46a3-9a34-87e60a5f85fd",
+      "tseElectionId": 154,
+      "year": 2012,
+      "name": "Eleição Suplementar - Cabeceiras",
+      "electionDate": "2014-05-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "c76c8a45-2428-4447-b6bd-287486fafc6c",
+      "tseElectionId": 102,
+      "year": 2012,
+      "name": "Eleição Suplementar - Flores de Goiás",
+      "electionDate": "2013-07-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "214230d8-e818-4a2d-aac1-271219c1a73f",
+      "tseElectionId": 117,
+      "year": 2012,
+      "name": "Eleição Suplementar - Goiatuba",
+      "electionDate": "2013-09-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "841cbdfe-6525-4ad8-b82b-9bfdeb93c78c",
+      "tseElectionId": 103,
+      "year": 2012,
+      "name": "Eleição Suplementar - Nazário",
+      "electionDate": "2013-07-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "c2ff8ea5-f8c0-47c5-b56c-e278b088aaec",
+      "tseElectionId": 201,
+      "year": 2012,
+      "name": "Eleição Suplementar - Pedra Grande",
+      "electionDate": "2015-04-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "c26b0be0-b2f8-4403-9756-7943cb02a3c2",
+      "tseElectionId": 139,
+      "year": 2012,
+      "name": "Eleição Suplementar - Pires do Rio",
+      "electionDate": "2013-12-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "4e64fb7d-11b3-4ac9-b4b2-f707a7353eb3",
+      "tseElectionId": 104,
+      "year": 2012,
+      "name": "Eleição Suplementar - São Domingos",
+      "electionDate": "2013-07-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "10a2b67e-b4fa-4fb8-b235-cd7a76c3e269",
+      "tseElectionId": 67,
+      "year": 2012,
+      "name": "Eleição Suplementar Amapari-AP",
+      "electionDate": "2013-04-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "82238621-8efd-4495-9e86-c6210e400eb4",
+      "tseElectionId": 112,
+      "year": 2012,
+      "name": "Eleição Suplementar Barra do Piraí-RJ",
+      "electionDate": "2013-08-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "d7a1d1d8-5132-445a-b051-4d9d6e5a8f9b",
+      "tseElectionId": 205,
+      "year": 2012,
+      "name": "Eleição Suplementar Bituruna - PR",
+      "electionDate": "2015-05-17",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "05d387fc-cc6a-4356-8c41-3d8faf6d84cc",
+      "tseElectionId": 188,
+      "year": 2012,
+      "name": "Eleição Suplementar Bom Jesus de Goiás",
+      "electionDate": "2014-12-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "58ef979e-7a09-468a-a5c5-6683ce0ecc30",
+      "tseElectionId": 59,
+      "year": 2012,
+      "name": "Eleição Suplementar Camamu-BA",
+      "electionDate": "2013-03-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "9eef12cc-e29a-4b2e-a4f5-0811af5f5f0a",
+      "tseElectionId": 153,
+      "year": 2012,
+      "name": "Eleição Suplementar Francisco Dantas",
+      "electionDate": "2014-05-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "927200b8-43f0-4b73-a3c1-05397f13a0a8",
+      "tseElectionId": 58,
+      "year": 2012,
+      "name": "Eleição Suplementar Guarapari 2012",
+      "electionDate": "2013-02-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "e16309fd-d802-4d2d-a4be-e7322c167695",
+      "tseElectionId": 203,
+      "year": 2012,
+      "name": "Eleição Suplementar Igarapé-Miri",
+      "electionDate": "2015-05-17",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "1ff7ad54-3a1f-442c-99ef-ffbff1cda7b7",
+      "tseElectionId": 121,
+      "year": 2012,
+      "name": "Eleição Suplementar Inácio Martins",
+      "electionDate": "2013-11-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "c356b6c1-a1d9-493a-a9ef-c9478ae89bf0",
+      "tseElectionId": 157,
+      "year": 2012,
+      "name": "Eleição Suplementar Ipanguaçu-RN",
+      "electionDate": "2014-06-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "69ee4dbc-9c9d-4071-ac86-a49939df8734",
+      "tseElectionId": 66,
+      "year": 2012,
+      "name": "Eleição Suplementar Joaquim Távora",
+      "electionDate": "2013-04-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "36546852-87c4-4cf1-a43e-6bd30f807517",
+      "tseElectionId": 189,
+      "year": 2012,
+      "name": "Eleição Suplementar Jundiaí do Sul",
+      "electionDate": "2014-12-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "bfc4740d-af0c-4e6c-8c08-762b9d5b7671",
+      "tseElectionId": 151,
+      "year": 2012,
+      "name": "Eleição Suplementar Mossoró-RN",
+      "electionDate": "2014-05-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "398cb356-aab8-4f67-bb33-68ced223a11c",
+      "tseElectionId": 120,
+      "year": 2012,
+      "name": "Eleição Suplementar Santa Inês",
+      "electionDate": "2013-11-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "34e8adf9-1786-4143-be7f-cc94116e3331",
+      "tseElectionId": 141,
+      "year": 2012,
+      "name": "Eleição Suplementar Tarrafas",
+      "electionDate": "2013-12-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "1e217d57-fb2a-40df-bc41-1704b1554ca9",
+      "tseElectionId": 194,
+      "year": 2012,
+      "name": "Eleição Suplementar de Americana",
+      "electionDate": "2014-12-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "22aec9f9-e56c-49b5-a484-1b0727049cde",
+      "tseElectionId": 219,
+      "year": 2012,
+      "name": "Eleição Suplementar de Araripe",
+      "electionDate": "2015-12-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "b33a42ca-a6b2-4b72-9f88-522861b50561",
+      "tseElectionId": 69,
+      "year": 2012,
+      "name": "Eleição Suplementar de Biquinhas",
+      "electionDate": "2013-04-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "25841f59-ee6a-4573-ade3-941a2548b13a",
+      "tseElectionId": 198,
+      "year": 2012,
+      "name": "Eleição Suplementar de Cambira",
+      "electionDate": "2015-01-18",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "27e2f4b1-4c9b-4b0e-98ae-ca4a5a08408f",
+      "tseElectionId": 216,
+      "year": 2012,
+      "name": "Eleição Suplementar de Canas",
+      "electionDate": "2015-11-08",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "32e303a7-954b-4516-85b8-b62cd7cea312",
+      "tseElectionId": 72,
+      "year": 2012,
+      "name": "Eleição Suplementar de Diamantina",
+      "electionDate": "2013-04-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "8a752520-0e95-45e8-80c6-63eaa65a1820",
+      "tseElectionId": 196,
+      "year": 2012,
+      "name": "Eleição Suplementar de Indiana",
+      "electionDate": "2014-12-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "4930a952-e5f7-4cef-813f-3f58ee52cbb7",
+      "tseElectionId": 187,
+      "year": 2012,
+      "name": "Eleição Suplementar de Ipiaçu",
+      "electionDate": "2014-12-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "9545a419-777c-44dd-8a00-d3e29a8dbae2",
+      "tseElectionId": 200,
+      "year": 2012,
+      "name": "Eleição Suplementar de Itápolis",
+      "electionDate": "2015-03-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "b319b435-31cb-4cfd-9a38-a43b92b32e1a",
+      "tseElectionId": 186,
+      "year": 2012,
+      "name": "Eleição Suplementar de Jampruca",
+      "electionDate": "2014-12-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "71199d27-643b-400b-834a-3c01b42c0bc6",
+      "tseElectionId": 190,
+      "year": 2012,
+      "name": "Eleição Suplementar de Jumirim",
+      "electionDate": "2014-12-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "71262a21-4967-4882-9afb-8cd270c6daee",
+      "tseElectionId": 215,
+      "year": 2012,
+      "name": "Eleição Suplementar de Macarani",
+      "electionDate": "2015-10-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "27845d83-46af-40de-adef-69cca9190b3d",
+      "tseElectionId": 158,
+      "year": 2012,
+      "name": "Eleição Suplementar de Major Isidoro",
+      "electionDate": "2014-08-31",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "1c5382ef-c644-44da-96c6-030cb6ed00bb",
+      "tseElectionId": 97,
+      "year": 2012,
+      "name": "Eleição Suplementar de Marituba/PA",
+      "electionDate": "2013-08-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "51100623-a6bb-4b98-bae2-50f7c00d346f",
+      "tseElectionId": 204,
+      "year": 2012,
+      "name": "Eleição Suplementar de Natividade-RJ",
+      "electionDate": "2015-05-17",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "3eb02be5-3556-43d2-ac7b-41cc4e87ac70",
+      "tseElectionId": 127,
+      "year": 2012,
+      "name": "Eleição Suplementar de Palestina - PA",
+      "electionDate": "2013-11-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "f0db557c-5191-4f64-abb3-ffde4bdfab5a",
+      "tseElectionId": 150,
+      "year": 2012,
+      "name": "Eleição Suplementar de Palestina-AL",
+      "electionDate": "2014-04-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "36e154aa-5bbf-4726-926c-792091cc12b6",
+      "tseElectionId": 202,
+      "year": 2012,
+      "name": "Eleição Suplementar de Paulo de Faria",
+      "electionDate": "2015-04-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "f81deb5a-0c01-4b32-ab60-85423432e6b4",
+      "tseElectionId": 106,
+      "year": 2012,
+      "name": "Eleição Suplementar de Pedro Canário",
+      "electionDate": "2013-08-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "fdb2ee68-8c33-4628-b022-895943bd1aa8",
+      "tseElectionId": 87,
+      "year": 2012,
+      "name": "Eleição Suplementar de Primavera",
+      "electionDate": "2013-06-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "a5b77447-daa1-440b-9453-422b59c0601a",
+      "tseElectionId": 218,
+      "year": 2012,
+      "name": "Eleição Suplementar de Rolândia - PR",
+      "electionDate": "2015-12-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "f3aa5725-e4e2-4ce4-9bf0-053ebb54f66f",
+      "tseElectionId": 88,
+      "year": 2012,
+      "name": "Eleição Suplementar de Santa Maria",
+      "electionDate": "2013-06-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "cc7532f9-3f8f-4530-aa18-3dc1f98323b9",
+      "tseElectionId": 114,
+      "year": 2012,
+      "name": "Eleição Suplementar de Taipas do TO",
+      "electionDate": "2013-09-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "87ed080d-ce41-436c-b647-230eae6d1e48",
+      "tseElectionId": 214,
+      "year": 2012,
+      "name": "Eleição Suplementar de Vargem",
+      "electionDate": "2015-09-13",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "8f4d8cf2-ddd6-402f-bdf8-7eafc341cd04",
+      "tseElectionId": 126,
+      "year": 2012,
+      "name": "Eleição Suplementar de Água Preta",
+      "electionDate": "2013-11-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "f6d43b0d-78ca-4c31-9b69-528f3dfd4de8",
+      "tseElectionId": 211,
+      "year": 2012,
+      "name": "Eleição suplementar de Carnaubais-RN",
+      "electionDate": "2015-07-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "6908c5f2-9ee8-43a4-a404-1dfc5325560d",
+      "tseElectionId": 212,
+      "year": 2012,
+      "name": "Eleição suplementar de Luís Gomes-RN",
+      "electionDate": "2015-07-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "d01c7078-ef91-4d8f-a2e0-f8f8091f2a52",
+      "tseElectionId": 217,
+      "year": 2012,
+      "name": "Eleição suplementar de Passagem-RN",
+      "electionDate": "2015-11-08",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "ad194db3-c8b9-408c-9fe3-3b02a4fa5af1",
+      "tseElectionId": 100,
+      "year": 2012,
+      "name": "Glória D´Oeste",
+      "electionDate": "2013-07-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "6d0c7868-5125-43ad-9c11-a3666ac6cd1a",
+      "tseElectionId": 101,
+      "year": 2012,
+      "name": "Juara",
+      "electionDate": "2013-07-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "1b3cdce6-a685-47a5-b7ca-62bd1a145b56",
+      "tseElectionId": 199,
+      "year": 2012,
+      "name": "Majoritária - Alm Tamandaré do Sul",
+      "electionDate": "2015-03-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "49b2af5f-59f5-4555-985f-4e58448aa91d",
+      "tseElectionId": 115,
+      "year": 2012,
+      "name": "Majoritária - Augusto Pestana",
+      "electionDate": "2013-09-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "dfcd78de-4f74-4500-a61a-48052bba1305",
+      "tseElectionId": 55,
+      "year": 2012,
+      "name": "Majoritária - Baln Rincão",
+      "electionDate": "2013-03-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "51da41f8-94e5-493d-be58-de781a136646",
+      "tseElectionId": 155,
+      "year": 2012,
+      "name": "Majoritária - Benedito Novo",
+      "electionDate": "2014-06-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "e7de4064-fb32-49a1-8b8d-2ab7dfdbffff",
+      "tseElectionId": 57,
+      "year": 2012,
+      "name": "Majoritária - Campo Erê",
+      "electionDate": "2013-03-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "aa1a62db-b3ca-45b4-87c3-23529aa39eaa",
+      "tseElectionId": 138,
+      "year": 2012,
+      "name": "Majoritária - Colinas",
+      "electionDate": "2013-12-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "300494fb-5c53-4dde-837d-4c1e01259a21",
+      "tseElectionId": 54,
+      "year": 2012,
+      "name": "Majoritária - Criciúma",
+      "electionDate": "2013-03-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "681d7fd1-f1be-4d2c-af24-82688cc6236c",
+      "tseElectionId": 207,
+      "year": 2012,
+      "name": "Majoritária - Crissiumal",
+      "electionDate": "2015-06-14",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "05fbc94b-7599-488d-b87e-acfbb7d67430",
+      "tseElectionId": 128,
+      "year": 2012,
+      "name": "Majoritária - Dom Feliciano",
+      "electionDate": "2013-11-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "231158dc-392b-4ecb-88a6-975e4ebdf000",
+      "tseElectionId": 62,
+      "year": 2012,
+      "name": "Majoritária - Eugênio de Castro",
+      "electionDate": "2013-03-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "9427ff08-795f-4d5f-8a51-7ceddc21a017",
+      "tseElectionId": 81,
+      "year": 2012,
+      "name": "Majoritária - Fortaleza dos Valos",
+      "electionDate": "2013-04-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "c6e264ca-05f1-4604-ac2c-6d6281d72c3e",
+      "tseElectionId": 129,
+      "year": 2012,
+      "name": "Majoritária - Maximiliano de Almeida",
+      "electionDate": "2013-11-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "49f47fed-d5b3-4dda-841a-5b4ed30a95fc",
+      "tseElectionId": 63,
+      "year": 2012,
+      "name": "Majoritária - Novo Hamburgo",
+      "electionDate": "2013-03-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "c04221e8-98fe-4f4f-9802-5d04f47a8e74",
+      "tseElectionId": 105,
+      "year": 2012,
+      "name": "Majoritária - Ponte Serrada",
+      "electionDate": "2013-08-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "e6e6fc5b-417f-4a27-8aaf-ce0a4401cd2e",
+      "tseElectionId": 73,
+      "year": 2012,
+      "name": "Majoritária - Sobradinho",
+      "electionDate": "2013-04-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "04eaece0-20d0-4f72-b264-04d422024029",
+      "tseElectionId": 95,
+      "year": 2012,
+      "name": "Majoritária - São José do Ouro",
+      "electionDate": "2013-07-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "2d7ce328-652c-4615-b71e-75aef276ccea",
+      "tseElectionId": 56,
+      "year": 2012,
+      "name": "Majoritária - Tangará",
+      "electionDate": "2013-03-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "de6d1ce5-a0ac-49f1-b9c1-6c066c181237",
+      "tseElectionId": 80,
+      "year": 2012,
+      "name": "Majoritária - Triunfo",
+      "electionDate": "2013-04-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "f75ee7b4-3f9c-4914-a940-b37fa352adf1",
+      "tseElectionId": 74,
+      "year": 2012,
+      "name": "Majoritária - Tucunduva",
+      "electionDate": "2013-04-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "1cd07762-3134-4c50-b44c-1009d3a8c2ff",
+      "tseElectionId": 122,
+      "year": 2012,
+      "name": "Majoritária - Tupandi",
+      "electionDate": "2013-10-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "72a03477-e342-4f48-bbb9-33ed258e3e70",
+      "tseElectionId": 130,
+      "year": 2012,
+      "name": "Mathias Lobato MG - 119ª ZE",
+      "electionDate": "2013-12-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "fc785422-0e8f-4a78-8be7-de4a397cecec",
+      "tseElectionId": 131,
+      "year": 2012,
+      "name": "Montezuma MG - 237ª ZE",
+      "electionDate": "2013-12-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "10bcf810-7b54-4a33-8240-5744f6dcf075",
+      "tseElectionId": 77,
+      "year": 2012,
+      "name": "Nova Eleição - Coronel Macedo 7abr2013",
+      "electionDate": "2013-04-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "61d2e71f-5b16-407f-ad25-deec65195166",
+      "tseElectionId": 76,
+      "year": 2012,
+      "name": "Nova Eleição - Eldorado 7abr2013",
+      "electionDate": "2013-04-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "7187c04b-4d0d-4f9f-9d7b-6939ad020c16",
+      "tseElectionId": 78,
+      "year": 2012,
+      "name": "Nova Eleição - Fernão 7abr2013",
+      "electionDate": "2013-04-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "6c456e66-488a-49aa-a8dd-490e853f3e0a",
+      "tseElectionId": 82,
+      "year": 2012,
+      "name": "Nova Eleição - Meruoca/CE",
+      "electionDate": "2013-05-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "add7e623-ec12-4023-a94d-a03aba3fa9f4",
+      "tseElectionId": 108,
+      "year": 2012,
+      "name": "Nova Eleição Boa Esperança do Sul",
+      "electionDate": "2013-08-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "4ece3b69-880a-492b-8c4e-f7756859507a",
+      "tseElectionId": 135,
+      "year": 2012,
+      "name": "Nova Eleição Descalvado",
+      "electionDate": "2013-12-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "777d363e-c2d8-4e73-bb5d-0b2ab8dc177b",
+      "tseElectionId": 118,
+      "year": 2012,
+      "name": "Nova Eleição Ibaté",
+      "electionDate": "2013-10-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "13a08554-1297-41b2-add8-ee88955fae1a",
+      "tseElectionId": 110,
+      "year": 2012,
+      "name": "Nova Eleição Itaí",
+      "electionDate": "2013-08-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "cfd5d6af-b524-4eec-a7d6-12883caf7940",
+      "tseElectionId": 111,
+      "year": 2012,
+      "name": "Nova Eleição Osvaldo Cruz",
+      "electionDate": "2013-08-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "38552f9e-3508-43bd-ac2d-a21b2f56ffda",
+      "tseElectionId": 109,
+      "year": 2012,
+      "name": "Nova Eleição Pedrinhas Paulista",
+      "electionDate": "2013-08-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "d7273524-e415-43b1-9efe-0775bae6e53d",
+      "tseElectionId": 134,
+      "year": 2012,
+      "name": "Nova Eleição Santana do Parnaíba",
+      "electionDate": "2013-12-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "b01bd1eb-01ab-4b16-871a-d01ec6dc847e",
+      "tseElectionId": 119,
+      "year": 2012,
+      "name": "Nova Eleição Tabatinga",
+      "electionDate": "2013-10-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "d71b4bd4-7dd3-427c-8499-dd6bdf4f4fc7",
+      "tseElectionId": 85,
+      "year": 2012,
+      "name": "Novas Eleições - Cananéia - 02/06/2013",
+      "electionDate": "2013-06-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "66d5d78a-239b-47af-986b-0f25b34c7a6a",
+      "tseElectionId": 89,
+      "year": 2012,
+      "name": "Novas Eleições General Salgado 2/6/13",
+      "electionDate": "2013-06-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "30d5a504-7538-42aa-8c52-98607402af23",
+      "tseElectionId": 113,
+      "year": 2012,
+      "name": "Novas Eleições Santana de Cataguases",
+      "electionDate": "2013-09-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "9223a139-510b-4050-8b5a-82bc3f98bb87",
+      "tseElectionId": 116,
+      "year": 2012,
+      "name": "SOLEDADE - Nova Eleição 2013",
+      "electionDate": "2013-09-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "dbaadcef-fd2f-4f02-afac-1d7b92a128bd",
+      "tseElectionId": 132,
+      "year": 2012,
+      "name": "Santa Helena de Minas MG - 4ª ZE",
+      "electionDate": "2013-12-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "10b3d528-f99c-4804-b154-cdc0922235f7",
+      "tseElectionId": 92,
+      "year": 2012,
+      "name": "Suplementar Bela Vista",
+      "electionDate": "2013-07-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "86f42251-ba3b-4395-a5a0-a8684fa6c785",
+      "tseElectionId": 60,
+      "year": 2012,
+      "name": "Suplementar Bonito",
+      "electionDate": "2013-03-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "85b20ac0-75d1-47d3-b8a8-56465e3ff7fb",
+      "tseElectionId": 91,
+      "year": 2012,
+      "name": "Suplementar Figueirão",
+      "electionDate": "2013-07-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "ee2a1e63-a16c-4c06-bee0-40d8d4cbb8b7",
+      "tseElectionId": 94,
+      "year": 2012,
+      "name": "Suplementar Jardim",
+      "electionDate": "2013-07-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "e7ba8afe-2796-451e-ad2b-210c1a39c0bb",
+      "tseElectionId": 64,
+      "year": 2012,
+      "name": "Suplementar Sidrolândia",
+      "electionDate": "2013-03-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "74d57bd3-b39b-43ce-b16c-05d2d28b6c5c",
+      "tseElectionId": 86,
+      "year": 2012,
+      "name": "Suplementar Simões",
+      "electionDate": "2013-06-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "1b338d0e-d713-4cf8-8274-7b87a1b4ec1d",
+      "tseElectionId": 148,
+      "year": 2012,
+      "name": "São Sebastião da Vargem Alegre ZE 178",
+      "electionDate": "2014-04-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "b93dcf78-5016-4e81-919a-00be10cd1194",
+      "tseElectionId": 136,
+      "year": 2012,
+      "name": "Água Boa MG - 67ª ZE",
+      "electionDate": "2013-12-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T17:36:36.139Z",
+      "updatedAt": "2026-09-22T17:58:42.246Z"
+    },
+    {
+      "id": "c9afca6a-5ab7-47ba-a749-59f2a3bff6da",
+      "tseElectionId": 304,
+      "year": 2014,
+      "name": "Eleição Suplementar Governador - TO",
+      "electionDate": "2018-06-03",
+      "scope": "ESTADUAL",
+      "createdAt": "2026-09-22T15:42:57.303Z",
+      "updatedAt": "2026-09-22T16:40:29.507Z"
+    },
+    {
+      "id": "aa9fa11a-3bb8-45d7-8a6e-bca45bf5efc2",
+      "tseElectionId": 305,
+      "year": 2014,
+      "name": "Eleição Suplementar Governador - TO",
+      "electionDate": "2018-06-24",
+      "scope": "ESTADUAL",
+      "createdAt": "2026-09-22T15:42:57.303Z",
+      "updatedAt": "2026-09-22T16:40:29.507Z"
+    },
+    {
+      "id": "8621ca37-e04b-49a7-92c6-fd9f6444face",
+      "tseElectionId": 268,
+      "year": 2014,
+      "name": "Eleição Suplementar Governador AM",
+      "electionDate": "2017-08-06",
+      "scope": "ESTADUAL",
+      "createdAt": "2026-09-22T15:42:57.303Z",
+      "updatedAt": "2026-09-22T16:40:29.507Z"
+    },
+    {
+      "id": "6d1ba469-b789-4e67-bdce-dd400c28720e",
+      "tseElectionId": 269,
+      "year": 2014,
+      "name": "Eleição Suplementar Governador AM",
+      "electionDate": "2017-08-27",
+      "scope": "ESTADUAL",
+      "createdAt": "2026-09-22T15:42:57.303Z",
+      "updatedAt": "2026-09-22T16:40:29.507Z"
+    },
+    {
+      "id": "21c8fbe8-32d3-440e-8108-58c13c791eb5",
+      "tseElectionId": 143,
+      "year": 2014,
+      "name": "Eleições Gerais 2014",
+      "electionDate": "2014-10-05",
+      "scope": "FEDERAL",
+      "createdAt": "2026-09-22T15:42:57.303Z",
+      "updatedAt": "2026-09-22T16:40:29.507Z"
+    },
+    {
+      "id": "8ba82503-6480-4402-8e2b-5198f7eeacea",
+      "tseElectionId": 144,
+      "year": 2014,
+      "name": "Eleições Gerais 2014",
+      "electionDate": "2014-10-26",
+      "scope": "FEDERAL",
+      "createdAt": "2026-09-22T15:42:57.303Z",
+      "updatedAt": "2026-09-22T16:40:29.507Z"
+    },
+    {
+      "id": "1d79c4fc-c452-4bb4-bf67-ef0664346b08",
+      "tseElectionId": 261,
+      "year": 2016,
+      "name": "Alto Taquari-MT-Jul-2017",
+      "electionDate": "2017-07-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "880dd00e-e369-4150-b43d-4940083a8225",
+      "tseElectionId": 240,
+      "year": 2016,
+      "name": "Conquista D'Oeste-MT-Mar/2017",
+      "electionDate": "2017-03-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "a083ee5f-3860-4e15-9d2f-b0aa0d9a88a4",
+      "tseElectionId": 422,
+      "year": 2016,
+      "name": "ELEIÇÃO SUPLEMENT. BELA VISTA DO MA",
+      "electionDate": "2020-01-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "21106d8e-2d30-4896-ad1e-218caddc2788",
+      "tseElectionId": 362,
+      "year": 2016,
+      "name": "ELEIÇÃO SUPLEMENTAR CAARAPÓ - MS",
+      "electionDate": "2018-11-25",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "7ccd68fd-9504-4c78-9fcf-01e2d1173c81",
+      "tseElectionId": 343,
+      "year": 2016,
+      "name": "ELEIÇÃO SUPLEMENTAR DE BACABAL",
+      "electionDate": "2018-10-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "b5085633-acb7-443c-a948-258fcf0e998e",
+      "tseElectionId": 420,
+      "year": 2016,
+      "name": "ELEIÇÃO SUPLEMENTAR DE JAPORÃ - MS",
+      "electionDate": "2019-12-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "26ba2a08-8bc5-4d16-8fec-aab642a41d9e",
+      "tseElectionId": 409,
+      "year": 2016,
+      "name": "ELEIÇÃO SUPLEMENTAR MIRANDA-MS",
+      "electionDate": "2019-10-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "c4a6c6e4-53d5-4e37-ab11-7b3aba9e65be",
+      "tseElectionId": 259,
+      "year": 2016,
+      "name": "ELEIÇÃO SUPLEMENTAR TACURU",
+      "electionDate": "2017-06-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "e5a923b0-2064-42e0-91aa-becd3f017839",
+      "tseElectionId": 379,
+      "year": 2016,
+      "name": "Eleição Sup. Bom Jesus do Araguaia",
+      "electionDate": "2019-04-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "e7a9dde4-0d2b-4372-8b26-b17410be12d4",
+      "tseElectionId": 289,
+      "year": 2016,
+      "name": "Eleição Sup. Conceição do Rio Verde",
+      "electionDate": "2017-12-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "1ee3a919-b7b6-48e9-8727-c0317681c1d9",
+      "tseElectionId": 342,
+      "year": 2016,
+      "name": "Eleição Sup. Planalto da Serra-MT",
+      "electionDate": "2018-10-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "968fa1bf-1219-4433-99b6-87dfeeb11d6a",
+      "tseElectionId": 381,
+      "year": 2016,
+      "name": "Eleição Sup. Ribeirão Cascalheira",
+      "electionDate": "2019-04-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "344ca3f4-8dc5-47a9-9abe-45b37c1d683b",
+      "tseElectionId": 385,
+      "year": 2016,
+      "name": "Eleição Sup. Santa Luzia do Norte",
+      "electionDate": "2019-05-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "0e4c3d0b-5482-40ca-9dbf-2ad5c8fcab78",
+      "tseElectionId": 317,
+      "year": 2016,
+      "name": "Eleição Sup. de São José de Campestre",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "8945830e-cd0c-4ece-ae0d-4181c8d30279",
+      "tseElectionId": 321,
+      "year": 2016,
+      "name": "Eleição Supl. de Frecheirinha",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "85382851-f688-42e8-a351-715bf34a2050",
+      "tseElectionId": 416,
+      "year": 2016,
+      "name": "Eleição Suplem de Alto do Rodrigues",
+      "electionDate": "2019-12-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "17332701-d19f-466e-9ea8-0792d2247b01",
+      "tseElectionId": 251,
+      "year": 2016,
+      "name": "Eleição Suplem. São José da Bela Vista",
+      "electionDate": "2017-04-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "1fa2208e-9631-4ab7-b806-cf1d06a06b98",
+      "tseElectionId": 383,
+      "year": 2016,
+      "name": "Eleição Suplem. de Caapiranga - AM",
+      "electionDate": "2019-04-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "167874f8-e9b9-4c2b-b541-d2ee9c5fa388",
+      "tseElectionId": 252,
+      "year": 2016,
+      "name": "Eleição Suplementar  Cafelândia",
+      "electionDate": "2017-04-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "e3c30e6f-6be1-4cc8-8647-30315cd5b72b",
+      "tseElectionId": 358,
+      "year": 2016,
+      "name": "Eleição Suplementar - Aracoiaba",
+      "electionDate": "2018-10-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "780bcc30-7b93-4e1a-80ef-922a15b23600",
+      "tseElectionId": 372,
+      "year": 2016,
+      "name": "Eleição Suplementar - Cabedelo/PB",
+      "electionDate": "2019-03-17",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "8d3d0799-345a-40e1-b917-8b63d87491eb",
+      "tseElectionId": 384,
+      "year": 2016,
+      "name": "Eleição Suplementar - Cascavel/CE",
+      "electionDate": "2019-05-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "afb6a909-a4c5-4cb1-be48-e10898c3a5ca",
+      "tseElectionId": 359,
+      "year": 2016,
+      "name": "Eleição Suplementar - Croatá",
+      "electionDate": "2018-10-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "29e3d13c-90bf-4f15-8e58-fa2e37161f99",
+      "tseElectionId": 354,
+      "year": 2016,
+      "name": "Eleição Suplementar - Davinópolis",
+      "electionDate": "2018-10-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "e16cfd91-e917-496c-868e-f4d202fe97b6",
+      "tseElectionId": 355,
+      "year": 2016,
+      "name": "Eleição Suplementar - Divinópolis",
+      "electionDate": "2018-10-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "42ae9fac-5c6a-484d-ba55-6e5f646e095e",
+      "tseElectionId": 328,
+      "year": 2016,
+      "name": "Eleição Suplementar - Niquelândia (GO)",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "fc69578d-d866-4283-b606-50698f97a891",
+      "tseElectionId": 277,
+      "year": 2016,
+      "name": "Eleição Suplementar - Petrolina (GO)",
+      "electionDate": "2017-10-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "275bba80-188b-4911-ba72-e4b588e2d62a",
+      "tseElectionId": 356,
+      "year": 2016,
+      "name": "Eleição Suplementar - Planaltina",
+      "electionDate": "2018-10-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "853cc48f-91de-4654-956c-3fbbd410ad19",
+      "tseElectionId": 309,
+      "year": 2016,
+      "name": "Eleição Suplementar - Prefeito",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "f53b1e5f-e2b2-46d7-b2fc-e44d847b1677",
+      "tseElectionId": 308,
+      "year": 2016,
+      "name": "Eleição Suplementar - Prefeito",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "6c9a30dd-0ac3-42e7-957c-b9f88c753862",
+      "tseElectionId": 357,
+      "year": 2016,
+      "name": "Eleição Suplementar - Serranópolis",
+      "electionDate": "2018-10-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "b12ef200-71c8-4386-b733-5d57454943ea",
+      "tseElectionId": 353,
+      "year": 2016,
+      "name": "Eleição Suplementar - Turvelândia",
+      "electionDate": "2018-10-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "f845c028-b7a3-46c8-be95-716a938858b8",
+      "tseElectionId": 241,
+      "year": 2016,
+      "name": "Eleição Suplementar Alvorada de Minas",
+      "electionDate": "2017-03-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "d9efd12c-dad1-4cbf-8196-21da95f7d714",
+      "tseElectionId": 288,
+      "year": 2016,
+      "name": "Eleição Suplementar Antonio Dias",
+      "electionDate": "2017-12-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "0f4ba0ae-40f4-4a16-af07-29578a58e2ea",
+      "tseElectionId": 300,
+      "year": 2016,
+      "name": "Eleição Suplementar Campo Azul",
+      "electionDate": "2018-03-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "fbab3125-8b2a-43cf-927b-f34a7325c8f7",
+      "tseElectionId": 265,
+      "year": 2016,
+      "name": "Eleição Suplementar Campo Florido",
+      "electionDate": "2017-07-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "b4dda919-0474-4b8a-b656-1c794c1573a6",
+      "tseElectionId": 264,
+      "year": 2016,
+      "name": "Eleição Suplementar Canaã",
+      "electionDate": "2017-07-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "a8a33339-1bfe-4edb-87b1-e225418aac72",
+      "tseElectionId": 363,
+      "year": 2016,
+      "name": "Eleição Suplementar Congonhinhas",
+      "electionDate": "2018-12-09",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "abca790c-bd11-4689-b610-150801853e54",
+      "tseElectionId": 260,
+      "year": 2016,
+      "name": "Eleição Suplementar Cristiano Otoni",
+      "electionDate": "2017-06-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "9325f711-03af-4a00-a6a8-3b1ca69d9795",
+      "tseElectionId": 406,
+      "year": 2016,
+      "name": "Eleição Suplementar Dionísio",
+      "electionDate": "2019-09-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "6b91fac2-4795-405b-ba5e-2d03751965dc",
+      "tseElectionId": 242,
+      "year": 2016,
+      "name": "Eleição Suplementar Ervália",
+      "electionDate": "2017-03-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "d9fdc559-bcd1-494a-aa70-18b2a461b94c",
+      "tseElectionId": 246,
+      "year": 2016,
+      "name": "Eleição Suplementar Guajará-Mirim",
+      "electionDate": "2017-04-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "572936cd-b2f1-434a-9f32-3e0e1a78bac6",
+      "tseElectionId": 325,
+      "year": 2016,
+      "name": "Eleição Suplementar Guanhães",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "06afb443-6873-4d14-8e6d-43c533a98081",
+      "tseElectionId": 254,
+      "year": 2016,
+      "name": "Eleição Suplementar Guaraciama",
+      "electionDate": "2017-05-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "a1fb5e3a-d209-46bf-b89a-fad0f8884f5e",
+      "tseElectionId": 286,
+      "year": 2016,
+      "name": "Eleição Suplementar Ibiracatu",
+      "electionDate": "2017-11-19",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "954351e5-41c1-4087-b0fe-9f2f987749f9",
+      "tseElectionId": 419,
+      "year": 2016,
+      "name": "Eleição Suplementar Ibitiúra Minas",
+      "electionDate": "2019-12-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "d1f301d0-177a-4824-bd01-1bc5a5458dc2",
+      "tseElectionId": 290,
+      "year": 2016,
+      "name": "Eleição Suplementar Ibitiúra de Minas",
+      "electionDate": "2017-12-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "7db6f3ba-211a-47b4-87a8-134457924ba3",
+      "tseElectionId": 301,
+      "year": 2016,
+      "name": "Eleição Suplementar Ibituruna",
+      "electionDate": "2018-03-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "589fccec-589c-4c7c-b372-bf8ebb9b41aa",
+      "tseElectionId": 326,
+      "year": 2016,
+      "name": "Eleição Suplementar Ipatinga",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "8733ca81-dc89-48ea-9275-e7333e12b058",
+      "tseElectionId": 237,
+      "year": 2016,
+      "name": "Eleição Suplementar Ipojuca PE",
+      "electionDate": "2017-04-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "7b8eee56-5546-43e9-8d3c-ebc3a76d9e0b",
+      "tseElectionId": 401,
+      "year": 2016,
+      "name": "Eleição Suplementar Itabirito",
+      "electionDate": "2019-08-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "81f8fc60-b14b-455f-84a5-2a3786992b05",
+      "tseElectionId": 292,
+      "year": 2016,
+      "name": "Eleição Suplementar Itacajá-TO",
+      "electionDate": "2017-12-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "ef779b8f-a38a-4c37-b8a4-c091ce856934",
+      "tseElectionId": 332,
+      "year": 2016,
+      "name": "Eleição Suplementar Itanhomi",
+      "electionDate": "2018-06-24",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "d0823ff9-c3ee-4760-b623-a87390868d0e",
+      "tseElectionId": 429,
+      "year": 2016,
+      "name": "Eleição Suplementar Jacinto",
+      "electionDate": "2020-03-08",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "445f0b81-4fe3-41a1-a403-10af8823d687",
+      "tseElectionId": 364,
+      "year": 2016,
+      "name": "Eleição Suplementar Japira",
+      "electionDate": "2018-12-09",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "d242f6a1-6f66-4932-a231-ee2e25b8d3fc",
+      "tseElectionId": 285,
+      "year": 2016,
+      "name": "Eleição Suplementar Jordânia",
+      "electionDate": "2017-11-19",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "7875c689-23b2-41c1-b2f8-0b1f312fd1ba",
+      "tseElectionId": 388,
+      "year": 2016,
+      "name": "Eleição Suplementar Juatuba",
+      "electionDate": "2019-06-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "976d973f-cf98-4fda-ac26-37fca4e3226f",
+      "tseElectionId": 421,
+      "year": 2016,
+      "name": "Eleição Suplementar Lajeado-TO",
+      "electionDate": "2019-12-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "7166bf5c-fd77-4d03-a9ca-b5d60d75ab46",
+      "tseElectionId": 273,
+      "year": 2016,
+      "name": "Eleição Suplementar Miguel Leão (PI)",
+      "electionDate": "2017-08-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "1b691bbe-b8fc-46a0-b0e3-db2ec7cd58b3",
+      "tseElectionId": 407,
+      "year": 2016,
+      "name": "Eleição Suplementar Mimoso de Goiás",
+      "electionDate": "2019-09-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "6068f511-9c8e-4959-9877-f5dabd0e998f",
+      "tseElectionId": 281,
+      "year": 2016,
+      "name": "Eleição Suplementar Mirassol D'Oeste",
+      "electionDate": "2017-11-19",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "ebf4d949-ce51-4219-8bf1-25aaeb9dcb14",
+      "tseElectionId": 253,
+      "year": 2016,
+      "name": "Eleição Suplementar Mococa",
+      "electionDate": "2017-04-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "2f6f647a-c6f9-4db3-b2ce-a49d76b4c06b",
+      "tseElectionId": 262,
+      "year": 2016,
+      "name": "Eleição Suplementar Muqui (ES)",
+      "electionDate": "2017-07-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "1d8f0d3c-00c1-4c33-ad8b-2e65fd4b3082",
+      "tseElectionId": 249,
+      "year": 2016,
+      "name": "Eleição Suplementar Nova Laranjeiras",
+      "electionDate": "2017-04-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "30b99806-58ca-4db9-8781-611e7d42dadb",
+      "tseElectionId": 293,
+      "year": 2016,
+      "name": "Eleição Suplementar Novo Aripuanã-AM",
+      "electionDate": "2018-02-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "256c3e5c-41a9-4c1f-ab01-78bf4fcbba88",
+      "tseElectionId": 366,
+      "year": 2016,
+      "name": "Eleição Suplementar Pimenta Bueno",
+      "electionDate": "2018-12-09",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "f8f6b1de-7946-4ab0-a4f7-70062fd9742c",
+      "tseElectionId": 378,
+      "year": 2016,
+      "name": "Eleição Suplementar Piên",
+      "electionDate": "2019-03-17",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "bc157f75-a62b-4950-8836-c6c09f943d90",
+      "tseElectionId": 319,
+      "year": 2016,
+      "name": "Eleição Suplementar Pocrane",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "80250289-90f2-4b60-ad4e-6c76e826fbbe",
+      "tseElectionId": 280,
+      "year": 2016,
+      "name": "Eleição Suplementar Primavera do Leste",
+      "electionDate": "2017-11-19",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "29941d4f-1800-476f-aa4a-981a3e6fd3cd",
+      "tseElectionId": 272,
+      "year": 2016,
+      "name": "Eleição Suplementar Primeiro de Maio",
+      "electionDate": "2017-08-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "c074acbb-27c4-42db-88e2-d5bdfd08d08d",
+      "tseElectionId": 423,
+      "year": 2016,
+      "name": "Eleição Suplementar Pugmil-TO",
+      "electionDate": "2020-02-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "a67f2a2c-d544-490b-97cb-3850aa191da6",
+      "tseElectionId": 250,
+      "year": 2016,
+      "name": "Eleição Suplementar Quatiguá",
+      "electionDate": "2017-04-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "12438f8b-7d4b-4e2a-9e2e-cbadec89e57b",
+      "tseElectionId": 365,
+      "year": 2016,
+      "name": "Eleição Suplementar Rancho Alegre",
+      "electionDate": "2018-12-09",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "6a3146d8-7364-4447-bc6c-7c8c1c6130d8",
+      "tseElectionId": 367,
+      "year": 2016,
+      "name": "Eleição Suplementar Rolim de Moura",
+      "electionDate": "2018-12-09",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "14e72d93-5ba9-4a62-a4fa-992667397779",
+      "tseElectionId": 371,
+      "year": 2016,
+      "name": "Eleição Suplementar Sandolândia-TO",
+      "electionDate": "2018-12-09",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "8c036cda-b5f5-4e65-9bbe-1c4f76f9ceaf",
+      "tseElectionId": 302,
+      "year": 2016,
+      "name": "Eleição Suplementar Santa Cruz Salinas",
+      "electionDate": "2018-03-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "8f369d17-fe89-427c-9999-540ff5a39e87",
+      "tseElectionId": 333,
+      "year": 2016,
+      "name": "Eleição Suplementar Santa Luzia",
+      "electionDate": "2018-06-24",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "355a8b3b-f8d5-433b-90e3-2df1c554cca4",
+      "tseElectionId": 284,
+      "year": 2016,
+      "name": "Eleição Suplementar Santana da Vargem",
+      "electionDate": "2017-11-19",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "fd8efe5e-169a-4081-a88d-ea34dbf8be42",
+      "tseElectionId": 389,
+      "year": 2016,
+      "name": "Eleição Suplementar Sete Lagoas",
+      "electionDate": "2019-06-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "f6a92a96-8015-4b77-bd04-4aa472ac6ec8",
+      "tseElectionId": 266,
+      "year": 2016,
+      "name": "Eleição Suplementar Sta. Rita de Minas",
+      "electionDate": "2017-07-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "62ec75cb-57ac-4f77-8791-bf1fb577e73f",
+      "tseElectionId": 243,
+      "year": 2016,
+      "name": "Eleição Suplementar São Bento Abade",
+      "electionDate": "2017-03-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "0f0ad73f-f164-4a4d-bdd3-2e04d025bea1",
+      "tseElectionId": 235,
+      "year": 2016,
+      "name": "Eleição Suplementar São Vicente do Sul",
+      "electionDate": "2017-03-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "c7a3cfa1-f385-4f8e-88e0-025d9895a54c",
+      "tseElectionId": 256,
+      "year": 2016,
+      "name": "Eleição Suplementar Taguatinga-TO",
+      "electionDate": "2017-06-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "0cfc60bf-530e-474d-a86e-0e1b861121e2",
+      "tseElectionId": 331,
+      "year": 2016,
+      "name": "Eleição Suplementar Timóteo",
+      "electionDate": "2018-06-24",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "fe2b17a2-90d2-42b7-a5dd-c9d9ea53b76b",
+      "tseElectionId": 263,
+      "year": 2016,
+      "name": "Eleição Suplementar de  Itatinga",
+      "electionDate": "2017-07-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "1d5e25f8-26bc-4406-95e4-e2526e05b558",
+      "tseElectionId": 230,
+      "year": 2016,
+      "name": "Eleição Suplementar de Arvorezinha",
+      "electionDate": "2017-03-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "0639e9bc-e3b8-405d-ba83-695f19ed1147",
+      "tseElectionId": 267,
+      "year": 2016,
+      "name": "Eleição Suplementar de Belo Jardim PE",
+      "electionDate": "2017-07-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "2704c9a6-e540-4a3d-9333-fc1f13e3934b",
+      "tseElectionId": 312,
+      "year": 2016,
+      "name": "Eleição Suplementar de Bom Jesus - RS",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "3b64cea2-4ac9-4434-93dd-92edd630ef7d",
+      "tseElectionId": 231,
+      "year": 2016,
+      "name": "Eleição Suplementar de Butiá",
+      "electionDate": "2017-03-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "5ae812d2-6015-4727-808b-ce9f20af6897",
+      "tseElectionId": 330,
+      "year": 2016,
+      "name": "Eleição Suplementar de Cabo Frio",
+      "electionDate": "2018-06-24",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "19ea0d1b-a866-4c8b-a065-987fa287778f",
+      "tseElectionId": 236,
+      "year": 2016,
+      "name": "Eleição Suplementar de Calçoene-AP",
+      "electionDate": "2017-03-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "1f7d5a73-9f61-43f6-9d05-7f82b06742d4",
+      "tseElectionId": 404,
+      "year": 2016,
+      "name": "Eleição Suplementar de Camamu",
+      "electionDate": "2019-09-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "13fb9102-17cf-499e-ba1a-61bfb8aa77d3",
+      "tseElectionId": 244,
+      "year": 2016,
+      "name": "Eleição Suplementar de Carmópolis-SE",
+      "electionDate": "2017-04-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "bcf0b532-9fac-43e4-a914-bcdb338a74bb",
+      "tseElectionId": 411,
+      "year": 2016,
+      "name": "Eleição Suplementar de Castelo (ES)",
+      "electionDate": "2019-10-27",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "350fb4ee-44d0-457e-a6a9-8bdf1b8e6ee8",
+      "tseElectionId": 415,
+      "year": 2016,
+      "name": "Eleição Suplementar de Ceará-Mirim",
+      "electionDate": "2019-12-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "ea769d2a-add6-4d0f-aa54-9995cc8c7b81",
+      "tseElectionId": 247,
+      "year": 2016,
+      "name": "Eleição Suplementar de Foz do Iguaçu",
+      "electionDate": "2017-04-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "003ffd0b-df86-49cd-a6d8-3da5b6f75e98",
+      "tseElectionId": 276,
+      "year": 2016,
+      "name": "Eleição Suplementar de Fundão (ES)",
+      "electionDate": "2017-10-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "9e1b2e59-bae1-4015-9012-6011e3f26461",
+      "tseElectionId": 315,
+      "year": 2016,
+      "name": "Eleição Suplementar de Galinhos",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "710a20f5-4726-4297-a94d-2c78fa70fa19",
+      "tseElectionId": 232,
+      "year": 2016,
+      "name": "Eleição Suplementar de Gravataí",
+      "electionDate": "2017-03-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "0aa2163e-375f-4718-870b-ec641834d1a3",
+      "tseElectionId": 368,
+      "year": 2016,
+      "name": "Eleição Suplementar de Guamaré",
+      "electionDate": "2018-12-09",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "cf3d4274-9b0c-4645-b4af-c9c3cecd16a8",
+      "tseElectionId": 257,
+      "year": 2016,
+      "name": "Eleição Suplementar de Guaraqueçaba",
+      "electionDate": "2017-06-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "004dc307-7789-4cb3-8d1c-df5a046ea8fb",
+      "tseElectionId": 386,
+      "year": 2016,
+      "name": "Eleição Suplementar de Irupi (ES)",
+      "electionDate": "2019-05-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "a79340cf-a8bb-4329-9bcf-ebd9c7537ada",
+      "tseElectionId": 283,
+      "year": 2016,
+      "name": "Eleição Suplementar de Ivoti-RS",
+      "electionDate": "2017-11-19",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "87b69082-ae7e-42b3-8bb2-69e593a530e0",
+      "tseElectionId": 303,
+      "year": 2016,
+      "name": "Eleição Suplementar de Jeremoabo",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "78df6ba0-4f20-4d52-9a10-8615a5a396ea",
+      "tseElectionId": 324,
+      "year": 2016,
+      "name": "Eleição Suplementar de João Câmara",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "cb755fa6-9aec-4a6b-b48f-dea770933fa7",
+      "tseElectionId": 274,
+      "year": 2016,
+      "name": "Eleição Suplementar de Mairinque",
+      "electionDate": "2017-09-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "412556fa-0a9c-442e-bae3-3759787f806b",
+      "tseElectionId": 322,
+      "year": 2016,
+      "name": "Eleição Suplementar de Moju",
+      "electionDate": "2018-06-24",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "35d7c8db-a3fd-4c2a-87b2-fbd6576ad942",
+      "tseElectionId": 275,
+      "year": 2016,
+      "name": "Eleição Suplementar de Mombuca",
+      "electionDate": "2017-09-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "d1c8a073-b4ee-430a-8234-e1fcbe9e9fcc",
+      "tseElectionId": 258,
+      "year": 2016,
+      "name": "Eleição Suplementar de Moreira Sales",
+      "electionDate": "2017-06-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "f00e1f18-4be4-4b0f-87b4-a19162663c91",
+      "tseElectionId": 271,
+      "year": 2016,
+      "name": "Eleição Suplementar de Nova Fátima",
+      "electionDate": "2017-08-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "b46665a4-791a-437f-8e80-c69cfe5cef26",
+      "tseElectionId": 316,
+      "year": 2016,
+      "name": "Eleição Suplementar de Parazinho",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "228a2a05-8995-429c-b169-4559be3cebb8",
+      "tseElectionId": 282,
+      "year": 2016,
+      "name": "Eleição Suplementar de Paraí-RS",
+      "electionDate": "2017-11-19",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "954dc34d-a0be-4360-85c1-5420db121fc0",
+      "tseElectionId": 373,
+      "year": 2016,
+      "name": "Eleição Suplementar de Passa e Fica",
+      "electionDate": "2019-02-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "77f89d94-dfa3-41fc-a449-8e4fed29e2dd",
+      "tseElectionId": 318,
+      "year": 2016,
+      "name": "Eleição Suplementar de Pedro Avelino",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "14dd9266-e49e-4169-a15d-ad34113d1841",
+      "tseElectionId": 360,
+      "year": 2016,
+      "name": "Eleição Suplementar de Pendências",
+      "electionDate": "2018-11-25",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "091da64f-09bd-4ccc-886a-6bacd97a4be9",
+      "tseElectionId": 425,
+      "year": 2016,
+      "name": "Eleição Suplementar de Pilão Arcado",
+      "electionDate": "2020-02-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "3099acbf-2995-4cb2-9efd-d3bc07aa8478",
+      "tseElectionId": 248,
+      "year": 2016,
+      "name": "Eleição Suplementar de Piraí do Sul",
+      "electionDate": "2017-04-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "9ea3bbfd-32e4-48a5-91cf-f690203eecea",
+      "tseElectionId": 329,
+      "year": 2016,
+      "name": "Eleição Suplementar de Rio das Ostras",
+      "electionDate": "2018-06-24",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "2627664c-b951-46ac-8580-e88f8c531946",
+      "tseElectionId": 233,
+      "year": 2016,
+      "name": "Eleição Suplementar de Salto do Jacuí",
+      "electionDate": "2017-03-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "9a65c2fb-868d-4fe9-beb8-53babc7147f8",
+      "tseElectionId": 374,
+      "year": 2016,
+      "name": "Eleição Suplementar de Santa Cruz",
+      "electionDate": "2019-02-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "13389235-1dc0-422d-a877-6b63febaab93",
+      "tseElectionId": 234,
+      "year": 2016,
+      "name": "Eleição Suplementar de São Vendelino",
+      "electionDate": "2017-03-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "c789a0ef-19b8-41fe-a054-6513b4beb935",
+      "tseElectionId": 255,
+      "year": 2016,
+      "name": "Eleição Suplementar de Tomé-Açu",
+      "electionDate": "2017-06-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "0f982be2-940c-46be-8db2-0cb3e4b19f13",
+      "tseElectionId": 313,
+      "year": 2016,
+      "name": "Eleição Suplementar de Tucuruí - PA",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "99db3b8c-3975-4155-a134-2e5ee51e597b",
+      "tseElectionId": 361,
+      "year": 2016,
+      "name": "Eleição Suplementar de Água Nova",
+      "electionDate": "2018-11-25",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "be53767f-2518-46a0-b5c5-15d043a25fcb",
+      "tseElectionId": 394,
+      "year": 2016,
+      "name": "Eleição supl. Nova Porteirinha",
+      "electionDate": "2019-07-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "5dcf33c6-ea0d-493d-8cf5-a5a69c29b428",
+      "tseElectionId": 418,
+      "year": 2016,
+      "name": "Eleição suplementar - Aracoiaba/CE",
+      "electionDate": "2019-12-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "b93c9da6-0f60-4ca4-bf28-b03a71287bc4",
+      "tseElectionId": 413,
+      "year": 2016,
+      "name": "Eleição suplementar - Irauçuba/CE",
+      "electionDate": "2019-10-27",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "8384092c-63b4-4a0e-a36c-8ac1efdd0e0c",
+      "tseElectionId": 414,
+      "year": 2016,
+      "name": "Eleição suplementar - Tianguá/CE",
+      "electionDate": "2019-10-27",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "181e1cd3-5f7f-4a27-b516-66bc467af97d",
+      "tseElectionId": 393,
+      "year": 2016,
+      "name": "Eleição suplementar Aguanil",
+      "electionDate": "2019-07-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "10e76103-5c06-4792-a742-df639e469103",
+      "tseElectionId": 391,
+      "year": 2016,
+      "name": "Eleição suplementar Elói Mendes",
+      "electionDate": "2019-07-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "73f5c2c1-9aeb-4728-a39b-aa788e11f230",
+      "tseElectionId": 392,
+      "year": 2016,
+      "name": "Eleição suplementar Itabirito",
+      "electionDate": "2019-07-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "b359a2b3-5df4-44d1-a7b1-ca475ebad325",
+      "tseElectionId": 390,
+      "year": 2016,
+      "name": "Eleição suplementar Palmares do Sul",
+      "electionDate": "2019-07-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "4d0fef35-5c3d-4ab6-baa8-29ec3a38c51a",
+      "tseElectionId": 294,
+      "year": 2016,
+      "name": "Eleição suplementar de Paraú",
+      "electionDate": "2018-03-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "baad662d-f9e3-451a-bb9c-e08b53ae2379",
+      "tseElectionId": 424,
+      "year": 2016,
+      "name": "Eleição suplementar de Parobé - RS",
+      "electionDate": "2020-03-08",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "c4f9c76d-52c4-4703-adfa-64f9c13bb730",
+      "tseElectionId": 314,
+      "year": 2016,
+      "name": "Eleição suplementar de Teresópolis",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "a1a1cd30-3ff4-4599-bf8f-78f1dac28f7c",
+      "tseElectionId": 220,
+      "year": 2016,
+      "name": "Eleições Municipais 2016",
+      "electionDate": "2016-10-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "6561467b-9b67-4592-b591-e41331a9e9bd",
+      "tseElectionId": 221,
+      "year": 2016,
+      "name": "Eleições Municipais 2016",
+      "electionDate": "2016-10-30",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "d88402db-0f6e-4f97-b34a-5053eed8af85",
+      "tseElectionId": 239,
+      "year": 2016,
+      "name": "Nova Eleição 2017 - Sangão",
+      "electionDate": "2017-04-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "f9183569-4d54-44a9-9202-f7b5ebb83e0d",
+      "tseElectionId": 238,
+      "year": 2016,
+      "name": "Nova Eleição 2017 Bom Jardim da Serra",
+      "electionDate": "2017-04-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "b3066e64-34ee-4630-985a-d511026577fa",
+      "tseElectionId": 428,
+      "year": 2016,
+      "name": "Nova Eleição Mar/2020 - Laurentino",
+      "electionDate": "2020-03-08",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "0515b7e4-e0f1-4501-ab19-96d1da8ce48b",
+      "tseElectionId": 338,
+      "year": 2016,
+      "name": "Nova Eleição Out/2018 - Vidal Ramos",
+      "electionDate": "2018-10-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "c4687853-08c7-4c22-a203-e94ed1507f25",
+      "tseElectionId": 270,
+      "year": 2016,
+      "name": "Nova Eleição Set/2017 - Abelardo Luz",
+      "electionDate": "2017-09-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "10a6648b-9cdf-4f9a-b362-de7f4c52d379",
+      "tseElectionId": 400,
+      "year": 2016,
+      "name": "PI-Eleição Sup. de Brasileira",
+      "electionDate": "2019-08-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "8d8d6574-08c3-4abc-b594-58b6a40b1f63",
+      "tseElectionId": 432,
+      "year": 2016,
+      "name": "Prefeito Lambari D'Oeste",
+      "electionDate": "2020-04-26",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "06e1824b-1cd1-4e0c-9ef7-b8fbf4ec3f72",
+      "tseElectionId": 347,
+      "year": 2016,
+      "name": "RJ - Suplementar de Aperibé",
+      "electionDate": "2018-10-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "6cf52bb3-8a6e-4e04-adf3-18472ddd03a0",
+      "tseElectionId": 349,
+      "year": 2016,
+      "name": "RJ - Suplementar de Iguaba Grande",
+      "electionDate": "2018-10-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "e75fa8e1-6441-451a-864f-deff54977ac8",
+      "tseElectionId": 387,
+      "year": 2016,
+      "name": "RJ - Suplementar de Iguaba Grande",
+      "electionDate": "2019-06-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "4178e940-154c-44dd-bcda-96ea154763f4",
+      "tseElectionId": 348,
+      "year": 2016,
+      "name": "RJ - Suplementar de Laje do Muriaé",
+      "electionDate": "2018-10-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "d230b2ba-3702-463a-889b-b3a996192acb",
+      "tseElectionId": 350,
+      "year": 2016,
+      "name": "RJ - Suplementar de Mangaratiba",
+      "electionDate": "2018-10-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "9b7fca19-210b-4353-897a-494f779313eb",
+      "tseElectionId": 399,
+      "year": 2016,
+      "name": "RJ - Suplementar de Paraty",
+      "electionDate": "2019-08-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "59984301-e0bd-44db-bcd3-eb16b6931e26",
+      "tseElectionId": 430,
+      "year": 2016,
+      "name": "RJ - Suplementar de Silva Jardim",
+      "electionDate": "2020-03-08",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "339a2389-ad8d-4feb-983b-87de2a939bfc",
+      "tseElectionId": 382,
+      "year": 2016,
+      "name": "Sup. de Serranópolis do Iguaçu",
+      "electionDate": "2019-04-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "65e65fea-a3a9-428e-bd18-9d921d49fe97",
+      "tseElectionId": 376,
+      "year": 2016,
+      "name": "Suplementar  Lagoinha",
+      "electionDate": "2019-03-17",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "660e8f47-3df2-41d0-9f5f-1626b128d0af",
+      "tseElectionId": 403,
+      "year": 2016,
+      "name": "Suplementar - Riachão do Dantas",
+      "electionDate": "2019-09-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "1268c8a4-dcdd-40bb-9cf1-2c30ccc0d4d2",
+      "tseElectionId": 320,
+      "year": 2016,
+      "name": "Suplementar - Santana do Cariri",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "5c7faab9-0a68-438a-a2ca-e1c69f144c44",
+      "tseElectionId": 340,
+      "year": 2016,
+      "name": "Suplementar Anamã / AM",
+      "electionDate": "2018-10-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "2df4e17a-31c3-48bf-8dcf-94cc31221d18",
+      "tseElectionId": 306,
+      "year": 2016,
+      "name": "Suplementar Bariri",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "b157c4ad-515a-4b42-8ea1-6d6cc0f0ec76",
+      "tseElectionId": 375,
+      "year": 2016,
+      "name": "Suplementar Cajamar",
+      "electionDate": "2019-03-17",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "9f618e4d-98c2-44e0-8a57-6b9abcf36c9b",
+      "tseElectionId": 395,
+      "year": 2016,
+      "name": "Suplementar Candeias do Jamari",
+      "electionDate": "2019-07-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "f4cc1fbc-be0d-47f3-b6f3-98d2cb424203",
+      "tseElectionId": 396,
+      "year": 2016,
+      "name": "Suplementar Floreal - 08/19",
+      "electionDate": "2019-08-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "87a2ff34-a832-44e1-8213-f80eed077e8c",
+      "tseElectionId": 408,
+      "year": 2016,
+      "name": "Suplementar General Salgado",
+      "electionDate": "2019-10-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "40695249-3834-4ec3-8684-62d45d7a2d9d",
+      "tseElectionId": 410,
+      "year": 2016,
+      "name": "Suplementar Guaiçara 27/10/19",
+      "electionDate": "2019-10-27",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "1254525e-8542-4432-918e-db2c34d015ed",
+      "tseElectionId": 377,
+      "year": 2016,
+      "name": "Suplementar Macaubal",
+      "electionDate": "2019-03-17",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "0fc96c1a-1453-47e1-92b1-f23aad463406",
+      "tseElectionId": 397,
+      "year": 2016,
+      "name": "Suplementar Meridiano 08/19",
+      "electionDate": "2019-08-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "cd952803-3121-44cb-bba0-84cd04a586be",
+      "tseElectionId": 402,
+      "year": 2016,
+      "name": "Suplementar Mirandopolis 9/19",
+      "electionDate": "2019-09-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "36501465-649c-43b7-8b8e-b52f63b78770",
+      "tseElectionId": 341,
+      "year": 2016,
+      "name": "Suplementar Novo Airão / AM",
+      "electionDate": "2018-10-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "36dd32cf-dc08-44d5-8e63-2b8b0140dd74",
+      "tseElectionId": 307,
+      "year": 2016,
+      "name": "Suplementar Pirapora do Bom Jesus",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "b914f869-c46d-45dd-b495-a1a61831976f",
+      "tseElectionId": 327,
+      "year": 2016,
+      "name": "Suplementar Prefeito Vilhena - RO",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "ba0ad512-0fb4-4eea-8dc6-d3d3489a6e37",
+      "tseElectionId": 334,
+      "year": 2016,
+      "name": "Suplementar Santa Cruz das Palmeiras",
+      "electionDate": "2018-06-24",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "96972e96-f62a-4fc8-983f-e66d06ca4364",
+      "tseElectionId": 310,
+      "year": 2016,
+      "name": "Suplementar Santa Cruz das Palmeiras",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "25a6e5ac-bfac-4f73-87d6-53ce6a902e19",
+      "tseElectionId": 311,
+      "year": 2016,
+      "name": "Suplementar Turmalina",
+      "electionDate": "2018-06-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "bc776d5b-c32b-4d3c-b02d-d92826950e55",
+      "tseElectionId": 344,
+      "year": 2016,
+      "name": "Suplementar de Alpestre - RS",
+      "electionDate": "2018-10-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "0b485c55-daf0-4169-9e1f-f800de79a7a8",
+      "tseElectionId": 345,
+      "year": 2016,
+      "name": "Suplementar de Araras",
+      "electionDate": "2018-10-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "ba147334-41e0-40b8-9a93-b11cff8c39e3",
+      "tseElectionId": 417,
+      "year": 2016,
+      "name": "Suplementar de Bofete",
+      "electionDate": "2019-12-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "a6a3f69a-e74b-404a-8970-208674340ccf",
+      "tseElectionId": 351,
+      "year": 2016,
+      "name": "Suplementar de Monte Azul Paulista",
+      "electionDate": "2018-10-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "7be9fd8e-a49a-47c2-9dbb-a48080b0a240",
+      "tseElectionId": 405,
+      "year": 2016,
+      "name": "Suplementar de Paulinia 9/19",
+      "electionDate": "2019-09-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "6cb46064-24f6-443b-8ff7-00e190fd91c1",
+      "tseElectionId": 346,
+      "year": 2016,
+      "name": "Suplementar de Rincão",
+      "electionDate": "2018-10-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "7ad69be8-370f-4ea8-8349-26894f24ff1a",
+      "tseElectionId": 278,
+      "year": 2016,
+      "name": "Suplementar de Sandovalina",
+      "electionDate": "2017-11-19",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "9e258a30-4667-4f65-ad01-beb10ea6cec0",
+      "tseElectionId": 279,
+      "year": 2016,
+      "name": "Suplementar de Sebastianópolis do Sul",
+      "electionDate": "2017-11-19",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "8c845fc7-ca71-4055-9707-163cae27780d",
+      "tseElectionId": 412,
+      "year": 2016,
+      "name": "Suplementar de São Francisco",
+      "electionDate": "2019-12-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:53:52.036Z",
+      "updatedAt": "2026-09-23T17:38:50.042Z"
+    },
+    {
+      "id": "5bb05691-c7e7-4ec5-9956-8e3836977e76",
+      "tseElectionId": 295,
+      "year": 2018,
+      "name": "Eleição Geral Federal 2018",
+      "electionDate": "2018-10-07",
+      "scope": "FEDERAL",
+      "createdAt": "2026-09-22T15:42:38.074Z",
+      "updatedAt": "2026-09-23T17:22:37.448Z"
+    },
+    {
+      "id": "8ba4b862-ae0a-4574-b21b-89d373177ed3",
+      "tseElectionId": 296,
+      "year": 2018,
+      "name": "Eleição Geral Federal 2018",
+      "electionDate": "2018-10-28",
+      "scope": "FEDERAL",
+      "createdAt": "2026-09-22T15:42:38.074Z",
+      "updatedAt": "2026-09-23T17:22:37.448Z"
+    },
+    {
+      "id": "2f50be99-45a2-4287-80e1-d9e9f02a31f9",
+      "tseElectionId": 438,
+      "year": 2018,
+      "name": "Eleição Suplementar Senador - MT",
+      "electionDate": "2020-11-15",
+      "scope": "ESTADUAL",
+      "createdAt": "2026-09-22T15:42:38.074Z",
+      "updatedAt": "2026-09-23T17:22:37.448Z"
+    },
+    {
+      "id": "feb628a9-e29b-4133-9d3d-b810639907d9",
+      "tseElectionId": 297,
+      "year": 2018,
+      "name": "Eleições Gerais Estaduais 2018",
+      "electionDate": "2018-10-07",
+      "scope": "ESTADUAL",
+      "createdAt": "2026-09-22T15:42:38.074Z",
+      "updatedAt": "2026-09-23T17:22:37.448Z"
+    },
+    {
+      "id": "d4820cda-0669-476c-be54-a2f9b9ed33f3",
+      "tseElectionId": 298,
+      "year": 2018,
+      "name": "Eleições Gerais Estaduais 2018",
+      "electionDate": "2018-10-28",
+      "scope": "ESTADUAL",
+      "createdAt": "2026-09-22T15:42:38.074Z",
+      "updatedAt": "2026-09-23T17:22:37.448Z"
+    },
+    {
+      "id": "ee727eba-30b4-463e-b869-9614587917b9",
+      "tseElectionId": 431,
+      "year": 2018,
+      "name": "Senador",
+      "electionDate": "2020-04-26",
+      "scope": "ESTADUAL",
+      "createdAt": "2026-09-22T15:42:38.074Z",
+      "updatedAt": "2026-09-23T17:22:37.448Z"
+    },
+    {
+      "id": "d80332d3-36c7-48e1-9f73-5f22d94c6310",
+      "tseElectionId": 590,
+      "year": 2020,
+      "name": "Eleicao Suplementar de Leme",
+      "electionDate": "2022-12-11",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "83cb1f7e-b8fb-46c0-a1d9-3cda7df75001",
+      "tseElectionId": 484,
+      "year": 2020,
+      "name": "Eleição Supl. São Gonçalo do Sapucaí",
+      "electionDate": "2021-07-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "ee60c499-f96e-4e4a-891e-501e1a6f237a",
+      "tseElectionId": 617,
+      "year": 2020,
+      "name": "Eleição Suplementar - Alto Santo/CE",
+      "electionDate": "2023-12-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "d8d78cb9-f40a-4e66-8d01-b5ae936dcbbb",
+      "tseElectionId": 586,
+      "year": 2020,
+      "name": "Eleição Suplementar - Baixio/CE",
+      "electionDate": "2022-12-11",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "07ff5fd8-6b59-40d2-b361-0fd5ce357706",
+      "tseElectionId": 538,
+      "year": 2020,
+      "name": "Eleição Suplementar - Barro/CE",
+      "electionDate": "2021-12-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "ec4a7da8-5ffe-4823-84de-ef6fc228f2a6",
+      "tseElectionId": 537,
+      "year": 2020,
+      "name": "Eleição Suplementar - Jaguaruana/CE",
+      "electionDate": "2021-11-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "d1f14c83-4f85-4ab8-b480-f8133ed56469",
+      "tseElectionId": 483,
+      "year": 2020,
+      "name": "Eleição Suplementar - Martinópole/CE",
+      "electionDate": "2021-08-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "6563071c-6af6-4a25-a46d-e5ff3a19d18d",
+      "tseElectionId": 485,
+      "year": 2020,
+      "name": "Eleição Suplementar - Missão Velha/CE",
+      "electionDate": "2021-08-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "74a71081-408b-4877-9bcd-c95c2c3f5a67",
+      "tseElectionId": 593,
+      "year": 2020,
+      "name": "Eleição Suplementar - Pacujá/CE",
+      "electionDate": "2023-02-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "ad8454f1-b70d-4eff-85b9-f8fc3f352617",
+      "tseElectionId": 594,
+      "year": 2020,
+      "name": "Eleição Suplementar - Palhano/CE",
+      "electionDate": "2023-02-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "725c243f-acc8-419c-a7fe-6739fc228c9f",
+      "tseElectionId": 486,
+      "year": 2020,
+      "name": "Eleição Suplementar - Pedra Branca/CE",
+      "electionDate": "2021-08-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "466aa8d1-7bf4-4df3-94ce-94afd28a1ee9",
+      "tseElectionId": 488,
+      "year": 2020,
+      "name": "Eleição Suplementar Acorizal - MT",
+      "electionDate": "2021-08-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "10b91267-e90c-4af9-95a8-872d0a44088b",
+      "tseElectionId": 554,
+      "year": 2020,
+      "name": "Eleição Suplementar Agudos do Sul/PR",
+      "electionDate": "2022-04-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "88330044-08e5-4175-b55e-0fdbc8139d32",
+      "tseElectionId": 626,
+      "year": 2020,
+      "name": "Eleição Suplementar Alto Alegre",
+      "electionDate": "2024-04-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "f4b9d46b-2019-4939-8fb2-7bac02d3fd26",
+      "tseElectionId": 555,
+      "year": 2020,
+      "name": "Eleição Suplementar Angélica-MS",
+      "electionDate": "2022-05-15",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "3f0ae0dc-6ed3-4d90-8ba1-a08f00855db8",
+      "tseElectionId": 493,
+      "year": 2020,
+      "name": "Eleição Suplementar Antônio Carlos",
+      "electionDate": "2021-08-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "a5f8abdb-dad3-425f-91b1-deae0867bc3a",
+      "tseElectionId": 534,
+      "year": 2020,
+      "name": "Eleição Suplementar Bandeirantes-MS",
+      "electionDate": "2021-11-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "4b9e7704-5e77-46ee-b3f2-0436d71f158b",
+      "tseElectionId": 610,
+      "year": 2020,
+      "name": "Eleição Suplementar Brusque Set/2023",
+      "electionDate": "2023-09-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "0ef612c3-5839-4e44-82b7-fe2b4c8930dc",
+      "tseElectionId": 467,
+      "year": 2020,
+      "name": "Eleição Suplementar Campestre",
+      "electionDate": "2021-06-13",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "fd0dde14-7402-495f-8dde-30e62922daae",
+      "tseElectionId": 563,
+      "year": 2020,
+      "name": "Eleição Suplementar Canoinhas  2022",
+      "electionDate": "2022-10-30",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "2656da90-252e-4094-b806-f848245cb6ec",
+      "tseElectionId": 580,
+      "year": 2020,
+      "name": "Eleição Suplementar Divisa Alegre",
+      "electionDate": "2022-12-11",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "68d5130f-3e80-453b-9a52-8b34b7851e84",
+      "tseElectionId": 466,
+      "year": 2020,
+      "name": "Eleição Suplementar Espera Feliz",
+      "electionDate": "2021-06-13",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "d87caa93-8e32-471c-9907-9e504ac15280",
+      "tseElectionId": 528,
+      "year": 2020,
+      "name": "Eleição Suplementar Firmino Alves-BA",
+      "electionDate": "2021-10-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "a87c1813-5bda-43ae-940e-abe41586c6b7",
+      "tseElectionId": 553,
+      "year": 2020,
+      "name": "Eleição Suplementar Garibaldi",
+      "electionDate": "2022-04-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "bdc92eee-dbf8-4dad-b826-b030555c2bca",
+      "tseElectionId": 511,
+      "year": 2020,
+      "name": "Eleição Suplementar Goianésia do Pará",
+      "electionDate": "2021-10-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "ab0bb322-42d6-4e33-afdd-bd01deae14ec",
+      "tseElectionId": 481,
+      "year": 2020,
+      "name": "Eleição Suplementar ITAJÁ - GO",
+      "electionDate": "2021-07-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "69ae7543-9f45-46bb-82f7-834f6f37a60a",
+      "tseElectionId": 601,
+      "year": 2020,
+      "name": "Eleição Suplementar Iaciara - GO",
+      "electionDate": "2023-03-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "2037dd29-a715-4598-b6e3-e9d1a2ebf1e1",
+      "tseElectionId": 492,
+      "year": 2020,
+      "name": "Eleição Suplementar Ibertioga",
+      "electionDate": "2021-08-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "22752dd5-27b2-44b9-b372-814ac0d5661f",
+      "tseElectionId": 552,
+      "year": 2020,
+      "name": "Eleição Suplementar Japaraíba",
+      "electionDate": "2022-04-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "bc5fb646-99e1-4201-ba5a-86c48b1fd5d6",
+      "tseElectionId": 533,
+      "year": 2020,
+      "name": "Eleição Suplementar João Dourado-BA",
+      "electionDate": "2021-11-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "8baab64e-c3fc-4462-a9af-332f81409974",
+      "tseElectionId": 531,
+      "year": 2020,
+      "name": "Eleição Suplementar Juazeiro (PI)",
+      "electionDate": "2021-10-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "de4f56fa-5479-431d-b9f8-b9a7d4f05b02",
+      "tseElectionId": 604,
+      "year": 2020,
+      "name": "Eleição Suplementar Lamim",
+      "electionDate": "2023-06-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "347b280c-7027-4537-8008-28413fad7455",
+      "tseElectionId": 489,
+      "year": 2020,
+      "name": "Eleição Suplementar Matupá - MT",
+      "electionDate": "2021-08-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "2b22a18f-837e-4be4-97b8-d4a27fefd871",
+      "tseElectionId": 584,
+      "year": 2020,
+      "name": "Eleição Suplementar Monte Horebe",
+      "electionDate": "2022-12-11",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "71284d82-1dc8-44c8-9c45-b7834bdc94bb",
+      "tseElectionId": 512,
+      "year": 2020,
+      "name": "Eleição Suplementar Paranhos-MS",
+      "electionDate": "2021-10-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "699fc951-8da7-4c68-8779-e792a6d40319",
+      "tseElectionId": 510,
+      "year": 2020,
+      "name": "Eleição Suplementar Pedra do Anta",
+      "electionDate": "2021-09-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "35ec3858-5693-4d73-ac30-560fcddd5247",
+      "tseElectionId": 471,
+      "year": 2020,
+      "name": "Eleição Suplementar Pinheiro Machado",
+      "electionDate": "2021-07-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "d8af9802-237a-4f0d-abef-0a3e1444bad0",
+      "tseElectionId": 482,
+      "year": 2020,
+      "name": "Eleição Suplementar Sidrolândia-MS",
+      "electionDate": "2021-06-13",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "e4a30ddd-415d-4011-bd98-fc0bc2473b9f",
+      "tseElectionId": 515,
+      "year": 2020,
+      "name": "Eleição Suplementar Tomé-Açu - PA",
+      "electionDate": "2021-11-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "233f8e78-9dcc-4202-842a-fbf84e90ebdd",
+      "tseElectionId": 487,
+      "year": 2020,
+      "name": "Eleição Suplementar Torixoréu - MT",
+      "electionDate": "2021-08-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "09d8071c-641a-4879-ba0b-cdbea82bc332",
+      "tseElectionId": 571,
+      "year": 2020,
+      "name": "Eleição Suplementar Vilhena (RO)",
+      "electionDate": "2022-10-30",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "be9b9c67-d3e4-4c0c-a991-824561586bd6",
+      "tseElectionId": 539,
+      "year": 2020,
+      "name": "Eleição Suplementar Viçosa do Ceará/CE",
+      "electionDate": "2021-12-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "4fbc67d4-7d96-4dc8-95a9-e2470febce45",
+      "tseElectionId": 603,
+      "year": 2020,
+      "name": "Eleição Suplementar Xavantina 2023",
+      "electionDate": "2023-05-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "5dc547c0-0e36-41a2-a8eb-608f20301a28",
+      "tseElectionId": 624,
+      "year": 2020,
+      "name": "Eleição Suplementar de Analândia",
+      "electionDate": "2024-04-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "2410c861-fc86-40ca-922d-a7960c01f70d",
+      "tseElectionId": 525,
+      "year": 2020,
+      "name": "Eleição Suplementar de Angatuba",
+      "electionDate": "2021-10-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "5066bd56-23d9-4f5a-a237-d189898c7aaa",
+      "tseElectionId": 524,
+      "year": 2020,
+      "name": "Eleição Suplementar de Anhembi",
+      "electionDate": "2021-10-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "5d12682d-21d2-4c2e-9fd3-551df2d941c1",
+      "tseElectionId": 516,
+      "year": 2020,
+      "name": "Eleição Suplementar de Apiaí",
+      "electionDate": "2021-10-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "6415ebc4-5b9f-453c-b889-3f962253f795",
+      "tseElectionId": 491,
+      "year": 2020,
+      "name": "Eleição Suplementar de Boa Esperança",
+      "electionDate": "2021-08-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "c3e58c68-abf0-428c-9360-8e613c74e658",
+      "tseElectionId": 602,
+      "year": 2020,
+      "name": "Eleição Suplementar de Boa Ventura/PB",
+      "electionDate": "2023-05-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "eec662e6-ba00-489f-9ffc-d824391db37f",
+      "tseElectionId": 612,
+      "year": 2020,
+      "name": "Eleição Suplementar de Boqueirão/PB",
+      "electionDate": "2023-11-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "e2d9baaf-32fd-422c-a519-53d74de63eed",
+      "tseElectionId": 607,
+      "year": 2020,
+      "name": "Eleição Suplementar de Cachoeira Alta",
+      "electionDate": "2023-08-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "4cb50194-e5a0-4a67-9057-ac171b809a7d",
+      "tseElectionId": 523,
+      "year": 2020,
+      "name": "Eleição Suplementar de Cajati",
+      "electionDate": "2021-10-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "9e01811b-ef20-45a9-8cc9-f2ae38408b67",
+      "tseElectionId": 583,
+      "year": 2020,
+      "name": "Eleição Suplementar de Canguaretama",
+      "electionDate": "2022-11-27",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "fc803ba0-ad81-4abb-a616-a693d67afd75",
+      "tseElectionId": 543,
+      "year": 2020,
+      "name": "Eleição Suplementar de Coari/AM",
+      "electionDate": "2021-12-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "801855ad-7c06-4422-84f5-2a39be75b543",
+      "tseElectionId": 536,
+      "year": 2020,
+      "name": "Eleição Suplementar de Francisco Alves",
+      "electionDate": "2021-11-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "f5fbb599-ab44-4e74-b0d2-4e63b135f3f9",
+      "tseElectionId": 535,
+      "year": 2020,
+      "name": "Eleição Suplementar de Guamaré",
+      "electionDate": "2021-11-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "b05239b5-3ec5-4fe6-82cc-4ddb220c1348",
+      "tseElectionId": 530,
+      "year": 2020,
+      "name": "Eleição Suplementar de Guaíra",
+      "electionDate": "2021-10-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "5524c4b9-aef6-4018-8969-a85bdcd5ac3c",
+      "tseElectionId": 588,
+      "year": 2020,
+      "name": "Eleição Suplementar de Ibitirama (ES)",
+      "electionDate": "2022-11-27",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "050e9fb7-6cfc-4c14-90b5-7500af359c4e",
+      "tseElectionId": 595,
+      "year": 2020,
+      "name": "Eleição Suplementar de Ipanguaçu",
+      "electionDate": "2023-03-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "73ce58d8-d280-4f0d-b14d-c8de61512d7e",
+      "tseElectionId": 517,
+      "year": 2020,
+      "name": "Eleição Suplementar de Itaoca",
+      "electionDate": "2021-10-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "d5a30524-cb0c-438b-b0e8-a0af0314bc2b",
+      "tseElectionId": 558,
+      "year": 2020,
+      "name": "Eleição Suplementar de Itapemirim (ES)",
+      "electionDate": "2022-06-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "5fc770b6-e81d-436a-9144-e082aa1c4750",
+      "tseElectionId": 615,
+      "year": 2020,
+      "name": "Eleição Suplementar de Itupeva",
+      "electionDate": "2023-12-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "b39ca000-fb14-41de-b6f4-b19b12ea03f0",
+      "tseElectionId": 520,
+      "year": 2020,
+      "name": "Eleição Suplementar de Leme",
+      "electionDate": "2021-10-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "790476a0-5415-4821-89e2-cc93ca7eb672",
+      "tseElectionId": 585,
+      "year": 2020,
+      "name": "Eleição Suplementar de Maiquinique-BA",
+      "electionDate": "2022-11-27",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "54c9dbf4-b2a6-4914-bfee-f7687df37294",
+      "tseElectionId": 618,
+      "year": 2020,
+      "name": "Eleição Suplementar de Massaranduba/PB",
+      "electionDate": "2024-03-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "5e11521e-b85e-44e1-bb53-6a2964a09a88",
+      "tseElectionId": 526,
+      "year": 2020,
+      "name": "Eleição Suplementar de Mendonça",
+      "electionDate": "2021-10-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "812476a9-0b63-4e8a-aa35-5f3eb75b67e3",
+      "tseElectionId": 460,
+      "year": 2020,
+      "name": "Eleição Suplementar de Munhoz de Melo",
+      "electionDate": "2021-04-11",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "d6bc1a16-9a20-4e62-8c95-21ae57eb4e08",
+      "tseElectionId": 613,
+      "year": 2020,
+      "name": "Eleição Suplementar de Mãe D'Água/PB",
+      "electionDate": "2023-11-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "0bccb17d-a29f-4638-9a4f-4e8d22d97306",
+      "tseElectionId": 582,
+      "year": 2020,
+      "name": "Eleição Suplementar de Pedro Velho",
+      "electionDate": "2022-11-27",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "c25860a6-1e9c-459e-b639-a751c923b630",
+      "tseElectionId": 623,
+      "year": 2020,
+      "name": "Eleição Suplementar de Pedro Velho RN",
+      "electionDate": "2024-03-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "3d1070ae-e83e-445d-b0af-e9c3c2188821",
+      "tseElectionId": 521,
+      "year": 2020,
+      "name": "Eleição Suplementar de Piacatu",
+      "electionDate": "2021-10-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "a636a9ac-d6a1-45a1-bb9b-e7b0b6a29ef4",
+      "tseElectionId": 572,
+      "year": 2020,
+      "name": "Eleição Suplementar de Pinhalzinho",
+      "electionDate": "2022-10-30",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "1019cacd-b4fb-4034-9efb-bd745f5dbd81",
+      "tseElectionId": 470,
+      "year": 2020,
+      "name": "Eleição Suplementar de Putinga",
+      "electionDate": "2021-07-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "798436a3-3a33-4bdf-bd2f-565348d127c5",
+      "tseElectionId": 541,
+      "year": 2020,
+      "name": "Eleição Suplementar de Reginópolis",
+      "electionDate": "2021-12-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "da25723d-983d-4675-bd28-e7ddb0c5c067",
+      "tseElectionId": 589,
+      "year": 2020,
+      "name": "Eleição Suplementar de Ribeirão Pires",
+      "electionDate": "2022-12-11",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "7f39798e-39c3-44ef-aad4-53ba82bdb37f",
+      "tseElectionId": 540,
+      "year": 2020,
+      "name": "Eleição Suplementar de Salmourão",
+      "electionDate": "2021-12-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "fb07272e-d5f9-4b5c-bad6-1cdf7f30a5ac",
+      "tseElectionId": 611,
+      "year": 2020,
+      "name": "Eleição Suplementar de São Simão",
+      "electionDate": "2023-09-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "cae1ae60-616a-44ef-bf83-9e34963c2946",
+      "tseElectionId": 587,
+      "year": 2020,
+      "name": "Eleição Suplementar de Tanabi",
+      "electionDate": "2022-11-27",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "8b8cfe4a-e62f-4faa-a75e-2393846ca16c",
+      "tseElectionId": 455,
+      "year": 2020,
+      "name": "Eleição Suplementar de Torixoréu - MT",
+      "electionDate": "2021-04-11",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "67e44a70-0f24-437c-a26e-fd9e070481d0",
+      "tseElectionId": 519,
+      "year": 2020,
+      "name": "Eleição Suplementar de Trabiju",
+      "electionDate": "2021-10-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "ce197b0d-6edf-43fd-8dd9-9180ddff8de3",
+      "tseElectionId": 608,
+      "year": 2020,
+      "name": "Eleição Suplementar de Turvelândia",
+      "electionDate": "2023-08-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "b981350c-2b37-4c2a-a069-5aa9a6f3e521",
+      "tseElectionId": 614,
+      "year": 2020,
+      "name": "Eleição Suplementar de Ubarana",
+      "electionDate": "2023-12-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "cc4d2e53-73a2-4332-86f1-3cc5ba060a64",
+      "tseElectionId": 542,
+      "year": 2020,
+      "name": "Eleição Suplementar de Vargem",
+      "electionDate": "2021-12-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "e0555bba-860f-420c-9173-647131294b04",
+      "tseElectionId": 504,
+      "year": 2020,
+      "name": "Eleição Suplementar-Campo Grande(AL)",
+      "electionDate": "2021-09-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "84e5adec-f7e8-47fb-aec5-b318cef3a238",
+      "tseElectionId": 630,
+      "year": 2020,
+      "name": "Eleição suplementar Bertópolis",
+      "electionDate": "2024-06-09",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "276e960a-6dc9-4964-beeb-55b8d43fb9ff",
+      "tseElectionId": 456,
+      "year": 2020,
+      "name": "Eleição suplementar Campestre",
+      "electionDate": "2021-04-11",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "4720d501-fcbb-47a1-b926-95c2cebe0102",
+      "tseElectionId": 597,
+      "year": 2020,
+      "name": "Eleição suplementar Capão do Cipó/RS",
+      "electionDate": "2023-03-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "64ae3778-e224-4da0-b0ff-65753ec80608",
+      "tseElectionId": 596,
+      "year": 2020,
+      "name": "Eleição suplementar Caseiros/RS",
+      "electionDate": "2023-03-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "6b16b642-c4b9-47c8-8a97-d419f8a423df",
+      "tseElectionId": 605,
+      "year": 2020,
+      "name": "Eleição suplementar Divisa Alegre",
+      "electionDate": "2023-07-02",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "3bc57586-5b3d-4b80-80cf-808f6c296af6",
+      "tseElectionId": 457,
+      "year": 2020,
+      "name": "Eleição suplementar Espera Feliz",
+      "electionDate": "2021-04-11",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "dc1e811b-adde-4102-8d3a-81b196eb9e5f",
+      "tseElectionId": 598,
+      "year": 2020,
+      "name": "Eleição suplementar Miraguaí/RS",
+      "electionDate": "2023-03-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "7d819ebd-122f-4772-a121-f327bdfced1e",
+      "tseElectionId": 599,
+      "year": 2020,
+      "name": "Eleição suplementar Redentora/RS",
+      "electionDate": "2023-03-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "348842d2-1471-4a87-a27e-54d16781ca68",
+      "tseElectionId": 426,
+      "year": 2020,
+      "name": "Eleições Municipais 2020",
+      "electionDate": "2020-11-15",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "f2678564-e26f-4abf-a270-4827549aec33",
+      "tseElectionId": 427,
+      "year": 2020,
+      "name": "Eleições Municipais 2020",
+      "electionDate": "2020-11-29",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "92293fda-dead-4fdc-bd59-098a6b3c9453",
+      "tseElectionId": 445,
+      "year": 2020,
+      "name": "Eleições Municipais 2020 - AP",
+      "electionDate": "2020-12-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "38409328-f848-4723-912d-20c4636fa415",
+      "tseElectionId": 446,
+      "year": 2020,
+      "name": "Eleições Municipais 2020 - AP",
+      "electionDate": "2020-12-20",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "137760b0-d3c8-41e3-afbb-d6cbf4762610",
+      "tseElectionId": 513,
+      "year": 2020,
+      "name": "Eleições Suplementares Capoeiras 2021",
+      "electionDate": "2021-10-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "17ad90d5-e683-4731-bd1d-2a210a76c5e4",
+      "tseElectionId": 574,
+      "year": 2020,
+      "name": "Eleições Suplementares Joaquim Nabuco",
+      "electionDate": "2022-10-30",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "e867077a-fd6f-4dc1-94f8-7db55dfa2aa0",
+      "tseElectionId": 514,
+      "year": 2020,
+      "name": "Eleições Suplementares Palmeirina 2021",
+      "electionDate": "2021-10-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "14e0e48e-a22f-4a02-ae09-7643951dedc9",
+      "tseElectionId": 562,
+      "year": 2020,
+      "name": "Eleições Suplementares Pesqueira 2022",
+      "electionDate": "2022-10-30",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "070d8cbe-9dde-450b-aba7-304bbab0f631",
+      "tseElectionId": 609,
+      "year": 2020,
+      "name": "Eleições Suplementares Tacaimbó 2023",
+      "electionDate": "2023-09-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "65e2b552-5605-40f3-8af9-042cb8245113",
+      "tseElectionId": 581,
+      "year": 2020,
+      "name": "Eleições Suplementares de Maraial",
+      "electionDate": "2022-11-27",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "e00ec0f1-6389-4526-a472-bd69b6b664dd",
+      "tseElectionId": 556,
+      "year": 2020,
+      "name": "Nova Eleição - Porto Belo",
+      "electionDate": "2022-06-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "b98f22d4-b3da-4d7f-a32d-82536e667a6d",
+      "tseElectionId": 557,
+      "year": 2020,
+      "name": "Nova Eleição - Pres. Castello Branco",
+      "electionDate": "2022-06-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "bc2365d0-3246-4e70-88af-4a13d0091404",
+      "tseElectionId": 468,
+      "year": 2020,
+      "name": "Nova Eleição Petrolândia",
+      "electionDate": "2021-06-13",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "d3f72a82-a9f0-4221-8ee5-745684054c9f",
+      "tseElectionId": 625,
+      "year": 2020,
+      "name": "RJ - Suplementar de Armação dos Búzios",
+      "electionDate": "2024-04-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "750f0279-814e-49f2-a110-23e7edf859c5",
+      "tseElectionId": 532,
+      "year": 2020,
+      "name": "RJ - Suplementar de Carapebus",
+      "electionDate": "2021-11-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "3be75357-a6fc-4aa7-8298-20391c2ba0f2",
+      "tseElectionId": 458,
+      "year": 2020,
+      "name": "RJ - Suplementar de Itatiaia",
+      "electionDate": "2021-04-11",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "7202cd4d-9efb-4661-8144-cb26107050e9",
+      "tseElectionId": 507,
+      "year": 2020,
+      "name": "RJ - Suplementar de Itatiaia",
+      "electionDate": "2021-09-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "3e78b3c8-8284-4a35-a98e-da7e8c400ab9",
+      "tseElectionId": 551,
+      "year": 2020,
+      "name": "RJ - Suplementar de Itatiaia",
+      "electionDate": "2022-03-13",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "10bce451-4169-4575-843b-ab2bfc43d5fe",
+      "tseElectionId": 508,
+      "year": 2020,
+      "name": "RJ - Suplementar de Silva Jardim",
+      "electionDate": "2021-09-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "9442c60b-f075-4bd0-947c-35ec84d8de65",
+      "tseElectionId": 506,
+      "year": 2020,
+      "name": "RJ - Suplementar de Sta. Ma. Madalena",
+      "electionDate": "2021-09-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "d6f1d96e-b8bf-4233-8760-504e069e9140",
+      "tseElectionId": 459,
+      "year": 2020,
+      "name": "RJ - Suplementar de Sta. Ma. Madalena",
+      "electionDate": "2021-04-11",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "802e36b0-821e-4ab2-9b0c-1fa70b85e6cb",
+      "tseElectionId": 490,
+      "year": 2020,
+      "name": "Suplementar - Gado Bravo/PB",
+      "electionDate": "2021-09-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "695d52a9-2689-4523-b5b7-1f8b1cb4f82b",
+      "tseElectionId": 564,
+      "year": 2020,
+      "name": "Suplementar Cachoeirinha (RS)",
+      "electionDate": "2022-10-30",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "77f015b0-900a-47ff-be8c-6b483707ab7b",
+      "tseElectionId": 628,
+      "year": 2020,
+      "name": "Suplementar Candeias do Jamari",
+      "electionDate": "2024-06-09",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "efff14f1-5ea4-4a64-b82a-0c748fcbe825",
+      "tseElectionId": 565,
+      "year": 2020,
+      "name": "Suplementar Cerro Grande (RS)",
+      "electionDate": "2022-10-30",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "8c46fda9-0f34-44da-985a-c0060a996e1d",
+      "tseElectionId": 622,
+      "year": 2020,
+      "name": "Suplementar Dom Expedito Lopes-PI",
+      "electionDate": "2024-03-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "70427c71-e733-4bbc-a33f-be2a444190a1",
+      "tseElectionId": 566,
+      "year": 2020,
+      "name": "Suplementar Entre Rios do Sul (RS)",
+      "electionDate": "2022-10-30",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "1e74df55-2d79-46b1-9b87-990ec8356fe8",
+      "tseElectionId": 621,
+      "year": 2020,
+      "name": "Suplementar Gilbués-PI",
+      "electionDate": "2024-03-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "fc25f3cb-7cfd-4f3b-854d-1cecf2cdfe77",
+      "tseElectionId": 550,
+      "year": 2020,
+      "name": "Suplementar Murici dos Portela - PI",
+      "electionDate": "2022-03-13",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "ee68b54e-4bd9-4955-9361-76e7936205f3",
+      "tseElectionId": 469,
+      "year": 2020,
+      "name": "Suplementar Nova Prata do Iguaçu",
+      "electionDate": "2021-06-13",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "dc4214fe-2f07-4d12-8e97-78fa0557d243",
+      "tseElectionId": 629,
+      "year": 2020,
+      "name": "Suplementar São Francisco de Assis",
+      "electionDate": "2024-04-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "702acd8c-a0e8-498e-a61b-68d1f694e8cf",
+      "tseElectionId": 606,
+      "year": 2020,
+      "name": "Suplementar São Lourenço do Piauí - PI",
+      "electionDate": "2023-08-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "4ac49c38-c81d-44eb-9359-56abfaa655db",
+      "tseElectionId": 591,
+      "year": 2020,
+      "name": "Suplementar Viseu-PA 05/02/2023",
+      "electionDate": "2023-02-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "07d6c5c5-d16e-4262-9df3-fcce36c848df",
+      "tseElectionId": 616,
+      "year": 2020,
+      "name": "Suplementar de Bom Jardim de Goiás",
+      "electionDate": "2023-12-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "f5223baf-864f-4301-8c3e-14e7e401545f",
+      "tseElectionId": 522,
+      "year": 2020,
+      "name": "Suplementar de Campina do Monte Alegre",
+      "electionDate": "2021-10-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "8917e2ec-b0d2-418b-966a-7cd33353a4c7",
+      "tseElectionId": 638,
+      "year": 2020,
+      "name": "Suplementar de Castelândia - GO",
+      "electionDate": "2024-11-10",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "6a633efd-bc94-49c7-9ac2-47f2eb231bb4",
+      "tseElectionId": 529,
+      "year": 2020,
+      "name": "Suplementar de Mineiros do Tietê",
+      "electionDate": "2021-10-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "760b4a5d-f415-4132-a08a-0616bb3bedb1",
+      "tseElectionId": 518,
+      "year": 2020,
+      "name": "Suplementar de Santo Antônio do Jardim",
+      "electionDate": "2021-10-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "80054276-309f-4860-8d0f-1e07a4843a6a",
+      "tseElectionId": 527,
+      "year": 2020,
+      "name": "Suplementar de São Lourenço da Serra",
+      "electionDate": "2021-10-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "e7b477f2-8933-44b5-8fcd-358e18650d6a",
+      "tseElectionId": 627,
+      "year": 2020,
+      "name": "Suplementar de Turvelândia - GO",
+      "electionDate": "2024-04-28",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "d4165899-cca4-4a27-9768-cd61522a99af",
+      "tseElectionId": 631,
+      "year": 2020,
+      "name": "Suplementares de Monte Alegre/PA",
+      "electionDate": "2024-06-09",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "e7ecdeb3-6e71-4425-86a4-af6a45d00482",
+      "tseElectionId": 632,
+      "year": 2020,
+      "name": "Vereador",
+      "electionDate": "2024-06-09",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:45:50.942Z",
+      "updatedAt": "2026-09-23T17:27:17.904Z"
+    },
+    {
+      "id": "742c64a1-ffcb-4b03-ae0b-f37b58e8bc90",
+      "tseElectionId": 544,
+      "year": 2022,
+      "name": "Eleição Geral Federal 2022",
+      "electionDate": "2022-10-02",
+      "scope": "FEDERAL",
+      "createdAt": "2026-09-22T15:42:20.029Z",
+      "updatedAt": "2026-09-23T17:24:19.169Z"
+    },
+    {
+      "id": "49563465-5b9e-4db3-8115-9abf1fd5e4a0",
+      "tseElectionId": 545,
+      "year": 2022,
+      "name": "Eleição Geral Federal 2022",
+      "electionDate": "2022-10-30",
+      "scope": "FEDERAL",
+      "createdAt": "2026-09-22T15:42:20.029Z",
+      "updatedAt": "2026-09-23T17:24:19.169Z"
+    },
+    {
+      "id": "a4d61083-dc95-4bf8-bc1c-eeb5eab16cd9",
+      "tseElectionId": 6278,
+      "year": 2022,
+      "name": "Eleição Suplementar Governador 2026",
+      "electionDate": "2026-06-21",
+      "scope": "ESTADUAL",
+      "createdAt": "2026-09-22T15:42:20.029Z",
+      "updatedAt": "2026-09-23T17:24:19.169Z"
+    },
+    {
+      "id": "e8d68a21-9fbe-4c95-8c2c-3f32e179718d",
+      "tseElectionId": 546,
+      "year": 2022,
+      "name": "Eleições Gerais Estaduais 2022",
+      "electionDate": "2022-10-02",
+      "scope": "ESTADUAL",
+      "createdAt": "2026-09-22T15:42:20.029Z",
+      "updatedAt": "2026-09-23T17:24:19.169Z"
+    },
+    {
+      "id": "10284ffa-e1e2-46f5-948e-368b28e91c93",
+      "tseElectionId": 547,
+      "year": 2022,
+      "name": "Eleições Gerais Estaduais 2022",
+      "electionDate": "2022-10-30",
+      "scope": "ESTADUAL",
+      "createdAt": "2026-09-22T15:42:20.029Z",
+      "updatedAt": "2026-09-23T17:24:19.169Z"
+    },
+    {
+      "id": "b1f0fe2f-71f3-4349-8d2e-54989dc2b013",
+      "tseElectionId": 6237,
+      "year": 2024,
+      "name": "Eleição Supl. São José da Varginha",
+      "electionDate": "2025-08-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "9ec27b91-7fe9-4360-8de3-616827b289a0",
+      "tseElectionId": 6271,
+      "year": 2024,
+      "name": "Eleição Suplem Municip Ouro Branco RN",
+      "electionDate": "2026-05-17",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "71dbc50e-8ad6-4747-a751-922c0406da08",
+      "tseElectionId": 6270,
+      "year": 2024,
+      "name": "Eleição Suplem. Municipal RN Maio/2026",
+      "electionDate": "2026-05-17",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "dafbec82-382c-48f1-ae23-d3f4031e9386",
+      "tseElectionId": 6266,
+      "year": 2024,
+      "name": "Eleição Suplementar - Oiapoque",
+      "electionDate": "2026-04-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "ce7d9dc2-4908-4d61-b1b1-9e0405d68f2d",
+      "tseElectionId": 6081,
+      "year": 2024,
+      "name": "Eleição Suplementar - Ruy Barbosa",
+      "electionDate": "2025-04-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "165afafb-8644-4872-8396-2c4eb302bbb7",
+      "tseElectionId": 6276,
+      "year": 2024,
+      "name": "Eleição Suplementar Amparo do Serra",
+      "electionDate": "2026-06-21",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "2a424a32-229b-49fc-b768-1d95e60fe98c",
+      "tseElectionId": 6275,
+      "year": 2024,
+      "name": "Eleição Suplementar Bonito de Minas",
+      "electionDate": "2026-06-21",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "c64d8cef-e48f-4be2-b8d9-6f1349772a98",
+      "tseElectionId": 6247,
+      "year": 2024,
+      "name": "Eleição Suplementar Braga - RS",
+      "electionDate": "2025-12-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "fcbed633-cc87-469f-b062-9d3b32e15ef3",
+      "tseElectionId": 6268,
+      "year": 2024,
+      "name": "Eleição Suplementar Cachoeirinha - RS",
+      "electionDate": "2026-04-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "ad8e47d1-5da6-49b6-a35e-068e010db415",
+      "tseElectionId": 6248,
+      "year": 2024,
+      "name": "Eleição Suplementar Martins Soares",
+      "electionDate": "2025-12-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "b66b2a54-779f-4036-ac67-aba926559903",
+      "tseElectionId": 6120,
+      "year": 2024,
+      "name": "Eleição Suplementar Paranhos-MS",
+      "electionDate": "2025-04-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "26320e9a-b1bd-48e6-b535-994df6e2db32",
+      "tseElectionId": 6241,
+      "year": 2024,
+      "name": "Eleição Suplementar São Tomé/PR",
+      "electionDate": "2025-10-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "7821d248-61a6-4817-a51b-a8e8ac614f26",
+      "tseElectionId": 6240,
+      "year": 2024,
+      "name": "Eleição Suplementar Três Rios Out/2025",
+      "electionDate": "2025-10-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "e9cbe96a-0f2d-44cb-92de-357da529f356",
+      "tseElectionId": 6267,
+      "year": 2024,
+      "name": "Eleição Suplementar Viamão - RS",
+      "electionDate": "2026-04-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "39a0ef77-1b00-42eb-b8d0-694de3e8bf92",
+      "tseElectionId": 6235,
+      "year": 2024,
+      "name": "Eleição Suplementar de Bandeirantes-MS",
+      "electionDate": "2025-07-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "4ab8a098-7a39-4aa3-be2c-281bd213a1b3",
+      "tseElectionId": 6161,
+      "year": 2024,
+      "name": "Eleição Suplementar de Bocaina",
+      "electionDate": "2025-06-08",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "7820e4d9-41d2-4a15-a698-093f050446ef",
+      "tseElectionId": 6272,
+      "year": 2024,
+      "name": "Eleição Suplementar de Brejo Alegre",
+      "electionDate": "2026-05-17",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "f1e11c29-0b16-4058-905a-f99577931935",
+      "tseElectionId": 6265,
+      "year": 2024,
+      "name": "Eleição Suplementar de Cabedelo/PB",
+      "electionDate": "2026-04-12",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "9ba7c88c-ecd6-4c1c-b6f7-d90b51f8a3db",
+      "tseElectionId": 6262,
+      "year": 2024,
+      "name": "Eleição Suplementar de Choró",
+      "electionDate": "2026-03-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "a49f8995-28e8-4516-b15d-b9028e221f94",
+      "tseElectionId": 6042,
+      "year": 2024,
+      "name": "Eleição Suplementar de Eldorado",
+      "electionDate": "2025-04-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "249b4e14-556c-49a4-ba27-7b7015eb551b",
+      "tseElectionId": 6140,
+      "year": 2024,
+      "name": "Eleição Suplementar de Goiana",
+      "electionDate": "2025-05-04",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "5b704c11-e685-48f8-b146-50dfdde4a4e4",
+      "tseElectionId": 6249,
+      "year": 2024,
+      "name": "Eleição Suplementar de Guará",
+      "electionDate": "2025-12-07",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "9b7bde7f-4954-42dd-92fe-83ec9041baaa",
+      "tseElectionId": 6236,
+      "year": 2024,
+      "name": "Eleição Suplementar de Guatapará",
+      "electionDate": "2025-08-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "607cdb36-5c1b-4335-a093-9b5c4e9e30dc",
+      "tseElectionId": 6269,
+      "year": 2024,
+      "name": "Eleição Suplementar de Melgaço",
+      "electionDate": "2026-05-17",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "3f96d713-9947-4854-b6c4-d54f71d08ac2",
+      "tseElectionId": 6180,
+      "year": 2024,
+      "name": "Eleição Suplementar de Mongaguá",
+      "electionDate": "2025-06-08",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "9eb1f9ce-3593-4e88-8bd9-1a4eeccf72e6",
+      "tseElectionId": 6239,
+      "year": 2024,
+      "name": "Eleição Suplementar de Muaná- out/2025",
+      "electionDate": "2025-10-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "8ce14f0d-ae55-4269-86ac-6d68ba5ca286",
+      "tseElectionId": 6041,
+      "year": 2024,
+      "name": "Eleição Suplementar de Neves Paulista",
+      "electionDate": "2025-04-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "3ea891fc-4f1e-4bd9-814e-e026f0b509dc",
+      "tseElectionId": 6160,
+      "year": 2024,
+      "name": "Eleição Suplementar de Panorama",
+      "electionDate": "2025-06-08",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "174d1711-2be2-4bd0-a82f-bb57a9592358",
+      "tseElectionId": 6264,
+      "year": 2024,
+      "name": "Eleição Suplementar de Potiretama",
+      "electionDate": "2026-03-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "3cc952de-4bc4-46d1-8e29-01de9a064221",
+      "tseElectionId": 6280,
+      "year": 2024,
+      "name": "Eleição Suplementar de Reginópolis",
+      "electionDate": "2026-06-21",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "d98e1923-c449-4659-885a-59b13b5be6d4",
+      "tseElectionId": 6238,
+      "year": 2024,
+      "name": "Eleição Suplementar de Sales Oliveira",
+      "electionDate": "2025-09-14",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "b65dd847-0a90-45bb-a91f-b933426a03cb",
+      "tseElectionId": 6244,
+      "year": 2024,
+      "name": "Eleição Suplementar de Santa Quitéria",
+      "electionDate": "2025-10-26",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "5583fefc-8120-43b9-a93f-19665f03ffa1",
+      "tseElectionId": 6223,
+      "year": 2024,
+      "name": "Eleição Suplementar de Senador Sá",
+      "electionDate": "2025-07-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "d2d3fda3-dbb0-47d4-b6e8-149aa28fa506",
+      "tseElectionId": 6263,
+      "year": 2024,
+      "name": "Eleição Suplementar de Senador Sá",
+      "electionDate": "2026-03-01",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "e58abde3-5453-481d-8d76-e6712e5802bb",
+      "tseElectionId": 6242,
+      "year": 2024,
+      "name": "Eleição Suplementar de São João/PR",
+      "electionDate": "2025-10-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "f2a83edd-b609-4c5f-8abd-881adc48f962",
+      "tseElectionId": 6281,
+      "year": 2024,
+      "name": "Eleição Suplementar de Tuiuti",
+      "electionDate": "2026-06-21",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "8bb068a1-f469-4d76-92b9-8d3069c15ba0",
+      "tseElectionId": 6200,
+      "year": 2024,
+      "name": "Eleição suplementar Guapé",
+      "electionDate": "2025-07-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "7befa800-811d-4198-9683-cec0b50dcc11",
+      "tseElectionId": 619,
+      "year": 2024,
+      "name": "Eleições Municipais 2024",
+      "electionDate": "2024-10-06",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "6a8f8b33-ae81-4c54-90cd-980eb7f4c4e0",
+      "tseElectionId": 620,
+      "year": 2024,
+      "name": "Eleições Municipais 2024",
+      "electionDate": "2024-10-27",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "f0d2a7c8-6e3a-4be1-a9a1-fab338c613dd",
+      "tseElectionId": 6232,
+      "year": 2024,
+      "name": "Eleições Suplem - Cametá - 2025",
+      "electionDate": "2025-08-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "404f74bc-02de-4d3b-8ea5-d2bdef338474",
+      "tseElectionId": 6231,
+      "year": 2024,
+      "name": "Eleições Suplem. - Tucuruí - 2025",
+      "electionDate": "2025-08-03",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "b3763516-bac5-4d76-949a-ee7f1aef5a14",
+      "tseElectionId": 6285,
+      "year": 2024,
+      "name": "RJ - Suplementar de Itaguaí - Out/2026",
+      "electionDate": "2026-10-25",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "e9ca1242-edaf-4b2f-a463-1e860af7dc3d",
+      "tseElectionId": 6290,
+      "year": 2024,
+      "name": "Suplementar de Arroio do Sal",
+      "electionDate": "2026-10-25",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "a7cf8b34-cd5c-4b17-89de-8ae70594650d",
+      "tseElectionId": 6243,
+      "year": 2024,
+      "name": "Suplementar de Cruzeiro do Iguaçu/PR",
+      "electionDate": "2025-10-05",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "29e6f051-c1e4-401c-a988-4573820ca69e",
+      "tseElectionId": 6286,
+      "year": 2024,
+      "name": "Suplementar de Goiatins",
+      "electionDate": "2026-10-25",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "efe9ba01-296b-42b9-af63-0130c2a69bdc",
+      "tseElectionId": 6277,
+      "year": 2024,
+      "name": "Suplementar de Joviânia - GO",
+      "electionDate": "2026-06-21",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "261d2352-7c96-4ba5-b599-c295345254f8",
+      "tseElectionId": 6293,
+      "year": 2024,
+      "name": "Suplementar de Santana do Itararé/PR",
+      "electionDate": "2026-10-25",
+      "scope": "MUNICIPAL",
+      "createdAt": "2026-09-22T15:44:14.383Z",
+      "updatedAt": "2026-09-23T17:43:29.502Z"
+    },
+    {
+      "id": "39f5fbdf-2f91-43fb-bf04-bb0c43be01c8",
+      "tseElectionId": 6257,
+      "year": 2026,
+      "name": "Eleição Geral Federal 2026",
+      "electionDate": "2026-10-04",
+      "scope": "FEDERAL",
+      "createdAt": "2026-08-08T22:44:34.704Z",
+      "updatedAt": "2026-10-19T03:00:07.01Z"
+    },
+    {
+      "id": "302b82e1-a1a2-482f-a93a-3609b5afea3f",
+      "tseElectionId": 6258,
+      "year": 2026,
+      "name": "Eleição Geral Federal 2026",
+      "electionDate": "2026-10-25",
+      "scope": "FEDERAL",
+      "createdAt": "2026-10-10T03:00:06.825Z",
+      "updatedAt": "2026-10-19T03:00:07.01Z"
+    },
+    {
+      "id": "a15022b0-4615-468c-acc1-f93fff8e9118",
+      "tseElectionId": 6259,
+      "year": 2026,
+      "name": "Eleições Gerais Estaduais 2026",
+      "electionDate": "2026-10-04",
+      "scope": "ESTADUAL",
+      "createdAt": "2026-08-08T22:44:34.71Z",
+      "updatedAt": "2026-10-19T03:00:07.01Z"
+    },
+    {
+      "id": "4e060c2b-0784-4702-bb02-a6502539039b",
+      "tseElectionId": 6260,
+      "year": 2026,
+      "name": "Eleições Gerais Estaduais 2026",
+      "electionDate": "2026-10-25",
+      "scope": "ESTADUAL",
+      "createdAt": "2026-10-10T03:00:06.825Z",
+      "updatedAt": "2026-10-19T03:00:07.01Z"
+    }
+  ],
+  "pagination": {
+    "total": 503,
+    "totalPages": null
+  }
+}
