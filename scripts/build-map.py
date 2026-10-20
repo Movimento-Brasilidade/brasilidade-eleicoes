@@ -57,7 +57,15 @@ for feature in neighborhood_shapes['features']:
 payload['neighborhoods']=[{**r,'path':neighborhood_paths[r['code']]} for r in crosswalk['neighborhoods']]
 payload['neighborhoodRelations']=crosswalk['relations']
 payload['neighborhoodMetadata']=crosswalk['metadata']
-template = (ROOT / 'map/template.html').read_text(encoding='utf-8')
+payload['pedro']=json.loads((ROOT/'data/processed/pedro-porto-2024-capital.json').read_text(encoding='utf8'))
+for extension in ('csv','json'):
+    for dest in (ROOT,ROOT/'map'):
+        shutil.copyfile(ROOT/f'data/processed/pedro-porto-2024-capital.{extension}',dest/f'pedro-porto-2024-capital.{extension}')
+payload['comparison']=json.loads((ROOT/'data/processed/capital-comparison.json').read_text(encoding='utf8'))
+for extension in ('csv','json'):
+    for dest in (ROOT,ROOT/'map'):
+        shutil.copyfile(ROOT/f'data/processed/capital-comparison.{extension}',dest/f'capital-comparison.{extension}')
+template = (ROOT / 'map/template.html').read_text(encoding='utf-8').replace('__COMPARISON_SCRIPT__',(ROOT/'map/comparison.js').read_text(encoding='utf-8-sig'))
 shutil.copyfile(ROOT / 'data/processed/leo-lupi-2026-rj.csv', ROOT / 'map/leo-lupi-2026-rj.csv')
 shutil.copyfile(ROOT / 'data/processed/leo-lupi-2026-rj-zones.csv', ROOT / 'map/leo-lupi-2026-rj-zones.csv')
 for extension in ('csv','json'):
