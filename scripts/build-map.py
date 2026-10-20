@@ -63,4 +63,7 @@ shutil.copyfile(ROOT / 'data/processed/leo-lupi-2026-rj-zones.csv', ROOT / 'map/
 for extension in ('csv','json'):
     shutil.copyfile(ROOT/f'data/processed/capital-neighborhood-crosswalk.{extension}',ROOT/f'map/capital-neighborhood-crosswalk.{extension}')
 (ROOT / 'map/index.html').write_text(template.replace('__MAP_DATA__',json.dumps(payload,ensure_ascii=False,separators=(',',':'))),encoding='utf-8')
+# GitHub Pages publishes the repository root; keep its static bundle in sync.
+for filename in ('index.html','leo-lupi-2026-rj.csv','leo-lupi-2026-rj-zones.csv','capital-neighborhood-crosswalk.csv','capital-neighborhood-crosswalk.json'):
+    shutil.copyfile(ROOT/'map'/filename,ROOT/filename)
 print(f'Map built: {len(features)} municipalities; {sum(f["candidate_valid_votes"] for f in features)} votes; {(ROOT / "map/index.html").stat().st_size} bytes')
